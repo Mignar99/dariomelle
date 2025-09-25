@@ -93,7 +93,6 @@ const Portfolio = () => {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            background: "#fff",
             borderRadius: "1rem",
             boxShadow: "0 2px 16px rgba(0,0,0,0.10)",
           }}
