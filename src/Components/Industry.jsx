@@ -2,7 +2,7 @@ import React from "react";
 
 const industryExperience = [
   {
-    role: "AI Engineer Intern — PyTorch, Transformers, Neo4j",
+    role: "AI Engineer Intern",
     company: "GraphAware",
     location: "Lecce, Italy",
     period: "Sep 2025 – Dec 2025 (Ongoing)",
@@ -13,7 +13,7 @@ const industryExperience = [
     ],
   },
   {
-    role: "Professional Consultant (Freelance Contract) — Python, Hardware",
+    role: "Professional Consultant (Freelance Contract)",
     company: "Federico II University of Naples, Department of Agricultural Sciences",
     location: "Naples, Italy",
     period: "May 2025 – Jul 2025",
