@@ -27582,7 +27582,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
             alignItems: "center",
             gap: "2.5rem",
             padding: "5rem 0 3rem",
-            backgroundColor: primaryColor,
+            backgroundColor: "#212529",
             width: "100vw"
         },
         children: [
