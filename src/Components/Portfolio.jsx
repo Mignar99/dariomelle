@@ -195,11 +195,10 @@ const Portfolio = () => {
             justifyContent: "center",
           }}
         >
-          <h3 style={{ color: "#17A2B8", marginBottom: "1rem" }}>
-            {"H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project "}
-            <span style={{ color: "#007BFF" }}>PYTHON, HARDWARE</span>
+          <h3 style={{ color: "#333", marginBottom: "1rem" , paddingRight: "4rem" }}>
+            {"H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project"}
           </h3>
-          <ul style={{ fontSize: "1.1rem", color: "#333", lineHeight: 1.7, paddingLeft: "1.5rem" }}>
+          <ul style={{ fontSize: "1.1rem", color: "#333", lineHeight: 1.7, paddingLeft: "1.5rem", paddingRight: "4rem" }}>
             <li>
               Designed and optimized grow and sensor chambers, integrating hardware with
               Python‑based data acquisition.
