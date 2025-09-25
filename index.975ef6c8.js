@@ -29347,7 +29347,7 @@ const Portfolio = ()=>{
                             alignItems: "center",
                             justifyContent: "center",
                             borderRadius: "1rem",
-                            boxShadow: "0 2px 16px rgba(0,0,0,0.10)"
+                            boxShadow: "0 2px 16px rgba(0,0,0,0)"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29398,7 +29398,7 @@ const Portfolio = ()=>{
                                             height: "auto",
                                             objectFit: "contain",
                                             borderRadius: "1rem",
-                                            boxShadow: "0 2px 8px rgba(0,0,0,0)",
+                                            boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
                                             background: "#f8f9fa",
                                             margin: "0 1rem"
                                         }
