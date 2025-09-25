@@ -28982,12 +28982,82 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  * Add your publications below. You can use a list, cards, or any format you prefer.
  */ const publications = [
     {
-        title: "Sample Publication Title",
-        authors: "Your Name, Coauthor Name",
-        journal: "Journal Name",
+        title: "Heavy Quark Decays in the Bilepton Model",
+        authors: "Gennaro Corcella, Claudio Corian\xf2, Paul H. Frampton, Dario Melle",
+        journal: "e-Print: 2507.12556 [hep-ph]",
         year: 2025,
-        link: "#"
-    }
+        link: "https://arxiv.org/abs/2507.12556"
+    },
+    {
+        title: "Gravitational Form Factors and the QCD Dilaton at Large Momentum Transfer",
+        authors: "Claudio Corian\xf2, Stefano Lionetti, Dario Melle, Riccardo Tommasi, Leonardo Torcellini",
+        journal: "e-Print: 2504.20884 [hep-ph]",
+        year: 2025,
+        link: "https://arxiv.org/abs/2504.20884"
+    },
+    {
+        title: "A dilaton sum rule for the conformal anomaly form factor in QCD at order $\\alpha _s$",
+        authors: "Claudio Corian\xf2, Stefano Lionetti, Dario Melle, Leonardo Torcellini",
+        journal: "Eur.Phys.J.C 85 (2025) 9, 983",
+        year: 2025,
+        link: "https://doi.org/10.1140/epjc/s10052-025-14686-w"
+    },
+    {
+        title: "Topological sum rules and spectral flows of chiral and gravitational axionlike interactions",
+        authors: "Claudio Corian\xf2, Stefano Lionetti, Dario Melle",
+        journal: "Phys.Rev.D 112 (2025) 1, 015031",
+        year: 2025,
+        link: "https://doi.org/10.1103/qd7t-4dhl"
+    },
+    {
+        title: "The 33311 left-right bilepton model",
+        authors: "Claudio Corian\xf2, Paul H. Frampton, Dario Melle",
+        journal: "Phys.Lett.B 866 (2025), 139498",
+        year: 2025,
+        link: "https://doi.org/10.1016/j.physletb.2025.139498"
+    },
+    {
+        title: "The gravitational form factor of the pion and proton and the conformal anomaly",
+        authors: "Claudio Corian\xf2, Stefano Lionetti, Dario Melle, Riccardo Tommasi",
+        journal: "EPJ Web Conf. 314 (2024), 00030",
+        year: 2024,
+        link: "https://doi.org/10.1051/epjconf/202431400030"
+    },
+    {
+        title: "Conformal Backreaction, Chiral and Conformal Anomalies in the Early Universe",
+        authors: "Claudio Corian\xf2, Stefano Lionetti, Dario Melle, Riccardo Tommasi, Leonardo Torcellini",
+        journal: "e-Print: 2409.18004 [astro-ph.CO]",
+        year: 2024,
+        link: "https://arxiv.org/abs/2409.18004"
+    },
+    {
+        title: "The gravitational form factors of hadrons from CFT in momentum space and the dilaton in perturbative QCD",
+        authors: "Claudio Corian\xf2, Stefano Lionetti, Dario Melle, Riccardo Tommasi",
+        journal: "Eur.Phys.J.C 85 (2025) 5, 498",
+        year: 2025,
+        link: "https://doi.org/10.1140/epjc/s10052-025-14104-1"
+    },
+    {
+        title: "The SU(3)C \xd7 SU(3)L \xd7 U(1)X (331) Model: Addressing the Fermion Families Problem within Horizontal Anomalies Cancellation",
+        authors: "Claudio Corian\xf2, Dario Melle",
+        journal: "Entropy 26 (2024) 5, 420",
+        year: 2024,
+        link: "https://doi.org/10.3390/e26050420"
+    },
+    {
+        title: "Axion-Like Interactions and CFT in Topological Matter, Anomaly Sum Rules and the Faraday Effect",
+        authors: "Claudio Corian\xf2, Mario Cret\xec, Stefano Lionetti, Dario Melle, Riccardo Tommasi",
+        journal: "Adv.Phys.Res. 4 (2025) 7, 2400043, Adv.Phys.Res. (2024)",
+        year: 2025,
+        link: "https://doi.org/10.1002/apxr.202400043"
+    },
+    {
+        title: "An SU(15) approach to bifermion classification",
+        authors: "Claudio Corian\xf2, Paul H. Frampton, Dario Melle, Thomas W. Kephart, Tzu-Chiang Yuan",
+        journal: "Mod.Phys.Lett.A 38 (2023) 26n27, 2350124",
+        year: 2023,
+        link: "https://doi.org/10.1142/S0217732323501249"
+    }, 
 ];
 const Publications = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28998,7 +29068,7 @@ const Publications = ()=>{
                 children: "Publications"
             }, void 0, false, {
                 fileName: "src/Components/Publications.jsx",
-                lineNumber: 22,
+                lineNumber: 91,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29016,24 +29086,24 @@ const Publications = ()=>{
                                 children: pub.title
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 26,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 26,
+                                lineNumber: 95,
                                 columnNumber: 41
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                 children: pub.authors
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 27,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 27,
+                                lineNumber: 96,
                                 columnNumber: 39
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29045,12 +29115,12 @@ const Publications = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 28,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 30,
+                                lineNumber: 99,
                                 columnNumber: 20
                             }, undefined),
                             pub.link !== "#" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29060,24 +29130,24 @@ const Publications = ()=>{
                                 children: "Read more"
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 32,
+                                lineNumber: 101,
                                 columnNumber: 15
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Publications.jsx",
-                        lineNumber: 25,
+                        lineNumber: 94,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/Components/Publications.jsx",
-                lineNumber: 23,
+                lineNumber: 92,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Publications.jsx",
-        lineNumber: 21,
+        lineNumber: 90,
         columnNumber: 5
     }, undefined);
 };
@@ -29117,7 +29187,7 @@ const educationData = [
     },
     {
         degree: "POST GRADUATE MASTER’S DEGREE in Applied Artificial Intelligence",
-        institution: "ISUFI (University Institute of Interdisciplinary Education)",
+        institution: "University of Salento",
         location: "Lecce, Italy",
         period: "Jan 2025 ‑ Jan 2026 (Ongoing)",
         details: [
