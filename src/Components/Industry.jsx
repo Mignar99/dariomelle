@@ -2,28 +2,27 @@ import React from "react";
 
 const industryExperience = [
   {
-    role: "Machine Learning Engineer",
-    company: "Tech Innovations Ltd.",
-    location: "Milan, Italy",
-    period: "Mar 2024 – Present",
+    role: "AI Engineer Intern — PyTorch, Transformers, Neo4j",
+    company: "GraphAware",
+    location: "Lecce, Italy",
+    period: "Sep 2025 – Dec 2025 (Ongoing)",
     details: [
-      "Developed and deployed machine learning models for predictive analytics in finance.",
-      "Collaborated with cross-functional teams to integrate AI solutions into existing products.",
-      "Led workshops and training sessions for junior engineers."
+      "Fine‑tuning LLMs using cloud computing resources to convert graph database queries into html human‑readable reports.",
+      "Applied PyTorch and transformer‑based architectures to improve query interpretation accuracy and usability.",
+      "Collaborating with a cross‑functional team to integrate AI solutions into existing data management pipelines."
     ],
   },
   {
-    role: "Data Scientist (Intern)",
-    company: "DataLab Solutions",
-    location: "Rome, Italy",
-    period: "Jun 2023 – Feb 2024",
+    role: "Professional Consultant (Freelance Contract) — Python, Hardware",
+    company: "Federico II University of Naples, Department of Agricultural Sciences",
+    location: "Naples, Italy",
+    period: "May 2025 – Jul 2025",
     details: [
-      "Analyzed large datasets to extract actionable insights for healthcare clients.",
-      "Built dashboards and visualizations for reporting key metrics.",
-      "Automated data cleaning and preprocessing pipelines."
+      "Designed and accomplished a measurement system to monitor CO2 and O2 production in biological systems, enabling real‑time assessment of environmental changes.",
+      "Optimized system architecture, reducing costs by 30% while maintaining accuracy and reliability of data acquisition.",
+      "Developed the Python pipeline for sensor integration, real‑time data processing, and visualization in a custom desktop app, supporting input from 13 sensors and improving research workflow efficiency and usability."
     ],
   }
-  // Add more experiences as needed
 ];
 
 const Industry = () => (
@@ -36,7 +35,7 @@ const Industry = () => (
         margin: "3rem auto",
         textAlign: "center",
         boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-  borderRadius: "1rem",
+    borderRadius: "1rem",
       }}
     >
       <h2>Industry Experience</h2>
