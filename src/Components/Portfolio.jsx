@@ -19,9 +19,25 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const carouselImages = [
+  {
+    src: require("../images/poc1.png"),
+    alt: "Portfolio image 1",
+  },
+  {
+    src: require("../images/poc2.jpg"),
+    alt: "Portfolio image 2",
+  },
+  {
+    src: require("../images/poc3.jpg"),
+    alt: "Portfolio image 3",
+  },
+  {
+    src: require("../images/poc4.jpg"),
+    alt: "Portfolio image 4",
+  }
+];
 
 /**
  * Project list
@@ -57,16 +73,83 @@ const projectList = [
 ];
 
 const Portfolio = () => {
+  const [current, setCurrent] = React.useState(0);
+  const nextImage = () => setCurrent((current + 1) % carouselImages.length);
+  const prevImage = () => setCurrent((current - 1 + carouselImages.length) % carouselImages.length);
+
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "40%", alignSelf: "center", position: "relative" }}>
+          <button onClick={prevImage} style={{ position: "absolute", left: 0, top: "45%", background: "#007BFF", color: "#fff", border: "none", borderRadius: "50%", width: "2.5rem", height: "2.5rem", fontSize: "1.5rem", cursor: "pointer", zIndex: 2 }} aria-label="Previous image">&#8592;</button>
+          <button
+            onClick={prevImage}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: "45%",
+              background: "#007BFF",
+              color: "#fff",
+              border: "none",
+              borderRadius: "50%",
+              width: "2.5rem",
+              height: "2.5rem",
+              fontSize: "1.5rem",
+              cursor: "pointer",
+              zIndex: 2,
+            }}
+            aria-label="Previous image"
+          >
+            &#8592;
+          </button>
           <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
+            src={carouselImages[current].src}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              borderRadius: "1rem",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+            }}
+            alt={carouselImages[current].alt}
           />
+          <button onClick={nextImage} style={{ position: "absolute", right: 0, top: "45%", background: "#007BFF", color: "#fff", border: "none", borderRadius: "50%", width: "2.5rem", height: "2.5rem", fontSize: "1.5rem", cursor: "pointer", zIndex: 2 }} aria-label="Next image">&#8594;</button>
+          <button
+            onClick={nextImage}
+            style={{
+              position: "absolute",
+              right: 0,
+              top: "45%",
+              background: "#007BFF",
+              color: "#fff",
+              border: "none",
+              borderRadius: "50%",
+              width: "2.5rem",
+              height: "2.5rem",
+              fontSize: "1.5rem",
+              cursor: "pointer",
+              zIndex: 2,
+            }}
+            aria-label="Next image"
+          >
+            &#8594;
+          </button>
+          <div style={{ textAlign: "center", marginTop: "1rem" }}>
+            {carouselImages.map((img, idx) => (
+              <span
+                key={idx}
+                style={{
+                  display: "inline-block",
+                  width: "10px",
+                  height: "10px",
+                  borderRadius: "50%",
+                  background: idx === current ? "#007BFF" : "#E9ECEF",
+                  margin: "0 4px",
+                }}
+              ></span>
+            ))}
+          </div>
         </div>
         <div className="container">
           {projectList.map((project) => (
