@@ -105,13 +105,7 @@ const Portfolio = () => {
           </button>
           <img
             src={carouselImages[current].src}
-            style={{
-              height: "90%",
-              width: "100%",
-              objectFit: "cover",
-              borderRadius: "1rem",
-              boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-            }}
+            className="portfolio-carousel-img"
             alt={carouselImages[current].alt}
           />
           <button onClick={nextImage} style={{ position: "absolute", right: 0, top: "45%", background: "#007BFF", color: "#fff", border: "none", borderRadius: "50%", width: "2.5rem", height: "2.5rem", fontSize: "1.5rem", cursor: "pointer", zIndex: 2 }} aria-label="Next image">&#8594;</button>
