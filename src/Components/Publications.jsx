@@ -89,6 +89,9 @@ const Publications = () => {
   return (
     <section className="padding" id="publications">
       <h2>Publications</h2>
+      <p style={{ fontSize: "1.15rem", margin: "1.5rem 3rem 2rem 3rem", color: "#444" }}>
+        My research lies at the intersection of conformal field theory and quantum chromodynamics (QCD), with a particular focus on next-to-leading order (NLO) corrections to the gravitational form factors of hadrons. I am also deeply interested in physics beyond the Standard Model, especially in exploring the phenomenology of the 331 Model.
+      </p>
       <ul style={{ textAlign: "left", fontSize: "1.1rem", margin: "2rem 3rem" }}>
         {publications.map((pub, idx) => (
           <li key={idx} style={{ marginBottom: "1.5rem" }}>
