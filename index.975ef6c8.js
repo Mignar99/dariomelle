@@ -29254,6 +29254,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
  * as you continue to learn and create.
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
 /**
  * Desk image
  *
@@ -29262,9 +29263,24 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _designDeskJpeg = require("../images/design-desk.jpeg");
-var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
-const imageAltText = "desktop with books and laptop";
+ */ const carouselImages = [
+    {
+        src: require("../images/poc1.png"),
+        alt: "Portfolio image 1"
+    },
+    {
+        src: require("../images/poc2.jpg"),
+        alt: "Portfolio image 2"
+    },
+    {
+        src: require("../images/poc3.jpg"),
+        alt: "Portfolio image 3"
+    },
+    {
+        src: require("../images/poc4.jpg"),
+        alt: "Portfolio image 4"
+    }
+];
 /**
  * Project list
  *
@@ -29293,6 +29309,10 @@ const imageAltText = "desktop with books and laptop";
     }, 
 ];
 const Portfolio = ()=>{
+    _s();
+    const [current, setCurrent] = (0, _reactDefault.default).useState(0);
+    const nextImage = ()=>setCurrent((current + 1) % carouselImages.length);
+    const prevImage = ()=>setCurrent((current - 1 + carouselImages.length) % carouselImages.length);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "portfolio",
@@ -29304,7 +29324,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 62,
+                lineNumber: 82,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29317,24 +29337,145 @@ const Portfolio = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             maxWidth: "40%",
-                            alignSelf: "center"
+                            alignSelf: "center",
+                            position: "relative"
                         },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _designDeskJpegDefault.default),
-                            style: {
-                                height: "90%",
-                                width: "100%",
-                                objectFit: "cover"
-                            },
-                            alt: imageAltText
-                        }, void 0, false, {
-                            fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 65,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                onClick: prevImage,
+                                style: {
+                                    position: "absolute",
+                                    left: 0,
+                                    top: "45%",
+                                    background: "#007BFF",
+                                    color: "#fff",
+                                    border: "none",
+                                    borderRadius: "50%",
+                                    width: "2.5rem",
+                                    height: "2.5rem",
+                                    fontSize: "1.5rem",
+                                    cursor: "pointer",
+                                    zIndex: 2
+                                },
+                                "aria-label": "Previous image",
+                                children: "←"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 85,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                onClick: prevImage,
+                                style: {
+                                    position: "absolute",
+                                    left: 0,
+                                    top: "45%",
+                                    background: "#007BFF",
+                                    color: "#fff",
+                                    border: "none",
+                                    borderRadius: "50%",
+                                    width: "2.5rem",
+                                    height: "2.5rem",
+                                    fontSize: "1.5rem",
+                                    cursor: "pointer",
+                                    zIndex: 2
+                                },
+                                "aria-label": "Previous image",
+                                children: "←"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 86,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: carouselImages[current].src,
+                                style: {
+                                    height: "90%",
+                                    width: "100%",
+                                    objectFit: "cover",
+                                    borderRadius: "1rem",
+                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)"
+                                },
+                                alt: carouselImages[current].alt
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 106,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                onClick: nextImage,
+                                style: {
+                                    position: "absolute",
+                                    right: 0,
+                                    top: "45%",
+                                    background: "#007BFF",
+                                    color: "#fff",
+                                    border: "none",
+                                    borderRadius: "50%",
+                                    width: "2.5rem",
+                                    height: "2.5rem",
+                                    fontSize: "1.5rem",
+                                    cursor: "pointer",
+                                    zIndex: 2
+                                },
+                                "aria-label": "Next image",
+                                children: "→"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 117,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                onClick: nextImage,
+                                style: {
+                                    position: "absolute",
+                                    right: 0,
+                                    top: "45%",
+                                    background: "#007BFF",
+                                    color: "#fff",
+                                    border: "none",
+                                    borderRadius: "50%",
+                                    width: "2.5rem",
+                                    height: "2.5rem",
+                                    fontSize: "1.5rem",
+                                    cursor: "pointer",
+                                    zIndex: 2
+                                },
+                                "aria-label": "Next image",
+                                children: "→"
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 118,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                style: {
+                                    textAlign: "center",
+                                    marginTop: "1rem"
+                                },
+                                children: carouselImages.map((img, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        style: {
+                                            display: "inline-block",
+                                            width: "10px",
+                                            height: "10px",
+                                            borderRadius: "50%",
+                                            background: idx === current ? "#007BFF" : "#E9ECEF",
+                                            margin: "0 4px"
+                                        }
+                                    }, idx, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 140,
+                                        columnNumber: 15
+                                    }, undefined))
+                            }, void 0, false, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 138,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 64,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29353,12 +29494,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 75,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 157,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29366,33 +29507,34 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 160,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 73,
+                                lineNumber: 156,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 71,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 63,
+                lineNumber: 83,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 61,
+        lineNumber: 81,
         columnNumber: 5
     }, undefined);
 };
+_s(Portfolio, "8+O75ArtRNvpQgzeZSk5wKohTHI=");
 _c = Portfolio;
 exports.default = Portfolio;
 var _c;
@@ -29403,8 +29545,17 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/poc1.png":"b5iI5","../images/poc2.jpg":"hA33D","../images/poc3.jpg":"bpCLC","../images/poc4.jpg":"2H9j2"}],"b5iI5":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc1.f4d02b0f.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"hA33D":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc2.120d527a.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"bpCLC":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc3.4fa6442c.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"2H9j2":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc4.f6b54947.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"2YjsF":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$68c5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
