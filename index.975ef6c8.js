@@ -28891,120 +28891,101 @@ const Publications = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "publications",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            style: {
-                backgroundColor: "white",
-                width: "60%",
-                padding: "4rem",
-                margin: "3rem auto",
-                textAlign: "center",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                borderRadius: "1rem"
-            },
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Publications"
-                }, void 0, false, {
-                    fileName: "src/Components/Publications.jsx",
-                    lineNumber: 102,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    style: {
-                        fontSize: "1.15rem",
-                        margin: "1.5rem 0 2rem 0",
-                        color: "#444",
-                        textAlign: "left",
-                        paddingLeft: "1.5rem",
-                        paddingRight: "1.5rem"
-                    },
-                    children: "My research lies at the intersection of conformal field theory and quantum chromodynamics (QCD), with a particular focus on next-to-leading order (NLO) corrections to the gravitational form factors of hadrons. I am also deeply interested in physics beyond the Standard Model, especially in exploring the phenomenology of the 331 Model."
-                }, void 0, false, {
-                    fileName: "src/Components/Publications.jsx",
-                    lineNumber: 103,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    style: {
-                        textAlign: "left",
-                        fontSize: "1.1rem",
-                        margin: "2rem 0",
-                        paddingLeft: "1.5rem"
-                    },
-                    children: publications.map((pub, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            style: {
-                                marginBottom: "1.5rem"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                    children: pub.title
-                                }, void 0, false, {
-                                    fileName: "src/Components/Publications.jsx",
-                                    lineNumber: 109,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "src/Components/Publications.jsx",
-                                    lineNumber: 109,
-                                    columnNumber: 43
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    children: pub.authors
-                                }, void 0, false, {
-                                    fileName: "src/Components/Publications.jsx",
-                                    lineNumber: 110,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "src/Components/Publications.jsx",
-                                    lineNumber: 110,
-                                    columnNumber: 41
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    children: [
-                                        pub.journal,
-                                        " (",
-                                        pub.year,
-                                        ")"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/Publications.jsx",
-                                    lineNumber: 111,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "src/Components/Publications.jsx",
-                                    lineNumber: 113,
-                                    columnNumber: 22
-                                }, undefined),
-                                pub.link !== "#" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: pub.link,
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    children: "Read more"
-                                }, void 0, false, {
-                                    fileName: "src/Components/Publications.jsx",
-                                    lineNumber: 115,
-                                    columnNumber: 17
-                                }, undefined)
-                            ]
-                        }, idx, true, {
-                            fileName: "src/Components/Publications.jsx",
-                            lineNumber: 108,
-                            columnNumber: 13
-                        }, undefined))
-                }, void 0, false, {
-                    fileName: "src/Components/Publications.jsx",
-                    lineNumber: 106,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/Publications.jsx",
-            lineNumber: 91,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Publications"
+            }, void 0, false, {
+                fileName: "src/Components/Publications.jsx",
+                lineNumber: 91,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                style: {
+                    fontSize: "1.15rem",
+                    margin: "1.5rem 3rem 2rem 3rem",
+                    color: "#444"
+                },
+                children: "My research lies at the intersection of conformal field theory and quantum chromodynamics (QCD), with a particular focus on next-to-leading order (NLO) corrections to the gravitational form factors of hadrons. I am also deeply interested in physics beyond the Standard Model, especially in exploring the phenomenology of the 331 Model."
+            }, void 0, false, {
+                fileName: "src/Components/Publications.jsx",
+                lineNumber: 92,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                style: {
+                    textAlign: "left",
+                    fontSize: "1.1rem",
+                    margin: "2rem 3rem"
+                },
+                children: publications.map((pub, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        style: {
+                            marginBottom: "1.5rem"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: pub.title
+                            }, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 98,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 98,
+                                columnNumber: 41
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: pub.authors
+                            }, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 99,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 99,
+                                columnNumber: 39
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: [
+                                    pub.journal,
+                                    " (",
+                                    pub.year,
+                                    ")"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 100,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 102,
+                                columnNumber: 20
+                            }, undefined),
+                            pub.link !== "#" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: pub.link,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: "Read more"
+                            }, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 104,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, idx, true, {
+                        fileName: "src/Components/Publications.jsx",
+                        lineNumber: 97,
+                        columnNumber: 11
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/Components/Publications.jsx",
+                lineNumber: 95,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/Components/Publications.jsx",
         lineNumber: 90,
         columnNumber: 5
@@ -29087,32 +29068,26 @@ const educationData = [
 const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "education",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            style: {
-                backgroundColor: "white",
-                width: "60%",
-                padding: "4rem",
-                margin: "3rem auto",
-                textAlign: "center",
-                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                borderRadius: "1rem"
-            },
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Education"
-                }, void 0, false, {
-                    fileName: "src/Components/Education.jsx",
-                    lineNumber: 69,
-                    columnNumber: 7
-                }, undefined),
-                educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Education"
+            }, void 0, false, {
+                fileName: "src/Components/Education.jsx",
+                lineNumber: 58,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    margin: "2rem auto",
+                    maxWidth: "900px"
+                },
+                children: educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             marginBottom: "2.5rem",
-                            padding: "2rem 1.5rem",
+                            padding: "1.5rem",
                             background: "#f8f8f8",
                             borderRadius: "1rem",
-                            boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-                            textAlign: "left"
+                            boxShadow: "0 2px 8px rgba(0,0,0,0.06)"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -29122,14 +29097,14 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.degree
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 72,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: edu.institution
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 73,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, undefined),
                             " — ",
@@ -29137,12 +29112,12 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.location
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 73,
+                                lineNumber: 63,
                                 columnNumber: 48
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 73,
+                                lineNumber: 63,
                                 columnNumber: 75
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29153,43 +29128,39 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.period
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 74,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                 style: {
                                     marginTop: "1rem",
-                                    marginBottom: 0,
-                                    paddingLeft: "1.5rem"
+                                    marginBottom: 0
                                 },
                                 children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        style: {
-                                            marginBottom: "0.5rem"
-                                        },
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 67,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 75,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 71,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined))
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/Education.jsx",
-            lineNumber: 58,
-            columnNumber: 5
-        }, undefined)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "src/Components/Education.jsx",
+                lineNumber: 59,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "src/Components/Education.jsx",
         lineNumber: 57,
         columnNumber: 3
