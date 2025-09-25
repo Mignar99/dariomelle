@@ -26,14 +26,16 @@ const imageAltText = "Photo of Dario Melle";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
+    <section id="home" className="min-height" style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "80vh", background: "#f5f5f5" }}>
+      <div style={{ flex: 1, textAlign: "left", padding: "3rem 2rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
+        <div style={{ marginTop: "2rem" }}>
+          <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        </div>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+      <div style={{ flex: 1, textAlign: "center", padding: "3rem 2rem" }}>
+        <img src={image} alt={imageAltText} style={{ maxWidth: "350px", width: "100%", borderRadius: "1rem", boxShadow: "0 2px 8px rgba(0,0,0,0.12)" }} />
       </div>
     </section>
   );
