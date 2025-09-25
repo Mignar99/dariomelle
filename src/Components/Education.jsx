@@ -14,7 +14,7 @@ const educationData = [
   },
   {
     degree: "POST GRADUATE MASTER’S DEGREE in Applied Artificial Intelligence",
-    institution: "ISUFI (University Institute of Interdisciplinary Education)",
+    institution: "University of Salento",
     location: "Lecce, Italy",
     period: "Jan 2025 ‑ Jan 2026 (Ongoing)",
     details: [
