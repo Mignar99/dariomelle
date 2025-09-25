@@ -29481,9 +29481,9 @@ const Portfolio = ()=>{
                                 style: {
                                     color: "#333",
                                     marginBottom: "1rem",
-                                    paddingRight: "1.5rem"
+                                    paddingRight: "4rem"
                                 },
-                                children: "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project -"
+                                children: "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project"
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
                                 lineNumber: 198,
@@ -29495,7 +29495,7 @@ const Portfolio = ()=>{
                                     color: "#333",
                                     lineHeight: 1.7,
                                     paddingLeft: "1.5rem",
-                                    paddingRight: "1.5rem"
+                                    paddingRight: "4rem"
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
