@@ -27210,12 +27210,12 @@ const imageAltText = "purple and blue abstract background";
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design", 
+    "Web Python, C/C++, SQL, LaTeX",
+    "PyTorch, Hugging Face, scikit‑learn",
+    "Neo4j, Redis, ClickHouse, Pandas, Dask",
+    "Git, Docker, Mathematica",
+    "",
+    "", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
