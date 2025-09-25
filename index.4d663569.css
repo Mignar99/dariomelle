@@ -221,7 +221,6 @@ img.socialIcon {
 }
 
 .header-bar {
-  background: var(--color-bg-dark);
   color: var(--color-text-light);
   width: 100%;
   z-index: 10;
@@ -232,6 +231,7 @@ img.socialIcon {
   position: fixed;
   top: 0;
   box-shadow: 0 2px 8px #00000014;
+  background: var(--color-bg-dark) !important;
 }
 
 .header-bar a {
