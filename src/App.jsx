@@ -13,6 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Publications from "./Components/Publications";
 import Education from "./Components/Education";
+import Industry from "./Components/Industry";
 
 import "./styles.css";
 
@@ -45,9 +46,10 @@ const App = () => {
     <div id="main">
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
-  <About />
-  <Education />
-  <Publications />
+      <About />
+      <Industry />
+      <Education />
+      <Publications />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
