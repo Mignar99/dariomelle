@@ -21,12 +21,13 @@ const Header = () => {
         zIndex: 10,
       }}
     >
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#publications">Publications</a>
-  <a href="#portfolio">Portfolio</a>
-  <a href="#footer">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#industry">Industry</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#footer">Contact</a>
     </div>
   );
 };
