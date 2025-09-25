@@ -29319,229 +29319,128 @@ const Portfolio = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "portfolio",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                style: {
-                    textAlign: "center"
-                },
-                children: "Portfolio"
-            }, void 0, false, {
-                fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 85,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    display: "flex",
-                    flexDirection: "row",
-                    paddingTop: "3rem"
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            minWidth: "600px",
-                            minHeight: "450px",
-                            position: "relative",
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "center",
-                            justifyContent: "center"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                style: {
-                                    display: "flex",
-                                    flexDirection: "row",
-                                    alignItems: "center",
-                                    justifyContent: "center",
-                                    width: "100%",
-                                    height: "100%",
-                                    position: "relative"
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: prevImage,
-                                        style: {
-                                            background: "#007BFF",
-                                            color: "#fff",
-                                            border: "none",
-                                            borderRadius: "50%",
-                                            width: "3.5rem",
-                                            height: "3.5rem",
-                                            fontSize: "2rem",
-                                            cursor: "pointer",
-                                            zIndex: 2,
-                                            marginRight: "2rem",
-                                            marginLeft: "2.5rem",
-                                            alignSelf: "center",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            justifyContent: "center"
-                                        },
-                                        "aria-label": "Previous image",
-                                        children: "←"
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 109,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: carouselImages[current].src,
-                                        className: `portfolio-carousel-img${current === 1 ? " poc2" : ""}`,
-                                        alt: carouselImages[current].alt,
-                                        style: {
-                                            maxWidth: "100%",
-                                            maxHeight: "400px",
-                                            width: "auto",
-                                            height: "auto",
-                                            objectFit: "contain",
-                                            borderRadius: "1rem",
-                                            boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                                            background: "#f8f9fa",
-                                            margin: "0 1rem"
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 132,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: nextImage,
-                                        style: {
-                                            background: "#007BFF",
-                                            color: "#fff",
-                                            border: "none",
-                                            borderRadius: "50%",
-                                            width: "3.5rem",
-                                            height: "3.5rem",
-                                            fontSize: "2rem",
-                                            cursor: "pointer",
-                                            zIndex: 2,
-                                            marginLeft: "2rem",
-                                            alignSelf: "center",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            justifyContent: "center"
-                                        },
-                                        "aria-label": "Next image",
-                                        children: "→"
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 148,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 98,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                style: {
-                                    textAlign: "center",
-                                    marginTop: "1.5rem"
-                                },
-                                children: carouselImages.map((img, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        style: {
-                                            display: "inline-block",
-                                            width: "16px",
-                                            height: "16px",
-                                            borderRadius: "50%",
-                                            background: idx === current ? "#007BFF" : "#E9ECEF",
-                                            margin: "0 8px",
-                                            border: idx === current ? "2px solid #007BFF" : "2px solid #E9ECEF",
-                                            transition: "background 0.2s, border 0.2s"
-                                        }
-                                    }, idx, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 173,
-                                        columnNumber: 15
-                                    }, undefined))
-                            }, void 0, false, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 171,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 87,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            flex: 1,
-                            marginLeft: "2rem",
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                style: {
-                                    color: "#17A2B8",
-                                    marginBottom: "1rem"
-                                },
-                                children: [
-                                    "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        style: {
-                                            color: "#007BFF"
-                                        },
-                                        children: "PYTHON, HARDWARE"
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 200,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 198,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                style: {
-                                    fontSize: "1.1rem",
-                                    color: "#333",
-                                    lineHeight: 1.7,
-                                    paddingLeft: "1.5rem"
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 203,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 207,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 202,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 189,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 86,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            style: {
+                backgroundColor: "white",
+                width: "60%",
+                padding: "4rem",
+                margin: "3rem auto",
+                textAlign: "center",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                borderRadius: "1rem",
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "flex-start",
+                justifyContent: "center"
+            },
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    style: {
+                        minWidth: "600px",
+                        minHeight: "450px",
+                        position: "relative",
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        justifyContent: "center"
+                    }
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 100,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    style: {
+                        flex: 1,
+                        marginLeft: "2rem",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        textAlign: "left",
+                        background: "#f8f8f8",
+                        borderRadius: "1rem",
+                        boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                        padding: "2rem 1.5rem"
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            style: {
+                                marginBottom: "1rem"
+                            },
+                            children: "Portfolio"
+                        }, void 0, false, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 127,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            style: {
+                                marginBottom: "0.5rem"
+                            },
+                            children: [
+                                "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    style: {
+                                        color: "#007BFF"
+                                    },
+                                    children: "PYTHON, HARDWARE"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 129,
+                                    columnNumber: 100
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 128,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            style: {
+                                marginTop: "1rem",
+                                marginBottom: 0,
+                                paddingLeft: "1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    style: {
+                                        marginBottom: "0.5rem"
+                                    },
+                                    children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 132,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    style: {
+                                        marginBottom: "0.5rem"
+                                    },
+                                    children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 135,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 131,
+                            columnNumber: 15
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 113,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Portfolio.jsx",
+            lineNumber: 85,
+            columnNumber: 11
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/Components/Portfolio.jsx",
         lineNumber: 84,
         columnNumber: 5
