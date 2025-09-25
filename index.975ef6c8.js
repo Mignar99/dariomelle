@@ -27576,7 +27576,15 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
     const { devDotTo , email , gitHub , instagram , linkedIn , medium , name , primaryColor , twitter , youTube ,  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "footer",
-        className: "footer-bar",
+        style: {
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "2.5rem",
+            padding: "5rem 0 3rem",
+            backgroundColor: primaryColor,
+            width: "100vw"
+        },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
@@ -27593,12 +27601,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 54,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 53,
+                        lineNumber: 64,
                         columnNumber: 11
                     }, undefined),
                     devDotTo && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27611,12 +27619,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 59,
+                            lineNumber: 70,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 58,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27629,12 +27637,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 64,
+                            lineNumber: 75,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 63,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, undefined),
                     instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27647,12 +27655,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 73,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 68,
+                        lineNumber: 79,
                         columnNumber: 11
                     }, undefined),
                     linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27665,12 +27673,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 82,
+                            lineNumber: 93,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 77,
+                        lineNumber: 88,
                         columnNumber: 11
                     }, undefined),
                     medium && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27683,12 +27691,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 87,
+                            lineNumber: 98,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 86,
+                        lineNumber: 97,
                         columnNumber: 11
                     }, undefined),
                     twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27701,12 +27709,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 92,
+                            lineNumber: 103,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 91,
+                        lineNumber: 102,
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27719,18 +27727,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 101,
+                            lineNumber: 112,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 96,
+                        lineNumber: 107,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 45,
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27745,7 +27753,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 105,
+                lineNumber: 116,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28564,14 +28572,24 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header-bar",
+        style: {
+            position: "fixed",
+            display: "flex",
+            justifyContent: "center",
+            gap: "2rem",
+            background: "rgba(255,255,255,0.75)",
+            padding: "1rem",
+            top: 0,
+            width: "100%",
+            zIndex: 10
+        },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#home",
                 children: "Home"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 12,
+                lineNumber: 24,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28579,7 +28597,7 @@ const Header = ()=>{
                 children: "About"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 13,
+                lineNumber: 25,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28587,7 +28605,7 @@ const Header = ()=>{
                 children: "Industry"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 14,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28595,7 +28613,7 @@ const Header = ()=>{
                 children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 15,
+                lineNumber: 27,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28603,7 +28621,7 @@ const Header = ()=>{
                 children: "Publications"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 16,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28611,7 +28629,7 @@ const Header = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 17,
+                lineNumber: 29,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28619,7 +28637,7 @@ const Header = ()=>{
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 18,
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined)
         ]
@@ -29425,24 +29443,40 @@ const industryExperience = [
     }
 ];
 const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding industry-section",
+        className: "padding",
         id: "industry",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "industry-container",
+            style: {
+                backgroundColor: "white",
+                width: "60%",
+                padding: "4rem",
+                margin: "3rem auto",
+                textAlign: "center",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                borderRadius: "1rem"
+            },
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "accent",
                     children: "Industry Experience"
                 }, void 0, false, {
                     fileName: "src/Components/Industry.jsx",
-                    lineNumber: 31,
+                    lineNumber: 41,
                     columnNumber: 7
                 }, undefined),
                 industryExperience.map((exp, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "industry-card",
+                        style: {
+                            marginBottom: "2.5rem",
+                            padding: "2rem 1.5rem",
+                            background: "#f8f8f8",
+                            borderRadius: "1rem",
+                            boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                            textAlign: "left"
+                        },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "industry-role",
+                                style: {
+                                    marginBottom: "0.5rem"
+                                },
                                 children: [
                                     exp.role,
                                     " @ ",
@@ -29450,48 +29484,57 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 34,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: exp.location
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 37,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 38,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "industry-period",
+                                style: {
+                                    fontStyle: "italic",
+                                    color: "#555"
+                                },
                                 children: exp.period
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 39,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                className: "industry-details",
+                                style: {
+                                    marginTop: "1rem",
+                                    marginBottom: 0,
+                                    paddingLeft: "1.5rem"
+                                },
                                 children: exp.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "industry-detail",
+                                        style: {
+                                            marginBottom: "0.5rem"
+                                        },
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Industry.jsx",
-                                        lineNumber: 42,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 40,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Industry.jsx",
-                        lineNumber: 33,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, undefined))
             ]
