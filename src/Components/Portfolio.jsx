@@ -86,71 +86,104 @@ const Portfolio = () => {
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div
           style={{
-            width: "400px",
-            height: "300px",
+            minWidth: "600px",
+            minHeight: "450px",
             position: "relative",
             display: "flex",
-            flexDirection: "row",
+            flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
+            background: "#fff",
+            borderRadius: "1rem",
+            boxShadow: "0 2px 16px rgba(0,0,0,0.10)",
           }}
         >
-          <button
-            onClick={prevImage}
+          <div
             style={{
-              background: "#007BFF",
-              color: "#fff",
-              border: "none",
-              borderRadius: "50%",
-              width: "2.5rem",
-              height: "2.5rem",
-              fontSize: "1.5rem",
-              cursor: "pointer",
-              zIndex: 2,
-              marginRight: "1rem",
-              alignSelf: "center",
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "center",
+              width: "100%",
+              height: "100%",
+              position: "relative",
             }}
-            aria-label="Previous image"
           >
-            &#8592;
-          </button>
-          <img
-            src={carouselImages[current].src}
-            className={`portfolio-carousel-img${current === 1 ? " poc2" : ""}`}
-            alt={carouselImages[current].alt}
-            style={{ cursor: "pointer" }}
-            onClick={openModal}
-          />
-          <button
-            onClick={nextImage}
-            style={{
-              background: "#007BFF",
-              color: "#fff",
-              border: "none",
-              borderRadius: "50%",
-              width: "2.5rem",
-              height: "2.5rem",
-              fontSize: "1.5rem",
-              cursor: "pointer",
-              zIndex: 2,
-              marginLeft: "1rem",
-              alignSelf: "center",
-            }}
-            aria-label="Next image"
-          >
-            &#8594;
-          </button>
-          <div style={{ textAlign: "center", marginTop: "1rem" }}>
+            <button
+              onClick={prevImage}
+              style={{
+                background: "#007BFF",
+                color: "#fff",
+                border: "none",
+                borderRadius: "50%",
+                width: "3.5rem",
+                height: "3.5rem",
+                fontSize: "2rem",
+                cursor: "pointer",
+                zIndex: 2,
+                marginRight: "2rem",
+                marginLeft: "2.5rem",
+                alignSelf: "center",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              aria-label="Previous image"
+            >
+              &#8592;
+            </button>
+            <img
+              src={carouselImages[current].src}
+              className={`portfolio-carousel-img${current === 1 ? " poc2" : ""}`}
+              alt={carouselImages[current].alt}
+              style={{
+                maxWidth: "100%",
+                maxHeight: "400px",
+                width: "auto",
+                height: "auto",
+                objectFit: "contain",
+                borderRadius: "1rem",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                background: "#f8f9fa",
+                margin: "0 1rem",
+              }}
+            />
+            <button
+              onClick={nextImage}
+              style={{
+                background: "#007BFF",
+                color: "#fff",
+                border: "none",
+                borderRadius: "50%",
+                width: "3.5rem",
+                height: "3.5rem",
+                fontSize: "2rem",
+                cursor: "pointer",
+                zIndex: 2,
+                marginLeft: "2rem",
+                alignSelf: "center",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              aria-label="Next image"
+            >
+              &#8594;
+            </button>
+          </div>
+          <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
             {carouselImages.map((img, idx) => (
               <span
                 key={idx}
                 style={{
                   display: "inline-block",
-                  width: "10px",
-                  height: "10px",
+                  width: "16px",
+                  height: "16px",
                   borderRadius: "50%",
                   background: idx === current ? "#007BFF" : "#E9ECEF",
-                  margin: "0 4px",
+                  margin: "0 8px",
+                  border: idx === current ? "2px solid #007BFF" : "2px solid #E9ECEF",
+                  transition: "background 0.2s, border 0.2s",
                 }}
               ></span>
             ))}
