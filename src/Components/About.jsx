@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I thrive on tackling complex challenges with innovative approaches. By combining my background in theoretical physics with hands-on experience in AI, machine learning, and data systems, I aim to create solutions that are both powerful and accessible.m passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I thrive on tackling complex challenges with innovative approaches. By combining my background in theoretical physics with hands-on experience in AI, machine learning, and data systems, I aim to create solutions that are both powerful and accessible.";
 
 const About = () => {
   return (
