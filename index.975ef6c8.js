@@ -27100,6 +27100,8 @@ var _home = require("./Components/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _portfolio = require("./Components/Portfolio");
 var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
+var _publications = require("./Components/Publications");
+var _publicationsDefault = parcelHelpers.interopDefault(_publications);
 var _stylesCss = require("./styles.css");
 /**
  * This object represents your information. The project is set so that you
@@ -27128,7 +27130,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27136,17 +27138,22 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _publicationsDefault.default), {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27155,13 +27162,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 5
     }, undefined);
 };
@@ -27175,7 +27182,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Publications":"55TOv"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28914,6 +28921,133 @@ $RefreshReg$(_c, "Portfolio");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}],"55TOv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1cea = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1cea.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+/**
+ * Publications component
+ *
+ * Add your publications below. You can use a list, cards, or any format you prefer.
+ */ const publications = [
+    {
+        title: "Sample Publication Title",
+        authors: "Your Name, Coauthor Name",
+        journal: "Journal Name",
+        year: 2025,
+        link: "#"
+    }
+];
+const Publications = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "publications",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Publications"
+            }, void 0, false, {
+                fileName: "src/Components/Publications.jsx",
+                lineNumber: 22,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                style: {
+                    textAlign: "left",
+                    fontSize: "1.1rem",
+                    margin: "2rem 3rem"
+                },
+                children: publications.map((pub, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        style: {
+                            marginBottom: "1.5rem"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: pub.title
+                            }, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 26,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 26,
+                                columnNumber: 41
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: pub.authors
+                            }, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 27,
+                                columnNumber: 39
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: [
+                                    pub.journal,
+                                    " (",
+                                    pub.year,
+                                    ")"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 30,
+                                columnNumber: 20
+                            }, undefined),
+                            pub.link !== "#" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: pub.link,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: "Read more"
+                            }, void 0, false, {
+                                fileName: "src/Components/Publications.jsx",
+                                lineNumber: 32,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, idx, true, {
+                        fileName: "src/Components/Publications.jsx",
+                        lineNumber: 25,
+                        columnNumber: 11
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "src/Components/Publications.jsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Publications.jsx",
+        lineNumber: 21,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Publications;
+exports.default = Publications;
+var _c;
+$RefreshReg$(_c, "Publications");
+
+  $parcel$ReactRefreshHelpers$1cea.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
