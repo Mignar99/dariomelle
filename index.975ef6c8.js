@@ -28576,7 +28576,7 @@ const Header = ()=>{
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
                 lineNumber: 24,
-                columnNumber: 7
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#about",
@@ -28584,23 +28584,31 @@ const Header = ()=>{
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
                 lineNumber: 25,
-                columnNumber: 7
+                columnNumber: 3
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#publications",
+                children: "Publications"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 26,
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#portfolio",
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 26,
-                columnNumber: 7
+                lineNumber: 27,
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#footer",
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
-                columnNumber: 7
+                lineNumber: 28,
+                columnNumber: 3
             }, undefined)
         ]
     }, void 0, true, {
