@@ -29412,25 +29412,25 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const industryExperience = [
     {
-        role: "Machine Learning Engineer",
-        company: "Tech Innovations Ltd.",
-        location: "Milan, Italy",
-        period: "Mar 2024 – Present",
+        role: "AI Engineer Intern — PyTorch, Transformers, Neo4j",
+        company: "GraphAware",
+        location: "Lecce, Italy",
+        period: "Sep 2025 – Dec 2025 (Ongoing)",
         details: [
-            "Developed and deployed machine learning models for predictive analytics in finance.",
-            "Collaborated with cross-functional teams to integrate AI solutions into existing products.",
-            "Led workshops and training sessions for junior engineers."
+            "Fine‑tuning LLMs using cloud computing resources to convert graph database queries into html human‑readable reports.",
+            "Applied PyTorch and transformer‑based architectures to improve query interpretation accuracy and usability.",
+            "Collaborating with a cross‑functional team to integrate AI solutions into existing data management pipelines."
         ]
     },
     {
-        role: "Data Scientist (Intern)",
-        company: "DataLab Solutions",
-        location: "Rome, Italy",
-        period: "Jun 2023 – Feb 2024",
+        role: "Professional Consultant (Freelance Contract) — Python, Hardware",
+        company: "Federico II University of Naples, Department of Agricultural Sciences",
+        location: "Naples, Italy",
+        period: "May 2025 – Jul 2025",
         details: [
-            "Analyzed large datasets to extract actionable insights for healthcare clients.",
-            "Built dashboards and visualizations for reporting key metrics.",
-            "Automated data cleaning and preprocessing pipelines."
+            "Designed and accomplished a measurement system to monitor CO2 and O2 production in biological systems, enabling real‑time assessment of environmental changes.",
+            "Optimized system architecture, reducing costs by 30% while maintaining accuracy and reliability of data acquisition.",
+            "Developed the Python pipeline for sensor integration, real‑time data processing, and visualization in a custom desktop app, supporting input from 13 sensors and improving research workflow efficiency and usability."
         ]
     }
 ];
@@ -29452,7 +29452,7 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     children: "Industry Experience"
                 }, void 0, false, {
                     fileName: "src/Components/Industry.jsx",
-                    lineNumber: 42,
+                    lineNumber: 41,
                     columnNumber: 7
                 }, undefined),
                 industryExperience.map((exp, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29476,19 +29476,19 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 55,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: exp.location
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 58,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 59,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29499,7 +29499,7 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: exp.period
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 60,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29515,29 +29515,29 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Industry.jsx",
-                                        lineNumber: 63,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 61,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Industry.jsx",
-                        lineNumber: 44,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, undefined))
             ]
         }, void 0, true, {
             fileName: "src/Components/Industry.jsx",
-            lineNumber: 31,
+            lineNumber: 30,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/Components/Industry.jsx",
-        lineNumber: 30,
+        lineNumber: 29,
         columnNumber: 3
     }, undefined);
 _c = Industry;
