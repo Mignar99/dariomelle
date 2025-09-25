@@ -29071,6 +29071,18 @@ const Publications = ()=>{
                 lineNumber: 91,
                 columnNumber: 7
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                style: {
+                    fontSize: "1.15rem",
+                    margin: "1.5rem 3rem 2rem 3rem",
+                    color: "#444"
+                },
+                children: "My research lies at the intersection of conformal field theory and quantum chromodynamics (QCD), with a particular focus on next-to-leading order (NLO) corrections to the gravitational form factors of hadrons. I am also deeply interested in physics beyond the Standard Model, especially in exploring the phenomenology of the 331 Model."
+            }, void 0, false, {
+                fileName: "src/Components/Publications.jsx",
+                lineNumber: 92,
+                columnNumber: 7
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                 style: {
                     textAlign: "left",
@@ -29086,24 +29098,24 @@ const Publications = ()=>{
                                 children: pub.title
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 95,
+                                lineNumber: 98,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 95,
+                                lineNumber: 98,
                                 columnNumber: 41
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                 children: pub.authors
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 96,
+                                lineNumber: 99,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 96,
+                                lineNumber: 99,
                                 columnNumber: 39
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29115,12 +29127,12 @@ const Publications = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 97,
+                                lineNumber: 100,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 99,
+                                lineNumber: 102,
                                 columnNumber: 20
                             }, undefined),
                             pub.link !== "#" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29130,18 +29142,18 @@ const Publications = ()=>{
                                 children: "Read more"
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 101,
+                                lineNumber: 104,
                                 columnNumber: 15
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Publications.jsx",
-                        lineNumber: 94,
+                        lineNumber: 97,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/Components/Publications.jsx",
-                lineNumber: 92,
+                lineNumber: 95,
                 columnNumber: 7
             }, undefined)
         ]
