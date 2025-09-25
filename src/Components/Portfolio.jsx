@@ -84,7 +84,17 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center", position: "relative", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center" }}>
+        <div
+          style={{
+            width: "400px",
+            height: "300px",
+            position: "relative",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <button
             onClick={prevImage}
             style={{
@@ -146,13 +156,28 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-        <div style={{ flex: 1, marginLeft: "2rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <div
+          style={{
+            flex: 1,
+            marginLeft: "2rem",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
+        >
           <h3 style={{ color: "#17A2B8", marginBottom: "1rem" }}>
-            H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project <span style={{ color: "#007BFF" }}>PYTHON, HARDWARE</span>
+            {"H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project "}
+            <span style={{ color: "#007BFF" }}>PYTHON, HARDWARE</span>
           </h3>
           <ul style={{ fontSize: "1.1rem", color: "#333", lineHeight: 1.7, paddingLeft: "1.5rem" }}>
-            <li>Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition.</li>
-            <li>Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023.</li>
+            <li>
+              Designed and optimized grow and sensor chambers, integrating hardware with
+              Python‑based data acquisition.
+            </li>
+            <li>
+              Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call
+              for Startups 2023 and presented at Startup Day 2023.
+            </li>
           </ul>
         </div>
       </div>
