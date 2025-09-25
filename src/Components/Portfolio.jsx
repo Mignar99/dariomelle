@@ -106,7 +106,7 @@ const Portfolio = () => {
           </button>
           <img
             src={carouselImages[current].src}
-            className={`portfolio-carousel-img${current === 1 ? ' poc2' : ''}`}
+            className={`portfolio-carousel-img${current === 1 ? " poc2" : ""}`}
             alt={carouselImages[current].alt}
             style={{ cursor: "pointer" }}
             onClick={openModal}
@@ -146,15 +146,14 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-        <div className="container">
-          {projectList.map((project) => (
-            <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
-              <p className="small">{project.description}</p>
-            </div>
-          ))}
+        <div style={{ flex: 1, marginLeft: "2rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          <h3 style={{ color: "#17A2B8", marginBottom: "1rem" }}>
+            H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project <span style={{ color: "#007BFF" }}>PYTHON, HARDWARE</span>
+          </h3>
+          <ul style={{ fontSize: "1.1rem", color: "#333", lineHeight: 1.7, paddingLeft: "1.5rem" }}>
+            <li>Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition.</li>
+            <li>Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023.</li>
+          </ul>
         </div>
       </div>
     </section>
