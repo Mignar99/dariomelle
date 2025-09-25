@@ -27104,6 +27104,8 @@ var _publications = require("./Components/Publications");
 var _publicationsDefault = parcelHelpers.interopDefault(_publications);
 var _education = require("./Components/Education");
 var _educationDefault = parcelHelpers.interopDefault(_education);
+var _industry = require("./Components/Industry");
+var _industryDefault = parcelHelpers.interopDefault(_industry);
 var _stylesCss = require("./styles.css");
 /**
  * This object represents your information. The project is set so that you
@@ -27132,7 +27134,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27140,27 +27142,32 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 48,
-                columnNumber: 3
+                lineNumber: 49,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _industryDefault.default), {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 50,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 49,
-                columnNumber: 3
+                lineNumber: 51,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _publicationsDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 50,
-                columnNumber: 3
+                lineNumber: 52,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 51,
+                lineNumber: 53,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27169,13 +27176,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 52,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 45,
+        lineNumber: 46,
         columnNumber: 5
     }, undefined);
 };
@@ -27189,7 +27196,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Publications":"55TOv","./Components/Education":"6QZcy","./Components/Portfolio":"lCaEt"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Publications":"55TOv","./Components/Education":"6QZcy","./Components/Portfolio":"lCaEt","./Components/Industry":"2YjsF"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29081,80 +29088,124 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     margin: "2rem auto",
                     maxWidth: "900px"
                 },
-                children: educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             marginBottom: "2.5rem",
-                            padding: "1.5rem",
-                            background: "#f8f8f8",
+                            padding: "2rem 1.5rem",
+                            background: "#fffbe8",
                             borderRadius: "1rem",
-                            boxShadow: "0 2px 8px rgba(0,0,0,0.06)"
+                            boxShadow: "0 2px 8px rgba(0,0,0,0.04)",
+                            textAlign: "left",
+                            fontSize: "1.1rem"
                         },
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                style: {
-                                    marginBottom: "0.5rem"
-                                },
-                                children: edu.degree
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 62,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                children: edu.institution
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 63,
-                                columnNumber: 11
-                            }, undefined),
-                            " — ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: edu.location
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 63,
-                                columnNumber: 48
-                            }, undefined),
+                            "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 63,
-                                columnNumber: 75
+                                lineNumber: 72,
+                                columnNumber: 76
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                style: {
-                                    fontStyle: "italic",
-                                    color: "#555"
-                                },
-                                children: edu.period
-                            }, void 0, false, {
+                            "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 64,
-                                columnNumber: 11
+                                lineNumber: 74,
+                                columnNumber: 92
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                style: {
-                                    marginTop: "1rem",
-                                    marginBottom: 0
-                                },
-                                children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: detail
-                                    }, i, false, {
-                                        fileName: "src/Components/Education.jsx",
-                                        lineNumber: 67,
-                                        columnNumber: 15
-                                    }, undefined))
-                            }, void 0, false, {
+                            "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 65,
-                                columnNumber: 11
-                            }, undefined)
+                                lineNumber: 76,
+                                columnNumber: 41
+                            }, undefined),
+                            "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 78,
+                                columnNumber: 54
+                            }, undefined),
+                            "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
                         ]
-                    }, idx, true, {
+                    }, void 0, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 61,
-                        columnNumber: 9
-                    }, undefined))
-            }, void 0, false, {
+                        lineNumber: 60,
+                        columnNumber: 7
+                    }, undefined),
+                    educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            style: {
+                                marginBottom: "2.5rem",
+                                padding: "1.5rem",
+                                background: "#f8f8f8",
+                                borderRadius: "1rem",
+                                boxShadow: "0 2px 8px rgba(0,0,0,0.06)"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    style: {
+                                        marginBottom: "0.5rem"
+                                    },
+                                    children: edu.degree
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 93,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                    children: edu.institution
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 94,
+                                    columnNumber: 11
+                                }, undefined),
+                                " — ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    children: edu.location
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 94,
+                                    columnNumber: 48
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 95,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    style: {
+                                        fontStyle: "italic",
+                                        color: "#555"
+                                    },
+                                    children: edu.period
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 96,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                    style: {
+                                        marginTop: "1rem",
+                                        marginBottom: 0
+                                    },
+                                    children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: detail
+                                        }, i, false, {
+                                            fileName: "src/Components/Education.jsx",
+                                            lineNumber: 99,
+                                            columnNumber: 15
+                                        }, undefined))
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 97,
+                                    columnNumber: 11
+                                }, undefined)
+                            ]
+                        }, idx, true, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 83,
+                            columnNumber: 9
+                        }, undefined))
+                ]
+            }, void 0, true, {
                 fileName: "src/Components/Education.jsx",
                 lineNumber: 59,
                 columnNumber: 5
@@ -29347,6 +29398,158 @@ $RefreshReg$(_c, "Portfolio");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"./helpers/bundle-url":"lgJ39"}],"2YjsF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$68c5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$68c5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const industryExperience = [
+    {
+        role: "Machine Learning Engineer",
+        company: "Tech Innovations Ltd.",
+        location: "Milan, Italy",
+        period: "Mar 2024 – Present",
+        details: [
+            "Developed and deployed machine learning models for predictive analytics in finance.",
+            "Collaborated with cross-functional teams to integrate AI solutions into existing products.",
+            "Led workshops and training sessions for junior engineers."
+        ]
+    },
+    {
+        role: "Data Scientist (Intern)",
+        company: "DataLab Solutions",
+        location: "Rome, Italy",
+        period: "Jun 2023 – Feb 2024",
+        details: [
+            "Analyzed large datasets to extract actionable insights for healthcare clients.",
+            "Built dashboards and visualizations for reporting key metrics.",
+            "Automated data cleaning and preprocessing pipelines."
+        ]
+    }
+];
+const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "industry",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            style: {
+                backgroundColor: "white",
+                width: "60%",
+                padding: "4rem",
+                margin: "3rem auto",
+                textAlign: "center",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                borderRadius: "1rem"
+            },
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    children: "Industry Experience"
+                }, void 0, false, {
+                    fileName: "src/Components/Industry.jsx",
+                    lineNumber: 42,
+                    columnNumber: 7
+                }, undefined),
+                industryExperience.map((exp, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        style: {
+                            marginBottom: "2.5rem",
+                            padding: "2rem 1.5rem",
+                            background: "#f8f8f8",
+                            borderRadius: "1rem",
+                            boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                            textAlign: "left"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                style: {
+                                    marginBottom: "0.5rem"
+                                },
+                                children: [
+                                    exp.role,
+                                    " @ ",
+                                    exp.company
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Industry.jsx",
+                                lineNumber: 55,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: exp.location
+                            }, void 0, false, {
+                                fileName: "src/Components/Industry.jsx",
+                                lineNumber: 58,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Industry.jsx",
+                                lineNumber: 59,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    fontStyle: "italic",
+                                    color: "#555"
+                                },
+                                children: exp.period
+                            }, void 0, false, {
+                                fileName: "src/Components/Industry.jsx",
+                                lineNumber: 60,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                style: {
+                                    marginTop: "1rem",
+                                    marginBottom: 0,
+                                    paddingLeft: "1.5rem"
+                                },
+                                children: exp.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        style: {
+                                            marginBottom: "0.5rem"
+                                        },
+                                        children: detail
+                                    }, i, false, {
+                                        fileName: "src/Components/Industry.jsx",
+                                        lineNumber: 63,
+                                        columnNumber: 15
+                                    }, undefined))
+                            }, void 0, false, {
+                                fileName: "src/Components/Industry.jsx",
+                                lineNumber: 61,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, idx, true, {
+                        fileName: "src/Components/Industry.jsx",
+                        lineNumber: 44,
+                        columnNumber: 9
+                    }, undefined))
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Industry.jsx",
+            lineNumber: 31,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/Components/Industry.jsx",
+        lineNumber: 30,
+        columnNumber: 3
+    }, undefined);
+_c = Industry;
+exports.default = Industry;
+var _c;
+$RefreshReg$(_c, "Industry");
+
+  $parcel$ReactRefreshHelpers$68c5.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
