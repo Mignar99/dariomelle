@@ -29476,82 +29476,60 @@ const Portfolio = ()=>{
                             flexDirection: "column",
                             justifyContent: "center"
                         },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            style: {
-                                background: "#f8f8f8",
-                                borderRadius: "1rem",
-                                boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-                                padding: "2rem 1.5rem",
-                                marginBottom: "2.5rem",
-                                textAlign: "left"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    style: {
-                                        marginBottom: "0.5rem"
-                                    },
-                                    children: [
-                                        "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project",
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            style: {
-                                                color: "#007BFF",
-                                                marginLeft: "0.5rem"
-                                            },
-                                            children: "PYTHON, HARDWARE"
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 210,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 208,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                    style: {
-                                        marginTop: "1rem",
-                                        marginBottom: 0,
-                                        paddingLeft: "1.5rem",
-                                        color: "#333",
-                                        fontSize: "1.1rem",
-                                        lineHeight: 1.7
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            style: {
-                                                marginBottom: "0.5rem"
-                                            },
-                                            children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 222,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            style: {
-                                                marginBottom: "0.5rem"
-                                            },
-                                            children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 226,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/Portfolio.jsx",
-                                    lineNumber: 212,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 198,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                style: {
+                                    color: "#17A2B8",
+                                    marginBottom: "1rem"
+                                },
+                                children: [
+                                    "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        style: {
+                                            color: "#007BFF"
+                                        },
+                                        children: "PYTHON, HARDWARE"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 200,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 198,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                style: {
+                                    fontSize: "1.1rem",
+                                    color: "#333",
+                                    lineHeight: 1.7,
+                                    paddingLeft: "1.5rem"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 203,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 207,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 202,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
                         lineNumber: 189,
                         columnNumber: 9
