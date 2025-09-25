@@ -29436,44 +29436,67 @@ const Portfolio = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container",
-                        children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "box",
+                        style: {
+                            flex: 1,
+                            marginLeft: "2rem",
+                            display: "flex",
+                            flexDirection: "column",
+                            justifyContent: "center"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                style: {
+                                    color: "#17A2B8",
+                                    marginBottom: "1rem"
+                                },
                                 children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: project.url,
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            style: {
-                                                flexBasis: "40px"
-                                            },
-                                            children: project.title
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 153,
-                                            columnNumber: 17
-                                        }, undefined)
+                                    "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        style: {
+                                            color: "#007BFF"
+                                        },
+                                        children: "PYTHON, HARDWARE"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 152,
-                                        columnNumber: 15
+                                        lineNumber: 151,
+                                        columnNumber: 96
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Portfolio.jsx",
+                                lineNumber: 150,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                style: {
+                                    fontSize: "1.1rem",
+                                    color: "#333",
+                                    lineHeight: 1.7,
+                                    paddingLeft: "1.5rem"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 154,
+                                        columnNumber: 13
                                     }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "small",
-                                        children: project.description
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
                                         lineNumber: 155,
-                                        columnNumber: 15
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
-                            }, project.title, true, {
+                            }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 151,
-                                columnNumber: 13
-                            }, undefined))
-                    }, void 0, false, {
+                                lineNumber: 153,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
                         lineNumber: 149,
                         columnNumber: 9
