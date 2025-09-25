@@ -130,7 +130,7 @@ img.socialIcon {
 }
 
 .portfolio-carousel-img.poc2 {
-  transform: none !important;
+  transform: rotate3d(0, 0, 1, 0deg) !important;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
