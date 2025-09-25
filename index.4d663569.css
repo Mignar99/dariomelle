@@ -118,4 +118,15 @@ img.socialIcon {
   width: 30px;
 }
 
+.portfolio-carousel-img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 0 auto 0 2rem;
+  display: block;
+  box-shadow: 0 2px 8px #00000014;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
