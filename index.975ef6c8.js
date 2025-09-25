@@ -29339,10 +29339,11 @@ const Portfolio = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
-                            width: "600px",
-                            height: "450px",
+                            width: "400px",
+                            height: "300px",
                             position: "relative",
                             display: "flex",
+                            flexDirection: "row",
                             alignItems: "center",
                             justifyContent: "center"
                         },
@@ -29350,26 +29351,23 @@ const Portfolio = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                 onClick: prevImage,
                                 style: {
-                                    position: "absolute",
-                                    left: "10px",
-                                    top: "50%",
-                                    transform: "translateY(-50%)",
                                     background: "#007BFF",
                                     color: "#fff",
                                     border: "none",
                                     borderRadius: "50%",
-                                    width: "3.5rem",
-                                    height: "3.5rem",
-                                    fontSize: "2rem",
+                                    width: "2.5rem",
+                                    height: "2.5rem",
+                                    fontSize: "1.5rem",
                                     cursor: "pointer",
                                     zIndex: 2,
-                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)"
+                                    marginRight: "1rem",
+                                    alignSelf: "center"
                                 },
                                 "aria-label": "Previous image",
                                 children: "←"
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 97,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29377,43 +29375,34 @@ const Portfolio = ()=>{
                                 className: `portfolio-carousel-img${current === 1 ? " poc2" : ""}`,
                                 alt: carouselImages[current].alt,
                                 style: {
-                                    cursor: "pointer",
-                                    width: "100%",
-                                    height: "100%",
-                                    objectFit: "cover",
-                                    borderRadius: "1rem",
-                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                                    margin: 0,
-                                    display: "block"
-                                }
+                                    cursor: "pointer"
+                                },
+                                onClick: openModal
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 119,
+                                lineNumber: 117,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                 onClick: nextImage,
                                 style: {
-                                    position: "absolute",
-                                    right: "10px",
-                                    top: "50%",
-                                    transform: "translateY(-50%)",
                                     background: "#007BFF",
                                     color: "#fff",
                                     border: "none",
                                     borderRadius: "50%",
-                                    width: "3.5rem",
-                                    height: "3.5rem",
-                                    fontSize: "2rem",
+                                    width: "2.5rem",
+                                    height: "2.5rem",
+                                    fontSize: "1.5rem",
                                     cursor: "pointer",
                                     zIndex: 2,
-                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)"
+                                    marginLeft: "1rem",
+                                    alignSelf: "center"
                                 },
                                 "aria-label": "Next image",
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 134,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29432,12 +29421,12 @@ const Portfolio = ()=>{
                                         }
                                     }, idx, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 158,
+                                        lineNumber: 145,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 156,
+                                lineNumber: 143,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -29469,13 +29458,13 @@ const Portfolio = ()=>{
                                         children: "PYTHON, HARDWARE"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 183,
+                                        lineNumber: 170,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 181,
+                                lineNumber: 168,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29490,26 +29479,26 @@ const Portfolio = ()=>{
                                         children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 186,
+                                        lineNumber: 173,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 190,
+                                        lineNumber: 177,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 185,
+                                lineNumber: 172,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 172,
+                        lineNumber: 159,
                         columnNumber: 9
                     }, undefined)
                 ]
