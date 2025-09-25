@@ -129,4 +129,8 @@ img.socialIcon {
   box-shadow: 0 2px 8px #00000014;
 }
 
+.portfolio-carousel-img.poc2 {
+  transform: none !important;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
