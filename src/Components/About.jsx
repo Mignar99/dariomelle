@@ -34,9 +34,7 @@ const skillsList = [
   "Web Python, C/C++, SQL, LaTeX",
   "PyTorch, Hugging Face, scikit‑learn",
   "Neo4j, Redis, ClickHouse, Pandas, Dask",
-  "Git, Docker, Mathematica",
-  "",
-  "",
+  "Git, Docker, Mathematica"
 ];
 
 /**
