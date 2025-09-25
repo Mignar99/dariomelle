@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Theoretical Physics Ph.D student at University of Salento. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I’m a Ph.D. student in Theoretical Physics at the University of Salento, passionate about artificial intelligence and machine learning, and eager to turn that passion into my career.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I aI thrive on tackling complex challenges with innovative approaches. By combining my background in theoretical physics with hands-on experience in AI, machine learning, and data systems, I aim to create solutions that are both powerful and accessible.m passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (
