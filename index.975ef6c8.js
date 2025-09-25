@@ -29339,94 +29339,118 @@ const Portfolio = ()=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
-                            width: "400px",
-                            height: "300px",
+                            width: "600px",
+                            height: "450px",
                             position: "relative",
                             display: "flex",
-                            flexDirection: "row",
+                            flexDirection: "column",
                             alignItems: "center",
-                            justifyContent: "center"
+                            justifyContent: "center",
+                            background: "#fff",
+                            borderRadius: "1rem",
+                            boxShadow: "0 2px 16px rgba(0,0,0,0.10)"
                         },
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                onClick: prevImage,
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 style: {
-                                    background: "#007BFF",
-                                    color: "#fff",
-                                    border: "none",
-                                    borderRadius: "50%",
-                                    width: "2.5rem",
-                                    height: "2.5rem",
-                                    fontSize: "1.5rem",
-                                    cursor: "pointer",
-                                    zIndex: 2,
-                                    marginRight: "1rem",
-                                    alignSelf: "center"
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    width: "100%",
+                                    height: "100%"
                                 },
-                                "aria-label": "Previous image",
-                                children: "←"
-                            }, void 0, false, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                        onClick: prevImage,
+                                        style: {
+                                            background: "#007BFF",
+                                            color: "#fff",
+                                            border: "none",
+                                            borderRadius: "50%",
+                                            width: "3.5rem",
+                                            height: "3.5rem",
+                                            fontSize: "2rem",
+                                            cursor: "pointer",
+                                            zIndex: 2,
+                                            marginRight: "2rem",
+                                            alignSelf: "center"
+                                        },
+                                        "aria-label": "Previous image",
+                                        children: "←"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 111,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: carouselImages[current].src,
+                                        className: `portfolio-carousel-img${current === 1 ? " poc2" : ""}`,
+                                        alt: carouselImages[current].alt,
+                                        style: {
+                                            width: "500px",
+                                            height: "375px",
+                                            objectFit: "cover",
+                                            borderRadius: "1rem",
+                                            boxShadow: "0 2px 8px rgba(0,0,0,0.08)"
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 130,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                        onClick: nextImage,
+                                        style: {
+                                            background: "#007BFF",
+                                            color: "#fff",
+                                            border: "none",
+                                            borderRadius: "50%",
+                                            width: "3.5rem",
+                                            height: "3.5rem",
+                                            fontSize: "2rem",
+                                            cursor: "pointer",
+                                            zIndex: 2,
+                                            marginLeft: "2rem",
+                                            alignSelf: "center"
+                                        },
+                                        "aria-label": "Next image",
+                                        children: "→"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 142,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 98,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: carouselImages[current].src,
-                                className: `portfolio-carousel-img${current === 1 ? " poc2" : ""}`,
-                                alt: carouselImages[current].alt,
-                                style: {
-                                    cursor: "pointer"
-                                },
-                                onClick: openModal
-                            }, void 0, false, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 117,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                onClick: nextImage,
-                                style: {
-                                    background: "#007BFF",
-                                    color: "#fff",
-                                    border: "none",
-                                    borderRadius: "50%",
-                                    width: "2.5rem",
-                                    height: "2.5rem",
-                                    fontSize: "1.5rem",
-                                    cursor: "pointer",
-                                    zIndex: 2,
-                                    marginLeft: "1rem",
-                                    alignSelf: "center"
-                                },
-                                "aria-label": "Next image",
-                                children: "→"
-                            }, void 0, false, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 124,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 style: {
                                     textAlign: "center",
-                                    marginTop: "1rem"
+                                    marginTop: "1.5rem"
                                 },
                                 children: carouselImages.map((img, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         style: {
                                             display: "inline-block",
-                                            width: "10px",
-                                            height: "10px",
+                                            width: "16px",
+                                            height: "16px",
                                             borderRadius: "50%",
                                             background: idx === current ? "#007BFF" : "#E9ECEF",
-                                            margin: "0 4px"
+                                            margin: "0 8px",
+                                            border: idx === current ? "2px solid #007BFF" : "2px solid #E9ECEF",
+                                            transition: "background 0.2s, border 0.2s"
                                         }
                                     }, idx, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 145,
+                                        lineNumber: 164,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 143,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -29458,13 +29482,13 @@ const Portfolio = ()=>{
                                         children: "PYTHON, HARDWARE"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 170,
+                                        lineNumber: 191,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 168,
+                                lineNumber: 189,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29479,26 +29503,26 @@ const Portfolio = ()=>{
                                         children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 173,
+                                        lineNumber: 194,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 177,
+                                        lineNumber: 198,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 172,
+                                lineNumber: 193,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 159,
+                        lineNumber: 180,
                         columnNumber: 9
                     }, undefined)
                 ]
