@@ -74,14 +74,17 @@ const projectList = [
 
 const Portfolio = () => {
   const [current, setCurrent] = React.useState(0);
+  const [modalOpen, setModalOpen] = React.useState(false);
   const nextImage = () => setCurrent((current + 1) % carouselImages.length);
   const prevImage = () => setCurrent((current - 1 + carouselImages.length) % carouselImages.length);
+  const openModal = () => setModalOpen(true);
+  const closeModal = () => setModalOpen(false);
 
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center", position: "relative" }}>
+  <div style={{ maxWidth: "40%", alignSelf: "center", position: "relative", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center" }}>
           <button onClick={prevImage} style={{ position: "absolute", left: 0, top: "45%", background: "#007BFF", color: "#fff", border: "none", borderRadius: "50%", width: "2.5rem", height: "2.5rem", fontSize: "1.5rem", cursor: "pointer", zIndex: 2 }} aria-label="Previous image">&#8592;</button>
           <button
             onClick={prevImage}
@@ -93,22 +96,53 @@ const Portfolio = () => {
               color: "#fff",
               border: "none",
               borderRadius: "50%",
-              width: "2.5rem",
-              height: "2.5rem",
-              fontSize: "1.5rem",
-              cursor: "pointer",
-              zIndex: 2,
-            }}
-            aria-label="Previous image"
-          >
-            &#8592;
-          </button>
-          <img
-            src={carouselImages[current].src}
-            className="portfolio-carousel-img"
-            alt={carouselImages[current].alt}
-          />
-          <button onClick={nextImage} style={{ position: "absolute", right: 0, top: "45%", background: "#007BFF", color: "#fff", border: "none", borderRadius: "50%", width: "2.5rem", height: "2.5rem", fontSize: "1.5rem", cursor: "pointer", zIndex: 2 }} aria-label="Next image">&#8594;</button>
+              <button
+                onClick={prevImage}
+                style={{
+                  background: "#007BFF",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: "50%",
+                  width: "2.5rem",
+                  height: "2.5rem",
+                  fontSize: "1.5rem",
+                  cursor: "pointer",
+                  zIndex: 2,
+                  marginRight: "1rem",
+                  alignSelf: "center",
+                }}
+                aria-label="Previous image"
+              >
+                &#8592;
+              </button>
+              <img
+                src={carouselImages[current].src}
+                className={
+                  `portfolio-carousel-img${current === 1 ? ' poc2' : ''}`
+                }
+                alt={carouselImages[current].alt}
+                style={{ cursor: "pointer" }}
+                onClick={openModal}
+              />
+              <button
+                onClick={nextImage}
+                style={{
+                  background: "#007BFF",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: "50%",
+                  width: "2.5rem",
+                  height: "2.5rem",
+                  fontSize: "1.5rem",
+                  cursor: "pointer",
+                  zIndex: 2,
+                  marginLeft: "1rem",
+                  alignSelf: "center",
+                }}
+                aria-label="Next image"
+              >
+                &#8594;
+              </button>
           <button
             onClick={nextImage}
             style={{

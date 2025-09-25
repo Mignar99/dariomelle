@@ -135,3 +135,8 @@ img.socialIcon {
   margin: 0 auto 0 2rem;
   display: block;
 }
+
+/* Fix rotation for poc2.jpg in carousel */
+.portfolio-carousel-img.poc2 {
+  transform: none !important;
+}
