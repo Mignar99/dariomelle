@@ -84,71 +84,10 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-  <div style={{ maxWidth: "40%", alignSelf: "center", position: "relative", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center" }}>
-          <button onClick={prevImage} style={{ position: "absolute", left: 0, top: "45%", background: "#007BFF", color: "#fff", border: "none", borderRadius: "50%", width: "2.5rem", height: "2.5rem", fontSize: "1.5rem", cursor: "pointer", zIndex: 2 }} aria-label="Previous image">&#8592;</button>
+        <div style={{ maxWidth: "40%", alignSelf: "center", position: "relative", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center" }}>
           <button
             onClick={prevImage}
             style={{
-              position: "absolute",
-              left: 0,
-              top: "45%",
-              background: "#007BFF",
-              color: "#fff",
-              border: "none",
-              borderRadius: "50%",
-              <button
-                onClick={prevImage}
-                style={{
-                  background: "#007BFF",
-                  color: "#fff",
-                  border: "none",
-                  borderRadius: "50%",
-                  width: "2.5rem",
-                  height: "2.5rem",
-                  fontSize: "1.5rem",
-                  cursor: "pointer",
-                  zIndex: 2,
-                  marginRight: "1rem",
-                  alignSelf: "center",
-                }}
-                aria-label="Previous image"
-              >
-                &#8592;
-              </button>
-              <img
-                src={carouselImages[current].src}
-                className={
-                  `portfolio-carousel-img${current === 1 ? ' poc2' : ''}`
-                }
-                alt={carouselImages[current].alt}
-                style={{ cursor: "pointer" }}
-                onClick={openModal}
-              />
-              <button
-                onClick={nextImage}
-                style={{
-                  background: "#007BFF",
-                  color: "#fff",
-                  border: "none",
-                  borderRadius: "50%",
-                  width: "2.5rem",
-                  height: "2.5rem",
-                  fontSize: "1.5rem",
-                  cursor: "pointer",
-                  zIndex: 2,
-                  marginLeft: "1rem",
-                  alignSelf: "center",
-                }}
-                aria-label="Next image"
-              >
-                &#8594;
-              </button>
-          <button
-            onClick={nextImage}
-            style={{
-              position: "absolute",
-              right: 0,
-              top: "45%",
               background: "#007BFF",
               color: "#fff",
               border: "none",
@@ -158,6 +97,34 @@ const Portfolio = () => {
               fontSize: "1.5rem",
               cursor: "pointer",
               zIndex: 2,
+              marginRight: "1rem",
+              alignSelf: "center",
+            }}
+            aria-label="Previous image"
+          >
+            &#8592;
+          </button>
+          <img
+            src={carouselImages[current].src}
+            className={`portfolio-carousel-img${current === 1 ? ' poc2' : ''}`}
+            alt={carouselImages[current].alt}
+            style={{ cursor: "pointer" }}
+            onClick={openModal}
+          />
+          <button
+            onClick={nextImage}
+            style={{
+              background: "#007BFF",
+              color: "#fff",
+              border: "none",
+              borderRadius: "50%",
+              width: "2.5rem",
+              height: "2.5rem",
+              fontSize: "1.5rem",
+              cursor: "pointer",
+              zIndex: 2,
+              marginLeft: "1rem",
+              alignSelf: "center",
             }}
             aria-label="Next image"
           >
