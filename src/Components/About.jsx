@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/me.jpg";
+import image from "../images/motion-background.jpg";
 
-const imageAltText = "Photo of Dario Melle";
+const imageAltText = "purple and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -48,49 +48,34 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <div style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        backgroundColor: "white",
-        padding: "4rem",
-        margin: "3rem auto",
-        maxWidth: "1000px",
-        boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-        borderRadius: "1rem"
-      }}>
-        <div style={{ flex: 1, textAlign: "left", paddingRight: "2rem" }}>
-          <h2>About Myself</h2>
-          <p className="large">{description}</p>
-          <hr />
-          <ul
-            style={{
-              textAlign: "left",
-              columns: 2,
-              fontSize: "1.25rem",
-              margin: "2rem 0",
-              gap: "3rem",
-            }}
-          >
-            {skillsList.map((skill) => (
-              <li key={skill}>{skill}</li>
-            ))}
-          </ul>
-          <hr />
-          <p style={{ padding: "1rem 0 0" }}>{detailOrQuote}</p>
-        </div>
-        <div style={{ flex: 1, textAlign: "center" }}>
-          <img
-            src={image}
-            alt={imageAltText}
-            style={{
-              maxWidth: "300px",
-              width: "100%",
-              borderRadius: "1rem",
-              boxShadow: "0 2px 8px rgba(0,0,0,0.12)"
-            }}
-          />
-        </div>
+      <img className="background" src={image} alt={imageAltText} />
+      <div
+        style={{
+          backgroundColor: "white",
+          width: "50%",
+          padding: "4rem",
+          margin: "3rem auto",
+          textAlign: "center",
+        }}
+      >
+        <h2>About Myself</h2>
+        <p className="large">{description}</p>
+        <hr />
+        <ul
+          style={{
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
+          }}
+        >
+          {skillsList.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
+        <hr />
+        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
