@@ -29346,7 +29346,6 @@ const Portfolio = ()=>{
                             flexDirection: "column",
                             alignItems: "center",
                             justifyContent: "center",
-                            background: "#fff",
                             borderRadius: "1rem",
                             boxShadow: "0 2px 16px rgba(0,0,0,0.10)"
                         },
@@ -29385,7 +29384,7 @@ const Portfolio = ()=>{
                                         children: "←"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 112,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29405,7 +29404,7 @@ const Portfolio = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 135,
+                                        lineNumber: 134,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -29430,13 +29429,13 @@ const Portfolio = ()=>{
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 151,
+                                        lineNumber: 150,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 101,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29457,12 +29456,12 @@ const Portfolio = ()=>{
                                         }
                                     }, idx, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 176,
+                                        lineNumber: 175,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 174,
+                                lineNumber: 173,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -29494,13 +29493,13 @@ const Portfolio = ()=>{
                                         children: "PYTHON, HARDWARE"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 203,
+                                        lineNumber: 202,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 201,
+                                lineNumber: 200,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29515,26 +29514,26 @@ const Portfolio = ()=>{
                                         children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 206,
+                                        lineNumber: 205,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 210,
+                                        lineNumber: 209,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 205,
+                                lineNumber: 204,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 192,
+                        lineNumber: 191,
                         columnNumber: 9
                     }, undefined)
                 ]
