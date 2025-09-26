@@ -34,7 +34,7 @@ const Header = () => {
       >
         Dario Melle
       </a>
-      <div style={{ display: "flex", gap: "2rem", marginLeft: "auto" }}>
+      <div style={{ display: "flex", gap: "1.25rem", justifyContent: "flex-end", flex: 1}}>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#industry">Industry</a>
@@ -42,6 +42,8 @@ const Header = () => {
         <a href="#publications">Publications</a>
         <a href="#personal-projects">Personal Projects</a>
         <a href="#footer">Contact</a>
+        <span style={{ visibility: "hidden", marginLeft: "0.75rem" }}>&nbsp;</span>
+        <span style={{ visibility: "hidden", marginLeft: "0.75rem" }}>&nbsp;</span>
       </div>
     </div>
   );
