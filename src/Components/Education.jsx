@@ -7,9 +7,9 @@ const educationData = [
     location: "Lecce, Italy",
     period: "Feb 2023 ‑ Feb 2026 (Ongoing)",
     details: [
-      "11 peer‑reviewed publications in leading journals; full list available on InspireHEP",
-      "Presented research at international conferences: 2 talks and 1 poster.",
-      "Mentored a fellow PhD student, introducing them to the group’s research and methods."
+  "11 peer‑reviewed publications in leading journals; full list available on InspireHEP",
+  "Presented research at international conferences: 2 talks and 1 poster.",
+  "Mentored a fellow PhD student, introducing them to the group’s research and methods."
     ],
   },
   {
@@ -18,8 +18,7 @@ const educationData = [
     location: "Lecce, Italy",
     period: "Jan 2025 ‑ Jan 2026 (Ongoing)",
     details: [
-      "Focused on machine learning, deep learning, data analysis, and big data.",
-      "Final grade: 70/70 with honors."
+  "Focused on machine learning, deep learning, data analysis, and big data."
     ],
   },
   {
@@ -28,7 +27,8 @@ const educationData = [
     location: "Lecce, Italy",
     period: "Oct 2018 ‑ May 2023",
     details: [
-      "Honors program for top students, offering interdisciplinary exams, language training, and a merit‑based scholarship including accommodation."
+    "Final grade: 70/70 with honors.",
+    "Honors program for top students, offering interdisciplinary exams, language training, and a merit‑based scholarship including accommodation."
     ],
   },
   {
@@ -37,8 +37,8 @@ const educationData = [
     location: "Lecce, Italy",
     period: "Apr 2021 ‑ Sep 2022",
     details: [
-      "Final grade: 110/110 with honors.",
-      "Recipient of a competitive merit‑based scholarship covering tuition, accommodation, and a monthly stipend, successfully renewed for the entire M.S. program."
+  "Final grade: 110/110 with honors.",
+  "Recipient of a competitive merit‑based scholarship covering tuition, accommodation, and a monthly stipend, successfully renewed for the entire M.S. program."
     ],
   },
   {
@@ -47,8 +47,8 @@ const educationData = [
     location: "Lecce, Italy",
     period: "Oct 2017 ‑ Feb 2021",
     details: [
-      "Final grade: 110/110 with honors.",
-      "Awarded a merit‑based scholarship (granted to the top 1% of students) providing full tuition coverage, accommodation, and a monthly stipend for the entire B.S. program."
+  "Final grade: 110/110 with honors.",
+  "Awarded a merit‑based scholarship (granted to the top 1% of students) providing full tuition coverage, accommodation, and a monthly stipend for the entire B.S. program."
     ],
   }
 ];

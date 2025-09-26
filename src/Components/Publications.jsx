@@ -87,21 +87,21 @@ const publications = [
 
 const Publications = () => {
   return (
-    <section className="padding" id="publications">
-      <h2>Publications</h2>
-      <p style={{ fontSize: "1.15rem", margin: "1.5rem 3rem 2rem 3rem", color: "#888" }}>
+    <section className="padding" id="publications" style={{ color: "#fff", background: "#222", borderRadius: "1rem" }}>
+      <h2 style={{ color: "#fff" }}>Publications</h2>
+      <p style={{ fontSize: "1.15rem", margin: "1.5rem 3rem 2rem 3rem", color: "#eee" }}>
         My research lies at the intersection of conformal field theory and quantum chromodynamics (QCD), with a particular focus on next-to-leading order (NLO) corrections to the gravitational form factors of hadrons. I am also deeply interested in physics beyond the Standard Model, especially in exploring the phenomenology of the 331 Model.
       </p>
-      <ul style={{ textAlign: "left", fontSize: "1.1rem", margin: "2rem 3rem" }}>
+      <ul style={{ textAlign: "left", fontSize: "1.1rem", margin: "2rem 3rem", color: "#fff" }}>
         {publications.map((pub, idx) => (
-          <li key={idx} style={{ marginBottom: "1.5rem" }}>
-            <strong>{pub.title}</strong><br />
-            <span>{pub.authors}</span><br />
-            <span>
+          <li key={idx} style={{ marginBottom: "1.5rem", color: "#fff" }}>
+            <strong style={{ color: "#fff" }}>{pub.title}</strong><br />
+            <span style={{ color: "#fff" }}>{pub.authors}</span><br />
+            <span style={{ color: "#fff" }}>
               {pub.journal} ({pub.year})
             </span><br />
             {pub.link !== "#" && (
-              <a href={pub.link} target="_blank" rel="noopener noreferrer" className="pub-readmore-btn">
+              <a href={pub.link} target="_blank" rel="noopener noreferrer" className="pub-readmore-btn" style={{ color: "#fff" }}>
                 Read more
               </a>
             )}

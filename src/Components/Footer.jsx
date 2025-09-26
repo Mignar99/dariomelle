@@ -181,7 +181,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+        © 2025 {name}. All rights reserved.
       </p>
     </div>
   );
