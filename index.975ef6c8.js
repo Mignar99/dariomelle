@@ -28874,7 +28874,7 @@ const Home = ({ name , title  })=>{
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
                         lineNumber: 34,
-                        columnNumber: 3
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         style: {
@@ -28885,39 +28885,66 @@ const Home = ({ name , title  })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 35,
-                        columnNumber: 3
+                        lineNumber: 39,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
-                            marginTop: "2rem"
+                            marginTop: "2rem",
+                            display: "flex",
+                            gap: "2rem",
+                            alignItems: "center"
                         },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#about",
-                            style: {
-                                display: "inline-block"
-                            },
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: (0, _downArrowSvgDefault.default),
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#about",
                                 style: {
-                                    height: "3rem",
-                                    width: "3rem",
-                                    filter: "invert(54%) sepia(32%) saturate(1042%) hue-rotate(7deg) brightness(92%) contrast(90%)"
+                                    display: "inline-block"
                                 },
-                                alt: imageAltText
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: (0, _downArrowSvgDefault.default),
+                                    style: {
+                                        height: "3rem",
+                                        width: "3rem",
+                                        filter: "invert(54%) sepia(32%) saturate(1042%) hue-rotate(7deg) brightness(92%) contrast(90%)"
+                                    },
+                                    alt: imageAltText
+                                }, void 0, false, {
+                                    fileName: "src/Components/Home.jsx",
+                                    lineNumber: 46,
+                                    columnNumber: 13
+                                }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Home.jsx",
-                                lineNumber: 38,
-                                columnNumber: 13
+                                lineNumber: 45,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "src/images/Dario%20Melle%20Resume.pdf",
+                                download: true,
+                                style: {
+                                    display: "inline-block",
+                                    padding: "0.75rem 2rem",
+                                    background: "#B58A61",
+                                    color: "#fff",
+                                    fontWeight: 600,
+                                    fontSize: "1.1rem",
+                                    borderRadius: "0.5rem",
+                                    textDecoration: "none",
+                                    fontFamily: "Circular Std, Inter, sans-serif",
+                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                                    transition: "background 0.2s"
+                                },
+                                children: "My Resume"
+                            }, void 0, false, {
+                                fileName: "src/Components/Home.jsx",
+                                lineNumber: 57,
+                                columnNumber: 11
                             }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/Components/Home.jsx",
-                            lineNumber: 37,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 36,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, undefined)
                 ]
