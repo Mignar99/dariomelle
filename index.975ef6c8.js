@@ -28634,6 +28634,36 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Header = ()=>{
+    const links = [
+        [
+            "#home",
+            "Home"
+        ],
+        [
+            "#about",
+            "About"
+        ],
+        [
+            "#industry",
+            "Industry"
+        ],
+        [
+            "#education",
+            "Education"
+        ],
+        [
+            "#publications",
+            "Publications"
+        ],
+        [
+            "#personal-projects",
+            "Personal Projects"
+        ],
+        [
+            "#footer",
+            "Contact"
+        ], 
+    ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
             position: "fixed",
@@ -28657,12 +28687,13 @@ const Header = ()=>{
                     fontWeight: 700,
                     fontSize: "1.25rem",
                     fontFamily: "Circular Std, Inter, sans-serif",
-                    color: "#333"
+                    color: "#333",
+                    textDecoration: "none"
                 },
                 children: "Dario Melle"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 28,
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
@@ -28674,73 +28705,34 @@ const Header = ()=>{
                     whiteSpace: "nowrap",
                     WebkitOverflowScrolling: "touch"
                 },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#home",
-                        children: "Home"
-                    }, void 0, false, {
+                children: links.map(([href, label])=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: href,
+                        style: {
+                            color: "#333",
+                            textDecoration: "none",
+                            fontFamily: "Inter, sans-serif",
+                            fontWeight: 500,
+                            padding: "0.25rem 0.5rem",
+                            borderRadius: "0.5rem",
+                            transition: "background 0.2s"
+                        },
+                        onMouseEnter: (e)=>e.currentTarget.style.background = "rgba(0,0,0,0.05)",
+                        onMouseLeave: (e)=>e.currentTarget.style.background = "transparent",
+                        children: label
+                    }, href, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 48,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#about",
-                        children: "About"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 49,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#industry",
-                        children: "Industry"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 50,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#education",
-                        children: "Education"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 51,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#publications",
-                        children: "Publications"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 52,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#personal-projects",
-                        children: "Personal Projects"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 53,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#footer",
-                        children: "Contact"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 54,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                        lineNumber: 62,
+                        columnNumber: 11
+                    }, undefined))
+            }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 40,
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Header.jsx",
-        lineNumber: 11,
+        lineNumber: 21,
         columnNumber: 5
     }, undefined);
 };
