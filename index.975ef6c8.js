@@ -29512,33 +29512,32 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                         padding: "2rem 1.5rem",
                         background: "#f8f8f8",
                         borderRadius: "1rem",
-                        boxShadow: "0 2px 8px rgba(0,0,0,0)",
                         textAlign: "center",
-                        color: "#555555ff"
+                        color: "#6e6e6eff"
                     },
                     children: [
                         "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 82,
+                            lineNumber: 81,
                             columnNumber: 82
                         }, undefined),
                         "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 84,
+                            lineNumber: 83,
                             columnNumber: 98
                         }, undefined),
                         "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 86,
+                            lineNumber: 85,
                             columnNumber: 47
                         }, undefined),
                         "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 88,
+                            lineNumber: 87,
                             columnNumber: 60
                         }, undefined),
                         "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
@@ -29567,14 +29566,14 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.degree
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 105,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: edu.institution
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, undefined),
                             " — ",
@@ -29585,12 +29584,12 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.location
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 48
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 107,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29601,7 +29600,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.period
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 108,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29617,18 +29616,18 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 111,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 109,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 93,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, undefined))
             ]
