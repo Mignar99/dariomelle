@@ -29337,7 +29337,9 @@ const Publications = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
-                    color: "#fff"
+                    textAlign: "center",
+                    color: "#B58A61",
+                    fontWeight: 700
                 },
                 children: "Publications"
             }, void 0, false, {
