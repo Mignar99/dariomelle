@@ -1,4 +1,57 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
+.spacious-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 0 6rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #f0e6da;
+  border-radius: 1.25rem;
+  margin-bottom: 2.5rem;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 2px 16px #a68a7114;
+}
+
+.rounded-btn {
+  color: var(--text);
+  font-family: var(--body-sans);
+  cursor: pointer;
+  background: none;
+  border: 1px solid #a68a71;
+  border-radius: 2rem;
+  padding: .75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: border .2s, box-shadow .2s;
+  box-shadow: 0 1px 4px #a68a7112;
+}
+
+.rounded-btn:hover {
+  border-color: #7c5a3a;
+  box-shadow: 0 2px 8px #a68a711f;
+}
+
+.card-section {
+  flex-direction: column;
+  gap: 2.5rem;
+  display: flex;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-serif);
+  color: var(--accent);
+  letter-spacing: .5px;
+  font-weight: 400;
+}
+
+p, li, a, span, td, th {
+  font-family: var(--body-sans);
+  color: var(--text);
+  font-size: 1.08rem;
+}
+
 :root {
   --background: #f6f1eb;
   --header-gradient: linear-gradient(90deg, #5c4432 0%, #7c5a3a 100%);
