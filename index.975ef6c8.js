@@ -28884,7 +28884,7 @@ const Home = ({ name , title  })=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "/DarioMelleResume.pdf",
+                                href: "/workspaces/dariomelle/DarioMelleResume.pdf",
                                 download: true,
                                 style: {
                                     display: "inline-block",
