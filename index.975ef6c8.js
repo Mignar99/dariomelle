@@ -28748,17 +28748,6 @@ const Header = ()=>{
                         fileName: "src/Components/Header.jsx",
                         lineNumber: 46,
                         columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        style: {
-                            visibility: "hidden",
-                            marginLeft: "0.75rem"
-                        },
-                        children: "\xa0"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 47,
-                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
@@ -28917,7 +28906,7 @@ const Home = ({ name , title  })=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "./DarioMelleResume.pdf",
+                                href: "/DarioMelleResume.pdf",
                                 download: true,
                                 style: {
                                     display: "inline-block",
