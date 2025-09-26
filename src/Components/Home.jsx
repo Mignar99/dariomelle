@@ -55,7 +55,7 @@ const Home = ({ name, title }) => {
             />
           </a>
           <a
-            href="/src/images/DarioMelleResume.pdf"
+            href="./DarioMelleResume.pdf"
             download
             style={{
               display: "inline-block",

@@ -12,10 +12,10 @@ const Header = () => {
       style={{
         position: "fixed",
         display: "flex",
-        justifyContent: "center",
-        gap: "2rem",
+        justifyContent: "space-between",
+        alignItems: "center",
         background: "rgba(255,255,255,0.75)",
-        padding: "1rem",
+        padding: "1rem 2vw",
         top: 0,
         width: "100%",
         zIndex: 10,
@@ -23,13 +23,26 @@ const Header = () => {
         WebkitBackdropFilter: "blur(16px)",
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#industry">Industry</a>
-      <a href="#education">Education</a>
-      <a href="#publications">Publications</a>
-  <a href="#personal-projects">Personal Projects</a>
-      <a href="#footer">Contact</a>
+      <a
+        href="#home"
+        style={{
+          fontWeight: 700,
+          fontSize: "1.25rem",
+          fontFamily: "Circular Std, Inter, sans-serif",
+          color: "#333",
+        }}
+      >
+        Dario Melle
+      </a>
+      <div style={{ display: "flex", gap: "2rem", marginLeft: "auto" }}>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#industry">Industry</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#personal-projects">Personal Projects</a>
+        <a href="#footer">Contact</a>
+      </div>
     </div>
   );
 };
