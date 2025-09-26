@@ -27261,27 +27261,36 @@ const About = ()=>{
                     width: "50%",
                     padding: "4rem",
                     margin: "3rem auto",
-                    textAlign: "center"
+                    textAlign: "center",
+                    borderRadius: "1.25rem",
+                    boxShadow: "0 2px 16px rgba(51,51,51,0.08)"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        style: {
+                            color: "#333",
+                            fontWeight: 700
+                        },
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 61,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "large",
+                        style: {
+                            color: "#333"
+                        },
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 62,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27290,33 +27299,35 @@ const About = ()=>{
                             columns: 2,
                             fontSize: "1.25rem",
                             margin: "2rem 3rem",
-                            gap: "3rem"
+                            gap: "3rem",
+                            color: "#333"
                         },
                         children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 74,
+                                lineNumber: 77,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 77,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
-                            padding: "1rem 3rem 0"
+                            padding: "1rem 3rem 0",
+                            color: "#333"
                         },
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 78,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28738,6 +28749,10 @@ const Home = ({ name , title  })=>{
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        style: {
+                            color: "#333",
+                            fontWeight: 700
+                        },
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
@@ -28745,6 +28760,10 @@ const Home = ({ name , title  })=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        style: {
+                            color: "#333",
+                            fontWeight: 400
+                        },
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
@@ -28897,13 +28916,15 @@ const Portfolio = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
-                    textAlign: "center"
+                    textAlign: "center",
+                    color: "#333",
+                    fontWeight: 700
                 },
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
                 lineNumber: 85,
-                columnNumber: 7
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
@@ -28937,7 +28958,7 @@ const Portfolio = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                         onClick: prevImage,
                                         style: {
-                                            background: "#007BFF",
+                                            background: "#B58A61",
                                             color: "#fff",
                                             border: "none",
                                             borderRadius: "50%",
@@ -28983,7 +29004,7 @@ const Portfolio = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                         onClick: nextImage,
                                         style: {
-                                            background: "#007BFF",
+                                            background: "#B58A61",
                                             color: "#fff",
                                             border: "none",
                                             borderRadius: "50%",
@@ -29022,9 +29043,9 @@ const Portfolio = ()=>{
                                             width: "16px",
                                             height: "16px",
                                             borderRadius: "50%",
-                                            background: idx === current ? "#007BFF" : "#E9ECEF",
+                                            background: idx === current ? "#B58A61" : "#E9ECEF",
                                             margin: "0 8px",
-                                            border: idx === current ? "2px solid #007BFF" : "2px solid #E9ECEF",
+                                            border: idx === current ? "2px solid #B58A61" : "2px solid #E9ECEF",
                                             transition: "background 0.2s, border 0.2s"
                                         }
                                     }, idx, false, {
@@ -29413,6 +29434,10 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "education",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                style: {
+                    color: "#333",
+                    fontWeight: 700
+                },
                 children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
@@ -29430,35 +29455,36 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                             marginBottom: "2.5rem",
                             padding: "2rem 1.5rem",
                             background: "#fffbe8",
-                            borderRadius: "1rem",
-                            boxShadow: "0 2px 8px rgba(0,0,0,0.04)",
+                            borderRadius: "1.25rem",
+                            boxShadow: "0 2px 8px rgba(51,51,51,0.08)",
                             textAlign: "left",
-                            fontSize: "1.1rem"
+                            fontSize: "1.1rem",
+                            color: "#333"
                         },
                         children: [
                             "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 72,
-                                columnNumber: 76
+                                lineNumber: 73,
+                                columnNumber: 82
                             }, undefined),
                             "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 74,
-                                columnNumber: 92
+                                lineNumber: 75,
+                                columnNumber: 98
                             }, undefined),
                             "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 76,
-                                columnNumber: 41
+                                lineNumber: 77,
+                                columnNumber: 47
                             }, undefined),
                             "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 78,
-                                columnNumber: 54
+                                lineNumber: 79,
+                                columnNumber: 60
                             }, undefined),
                             "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
                         ]
@@ -29473,24 +29499,26 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 padding: "1.5rem",
                                 background: "#f8f8f8",
                                 borderRadius: "1rem",
-                                boxShadow: "0 2px 8px rgba(0,0,0,0.06)"
+                                boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                                color: "#333"
                             },
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                     style: {
-                                        marginBottom: "0.5rem"
+                                        marginBottom: "0.5rem",
+                                        color: "#333"
                                     },
                                     children: edu.degree
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 93,
+                                    lineNumber: 95,
                                     columnNumber: 11
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                     children: edu.institution
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 94,
+                                    lineNumber: 96,
                                     columnNumber: 11
                                 }, undefined),
                                 " — ",
@@ -29498,12 +29526,12 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                     children: edu.location
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 94,
+                                    lineNumber: 96,
                                     columnNumber: 48
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 95,
+                                    lineNumber: 97,
                                     columnNumber: 11
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29514,7 +29542,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                     children: edu.period
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 96,
+                                    lineNumber: 98,
                                     columnNumber: 11
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29526,18 +29554,18 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                             children: detail
                                         }, i, false, {
                                             fileName: "src/Components/Education.jsx",
-                                            lineNumber: 99,
+                                            lineNumber: 101,
                                             columnNumber: 15
                                         }, undefined))
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 97,
+                                    lineNumber: 99,
                                     columnNumber: 11
                                 }, undefined)
                             ]
                         }, idx, true, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 83,
+                            lineNumber: 84,
                             columnNumber: 9
                         }, undefined))
                 ]
@@ -29609,10 +29637,14 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                 margin: "3rem auto",
                 textAlign: "center",
                 boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                borderRadius: "1rem"
+                borderRadius: "1.25rem"
             },
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    style: {
+                        color: "#333",
+                        fontWeight: 700
+                    },
                     children: "Industry Experience"
                 }, void 0, false, {
                     fileName: "src/Components/Industry.jsx",
@@ -29626,12 +29658,14 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                             background: "#f8f8f8",
                             borderRadius: "1rem",
                             boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-                            textAlign: "left"
+                            textAlign: "left",
+                            color: "#333"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                 style: {
-                                    marginBottom: "0.5rem"
+                                    marginBottom: "0.5rem",
+                                    color: "#333"
                                 },
                                 children: [
                                     exp.role,
@@ -29640,19 +29674,19 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: exp.location
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 57,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 58,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29663,7 +29697,7 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: exp.period
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 59,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29679,12 +29713,12 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Industry.jsx",
-                                        lineNumber: 62,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 60,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, undefined)
                         ]
