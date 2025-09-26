@@ -29574,8 +29574,8 @@ const educationData = [
         location: "Lecce, Italy",
         period: "Oct 2018 ‑ May 2023",
         details: [
-            "Honors program for top students, offering interdisciplinary exams, language training, and a merit‑based scholarship including accommodation.",
-            "Final grade: 70/70 with honors.", 
+            "Final grade: 70/70 with honors.",
+            "Honors program for top students, offering interdisciplinary exams, language training, and a merit‑based scholarship including accommodation.", 
         ]
     },
     {
@@ -29606,7 +29606,6 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
             style: {
                 backgroundColor: "white",
                 width: "60%",
-                padding: "4rem",
                 margin: "3rem auto",
                 textAlign: "justify",
                 boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
@@ -29622,7 +29621,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     children: "Education"
                 }, void 0, false, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 67,
+                    lineNumber: 66,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29638,32 +29637,32 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                         "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 79,
+                            lineNumber: 78,
                             columnNumber: 82
                         }, undefined),
                         "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 81,
+                            lineNumber: 80,
                             columnNumber: 98
                         }, undefined),
                         "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 83,
+                            lineNumber: 82,
                             columnNumber: 49
                         }, undefined),
                         "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 85,
+                            lineNumber: 84,
                             columnNumber: 54
                         }, undefined),
                         "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 68,
+                    lineNumber: 67,
                     columnNumber: 7
                 }, undefined),
                 educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29685,14 +29684,14 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.degree
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 102,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: edu.institution
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 103,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, undefined),
                             " — ",
@@ -29703,12 +29702,12 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.location
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 103,
+                                lineNumber: 102,
                                 columnNumber: 48
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 104,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29719,7 +29718,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.period
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 105,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29735,18 +29734,18 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 108,
+                                        lineNumber: 107,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 90,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, undefined))
             ]
