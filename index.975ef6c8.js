@@ -29448,150 +29448,155 @@ const educationData = [
 const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "education",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                style: {
-                    color: "#333",
-                    fontWeight: 700
-                },
-                children: "Education"
-            }, void 0, false, {
-                fileName: "src/Components/Education.jsx",
-                lineNumber: 58,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    margin: "2rem auto",
-                    maxWidth: "900px"
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            style: {
+                backgroundColor: "white",
+                width: "60%",
+                padding: "4rem",
+                margin: "3rem auto",
+                textAlign: "center",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                borderRadius: "1.25rem"
+            },
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    style: {
+                        color: "#333",
+                        fontWeight: 700,
+                        marginBottom: "2rem"
+                    },
+                    children: "Education"
+                }, void 0, false, {
+                    fileName: "src/Components/Education.jsx",
+                    lineNumber: 69,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    style: {
+                        marginBottom: "2.5rem",
+                        padding: "2rem 1.5rem",
+                        background: "#f8f8f8",
+                        borderRadius: "1rem",
+                        boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                        textAlign: "left",
+                        color: "#333"
+                    },
+                    children: [
+                        "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 82,
+                            columnNumber: 82
+                        }, undefined),
+                        "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 84,
+                            columnNumber: 98
+                        }, undefined),
+                        "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 86,
+                            columnNumber: 47
+                        }, undefined),
+                        "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 88,
+                            columnNumber: 60
+                        }, undefined),
+                        "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Education.jsx",
+                    lineNumber: 70,
+                    columnNumber: 7
+                }, undefined),
+                educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             marginBottom: "2.5rem",
                             padding: "2rem 1.5rem",
-                            background: "#fffbe8",
-                            borderRadius: "1.25rem",
-                            boxShadow: "0 2px 8px rgba(51,51,51,0.08)",
+                            background: "#f8f8f8",
+                            borderRadius: "1rem",
+                            boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
                             textAlign: "left",
-                            fontSize: "1.1rem",
                             color: "#333"
                         },
                         children: [
-                            "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                style: {
+                                    marginBottom: "0.5rem",
+                                    color: "#333"
+                                },
+                                children: edu.degree
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 105,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: edu.institution
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 106,
+                                columnNumber: 11
+                            }, undefined),
+                            " — ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                children: edu.location
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 106,
+                                columnNumber: 48
+                            }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 73,
-                                columnNumber: 82
+                                lineNumber: 107,
+                                columnNumber: 11
                             }, undefined),
-                            "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    fontStyle: "italic",
+                                    color: "#555"
+                                },
+                                children: edu.period
+                            }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 75,
-                                columnNumber: 98
+                                lineNumber: 108,
+                                columnNumber: 11
                             }, undefined),
-                            "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                style: {
+                                    marginTop: "1rem",
+                                    marginBottom: 0,
+                                    paddingLeft: "1.5rem"
+                                },
+                                children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: detail
+                                    }, i, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 111,
+                                        columnNumber: 15
+                                    }, undefined))
+                            }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 77,
-                                columnNumber: 47
-                            }, undefined),
-                            "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 79,
-                                columnNumber: 60
-                            }, undefined),
-                            "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
+                                lineNumber: 109,
+                                columnNumber: 11
+                            }, undefined)
                         ]
-                    }, void 0, true, {
+                    }, idx, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 60,
-                        columnNumber: 7
-                    }, undefined),
-                    educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            style: {
-                                marginBottom: "2.5rem",
-                                padding: "1.5rem",
-                                background: "#f8f8f8",
-                                borderRadius: "1rem",
-                                boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-                                color: "#333"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    style: {
-                                        marginBottom: "0.5rem",
-                                        color: "#333"
-                                    },
-                                    children: edu.degree
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 95,
-                                    columnNumber: 11
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                    children: edu.institution
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 96,
-                                    columnNumber: 11
-                                }, undefined),
-                                " — ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    children: edu.location
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 96,
-                                    columnNumber: 48
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 97,
-                                    columnNumber: 11
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    style: {
-                                        fontStyle: "italic",
-                                        color: "#555"
-                                    },
-                                    children: edu.period
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 98,
-                                    columnNumber: 11
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                    style: {
-                                        marginTop: "1rem",
-                                        marginBottom: 0
-                                    },
-                                    children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: detail
-                                        }, i, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 101,
-                                            columnNumber: 15
-                                        }, undefined))
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 99,
-                                    columnNumber: 11
-                                }, undefined)
-                            ]
-                        }, idx, true, {
-                            fileName: "src/Components/Education.jsx",
-                            lineNumber: 84,
-                            columnNumber: 9
-                        }, undefined))
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Education.jsx",
-                lineNumber: 59,
-                columnNumber: 5
-            }, undefined)
-        ]
-    }, void 0, true, {
+                        lineNumber: 93,
+                        columnNumber: 9
+                    }, undefined))
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Education.jsx",
+            lineNumber: 58,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/Components/Education.jsx",
         lineNumber: 57,
         columnNumber: 3
