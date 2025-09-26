@@ -82,7 +82,7 @@ const Portfolio = () => {
 
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+  <h2 style={{ textAlign: "center", color: "#333", fontWeight: 700 }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div
           style={{
@@ -109,7 +109,7 @@ const Portfolio = () => {
             <button
               onClick={prevImage}
               style={{
-                background: "#007BFF",
+                background: "#B58A61",
                 color: "#fff",
                 border: "none",
                 borderRadius: "50%",
@@ -148,7 +148,7 @@ const Portfolio = () => {
             <button
               onClick={nextImage}
               style={{
-                background: "#007BFF",
+                background: "#B58A61",
                 color: "#fff",
                 border: "none",
                 borderRadius: "50%",
@@ -177,9 +177,9 @@ const Portfolio = () => {
                   width: "16px",
                   height: "16px",
                   borderRadius: "50%",
-                  background: idx === current ? "#007BFF" : "#E9ECEF",
+                  background: idx === current ? "#B58A61" : "#E9ECEF",
                   margin: "0 8px",
-                  border: idx === current ? "2px solid #007BFF" : "2px solid #E9ECEF",
+                  border: idx === current ? "2px solid #B58A61" : "2px solid #E9ECEF",
                   transition: "background 0.2s, border 0.2s",
                 }}
               ></span>
@@ -195,7 +195,7 @@ const Portfolio = () => {
             justifyContent: "center",
           }}
         >
-          <h3 style={{ color: "#333", marginBottom: "1rem" , paddingRight: "4rem" }}>
+          <h3 style={{ color: "#333", marginBottom: "1rem", paddingRight: "4rem" }}>
             {"H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project"}
           </h3>
           <ul style={{ fontSize: "1.1rem", color: "#333", lineHeight: 1.7, paddingLeft: "1.5rem", paddingRight: "4rem" }}>

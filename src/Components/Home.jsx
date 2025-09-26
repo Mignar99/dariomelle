@@ -27,15 +27,17 @@ const imageAltText = "Photo of Dario Melle";
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height" style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "80vh", background: "#f5f5f5" }}>
-      <div style={{ flex: 1, textAlign: "left", padding: "3rem 2rem" }}>
-        <h1>{name}</h1>
-        <h2>{title}</h2>
-        <div style={{ marginTop: "2rem" }}>
-          <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
-        </div>
-      </div>
       <div style={{ flex: 1, textAlign: "center", padding: "3rem 2rem" }}>
         <img src={image} alt={imageAltText} style={{ maxWidth: "350px", width: "100%", borderRadius: "1rem", boxShadow: "0 2px 8px rgba(0,0,0,0.12)" }} />
+      </div>
+      <div style={{ flex: 1, textAlign: "left", padding: "3rem 2rem" }}>
+  <h1 style={{ color: "#333", fontWeight: 700, fontFamily: 'Circular Std, Inter, sans-serif' }}>{name}</h1>
+  <h2 style={{ color: "#333", fontWeight: 400, fontFamily: 'Circular Std, Inter, sans-serif' }}>{title}</h2>
+        <div style={{ marginTop: "2rem" }}>
+          <a href="#about" style={{ display: "inline-block" }}>
+            <img src={arrowSvg} style={{ height: "3rem", width: "3rem", filter: "invert(54%) sepia(32%) saturate(1042%) hue-rotate(7deg) brightness(92%) contrast(90%)" }} alt={imageAltText} />
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -56,10 +56,12 @@ const About = () => {
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          borderRadius: "1.25rem",
+          boxShadow: "0 2px 16px rgba(51,51,51,0.08)",
         }}
       >
-        <h2>About Myself</h2>
-        <p className="large">{description}</p>
+        <h2 style={{ color: "#333", fontWeight: 700 }}>About Myself</h2>
+        <p className="large" style={{ color: "#333" }}>{description}</p>
         <hr />
         <ul
           style={{
@@ -71,11 +73,11 @@ const About = () => {
           }}
         >
           {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
+            <li key={skill} style={{ color: "#222" }}>{skill}</li>
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0", color: "#333" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

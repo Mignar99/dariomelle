@@ -55,29 +55,30 @@ const educationData = [
 
 const Education = () => (
   <section className="padding" id="education">
-    <h2>Education</h2>
+    <h2 style={{ color: "#333", fontWeight: 700 }}>Education</h2>
     <div style={{ margin: "2rem auto", maxWidth: "900px" }}>
       <div
         style={{
           marginBottom: "2.5rem",
           padding: "2rem 1.5rem",
           background: "#fffbe8",
-          borderRadius: "1rem",
-          boxShadow: "0 2px 8px rgba(0,0,0,0.04)",
+          borderRadius: "1.25rem",
+          boxShadow: "0 2px 8px rgba(51,51,51,0.08)",
           textAlign: "left",
           fontSize: "1.1rem",
+          color: "#333",
         }}
       >
-  My academic journey began with a strong foundation in physics, where I learned to break down
-  complex problems into manageable pieces and build solutions step by step.<br />
-  I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that
-  also gave me the opportunity to pursue additional interdisciplinary and language courses.<br />
-  I went on to complete a second-level master’s degree at ISUFI, also with honors, before
-  pursuing a PhD in Theoretical Physics.<br />
-  During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences,
-  and collaborated with leading experts in the field.<br />
-  Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which
-  I am now finalizing with an internship at GraphAware.
+        My academic journey began with a strong foundation in physics, where I learned to break down
+        complex problems into manageable pieces and build solutions step by step.<br />
+        I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that
+        also gave me the opportunity to pursue additional interdisciplinary and language courses.<br />
+        I went on to complete a second-level master’s degree at ISUFI, also with honors, before
+        pursuing a PhD in Theoretical Physics.<br />
+        During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences,
+        and collaborated with leading experts in the field.<br />
+        Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which
+        I am now finalizing with an internship at GraphAware.
       </div>
       {educationData.map((edu, idx) => (
         <div
@@ -88,9 +89,10 @@ const Education = () => (
             background: "#f8f8f8",
             borderRadius: "1rem",
             boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+            color: "#333",
           }}
         >
-          <h3 style={{ marginBottom: "0.5rem" }}>{edu.degree}</h3>
+          <h3 style={{ marginBottom: "0.5rem", color: "#333" }}>{edu.degree}</h3>
           <strong>{edu.institution}</strong> — <span>{edu.location}</span>
           <br />
           <span style={{ fontStyle: "italic", color: "#555" }}>{edu.period}</span>

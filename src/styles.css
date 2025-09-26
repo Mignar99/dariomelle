@@ -1,18 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+/* Publications 'Read more' button styles */
+.pub-readmore-btn {
+  display: inline-block;
+  background: #fff;
+  color: #222;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-family: var(--body-sans);
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(51,51,51,0.07);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 0.5rem;
+}
+.pub-readmore-btn:hover, .pub-readmore-btn:focus {
+  background: #B58A61;
+  color: #fff;
+}
+
+/* Minimalist, spacious layout */
+.spacious-section {
+  padding: 5rem 0 6rem 0;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.card {
+  background: var(--section-bg);
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 16px rgba(51,51,51,0.08);
+  padding: 2.5rem 2rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.rounded-btn {
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+  background: var(--section-bg);
+  color: var(--text);
+  padding: 0.75rem 2rem;
+  font-family: var(--body-sans);
+  font-size: 1.1rem;
+  font-weight: 400;
+  box-shadow: 0 1px 4px rgba(51,51,51,0.07);
+  transition: border 0.2s, box-shadow 0.2s, background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+.rounded-btn:hover, .rounded-btn:focus {
+  border-color: var(--accent);
+  background: var(--secondary);
+  color: var(--accent);
+}
+.rounded-btn:hover {
+  border-color: #7c5a3a;
+  box-shadow: 0 2px 8px rgba(166,138,113,0.12);
+}
+
+/* Card content blocks for sections */
+.card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* Professional, approachable typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-serif);
+  color: var(--accent);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+p, li, a, span, td, th {
+  font-family: var(--body-sans);
+  color: var(--text);
+  font-size: 1.08rem;
+}
+
+/* Add extra white space between major sections */
+
+
+/* Academic site color palette and font pairing */
+:root {
+  --background: #0A0A0A;
+  --section-bg: #1C1C1C;
+  --text: #E0E0E0;
+  --heading: #E0E0E0;
+  --heading-accent: #B58A61;
+  --border: #333333;
+  --accent: #B58A61;
+  --muted: #F5F2ED;
+  --secondary: #333333;
+  --header-gradient: linear-gradient(90deg, #1C1C1C 0%, #0A0A0A 100%);
+  --heading-sans: 'Circular Std', 'Inter', sans-serif;
+  --body-sans: 'Circular Std', 'Inter', sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--body-sans);
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-sans);
+  color: var(--heading);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+p, li, a, span, td, th {
+  font-family: var(--body-sans);
+  color: var(--text);
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+a {
+  font-family: var(--body-sans);
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+header, nav {
+  background: var(--header-gradient);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(34,34,34,0.08);
+}
+
+/* Accent for headings */
+h2, h3 {
+  color: var(--heading-accent);
+}
+
+/* Section backgrounds */
+section {
+  background: var(--background);
+}
+
+.contrast-zone {
+  background: var(--muted);
+  color: var(--section-bg);
+  border-radius: 1.25rem;
+  padding: 2.5rem 2rem;
+  margin-bottom: 2.5rem;
+}
 /**
 * CSS file to hold styles that apply across the application
 */
-
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
-
-html,
-body {
-  font-family: "Montserrat", sans-serif;
-  height: 100%;
-  margin: 0;
-  overflow-x: hidden;
-  padding: 0;
-  width: 100%;
-}
 
 div#main {
   display: flex;
@@ -90,7 +239,7 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: #B58A61;
 }
 
 a {

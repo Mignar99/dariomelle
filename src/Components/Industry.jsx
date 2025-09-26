@@ -35,10 +35,10 @@ const Industry = () => (
         margin: "3rem auto",
         textAlign: "center",
         boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-    borderRadius: "1rem",
+        borderRadius: "1.25rem",
       }}
     >
-      <h2>Industry Experience</h2>
+  <h2 style={{ color: "#333", fontWeight: 700, marginBottom: "2rem" }}>Industry Experience</h2>
       {industryExperience.map((exp, idx) => (
         <div
           key={idx}
@@ -49,9 +49,10 @@ const Industry = () => (
             borderRadius: "1rem",
             boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
             textAlign: "left",
+            color: "#333",
           }}
         >
-          <h3 style={{ marginBottom: "0.5rem" }}>
+          <h3 style={{ marginBottom: "0.5rem", color: "#333" }}>
             {exp.role} @ {exp.company}
           </h3>
           <strong>{exp.location}</strong>
@@ -59,7 +60,7 @@ const Industry = () => (
           <span style={{ fontStyle: "italic", color: "#555" }}>{exp.period}</span>
           <ul style={{ marginTop: "1rem", marginBottom: 0, paddingLeft: "1.5rem" }}>
             {exp.details.map((detail, i) => (
-              <li key={i} style={{ marginBottom: "0.5rem" }}>
+              <li key={i} style={{ marginBottom: "0.5rem", color: "#222" }}>
                 {detail}
               </li>
             ))}

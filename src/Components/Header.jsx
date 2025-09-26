@@ -19,6 +19,8 @@ const Header = () => {
         top: 0,
         width: "100%",
         zIndex: 10,
+        backdropFilter: "blur(16px)",
+        WebkitBackdropFilter: "blur(16px)",
       }}
     >
       <a href="#home">Home</a>
