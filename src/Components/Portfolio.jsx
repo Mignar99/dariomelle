@@ -1,10 +1,10 @@
 /**
- * Portfolio component
+ * Personal Projects component
  *
- * Highlights some of  your creations. These can be designs, websites,
+ * Highlights some of your personal projects. These can be designs, websites,
  * open source contributions, articles you've written and more.
  *
- * This is a great area for you to to continually add to and refine
+ * This is a great area for you to continually add to and refine
  * as you continue to learn and create.
  */
 
@@ -23,19 +23,19 @@ import React from "react";
 const carouselImages = [
   {
     src: require("../images/poc1.png"),
-    alt: "Portfolio image 1",
+    alt: "Personal Project image 1",
   },
   {
     src: require("../images/poc2.jpg"),
-    alt: "Portfolio image 2",
+    alt: "Personal Project image 2",
   },
   {
     src: require("../images/poc3.jpg"),
-    alt: "Portfolio image 3",
+    alt: "Personal Project image 3",
   },
   {
     src: require("../images/poc4.jpg"),
-    alt: "Portfolio image 4",
+    alt: "Personal Project image 4",
   }
 ];
 
@@ -72,7 +72,7 @@ const projectList = [
   },
 ];
 
-const Portfolio = () => {
+const PersonalProjects = () => {
   const [current, setCurrent] = React.useState(0);
   const [modalOpen, setModalOpen] = React.useState(false);
   const nextImage = () => setCurrent((current + 1) % carouselImages.length);
@@ -81,8 +81,8 @@ const Portfolio = () => {
   const closeModal = () => setModalOpen(false);
 
   return (
-    <section className="padding" id="portfolio">
-  <h2 style={{ textAlign: "center", color: "#B58A61", fontWeight: 700 }}>Portfolio</h2>
+    <section className="padding" id="personal-projects">
+  <h2 style={{ textAlign: "center", color: "#B58A61", fontWeight: 700 }}>Personal Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div
           style={{
@@ -131,7 +131,7 @@ const Portfolio = () => {
             </button>
             <img
               src={carouselImages[current].src}
-              className={`portfolio-carousel-img${current === 1 ? " poc2" : ""}`}
+              className={`personal-projects-carousel-img${current === 1 ? " poc2" : ""}`}
               alt={carouselImages[current].alt}
               style={{
                 maxWidth: "100%",
@@ -195,10 +195,10 @@ const Portfolio = () => {
             justifyContent: "center",
           }}
         >
-          <h3 style={{ color: "#c4c4c49f", marginBottom: "1rem", paddingRight: "4rem" }}>
+          <h3 style={{ color: "#c4c4c49f", marginBottom: "1rem", paddingRight: "4rem"}}>
             {"H2Algae – Monitoring System for Hydrogen Production from Microalgae"}<br />{"Team Project"}
           </h3>
-          <ul style={{ fontSize: "1.1rem", color: "#B58A61", lineHeight: 1.7, paddingLeft: "1.5rem", paddingRight: "4rem" }}>
+          <ul style={{ fontSize: "1.1rem", color: "#B58A61", lineHeight: 1.7, paddingLeft: "1.5rem", paddingRight: "4rem", textAlign: "left"}}>
             <li>
               Designed and optimized grow and sensor chambers, integrating hardware with
               Python‑based data acquisition.
@@ -214,4 +214,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PersonalProjects;

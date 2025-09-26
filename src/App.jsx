@@ -10,7 +10,7 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
+import PersonalProjects from "./Components/Portfolio";
 import Publications from "./Components/Publications";
 import Education from "./Components/Education";
 import Industry from "./Components/Industry";
@@ -31,7 +31,7 @@ const siteProps = {
   title: "PH.D Candidate in Theoretical Physics & Machine Learning and AI Specialist",
   email: "dariomelle18@gmail.com",
   gitHub: "Mignar99",
-  instagram: "dario.melle",
+  instagram: "",
   linkedIn: "dario-melle",
   medium: "",
   twitter: "",
@@ -50,7 +50,7 @@ const App = () => {
       <Industry />
       <Education />
       <Publications />
-      <Portfolio />
+  <PersonalProjects />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );

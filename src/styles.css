@@ -273,8 +273,8 @@ img.socialIcon {
   width: 30px;
 }
 
-/* Portfolio carousel image styles for uniform size and left margin */
-.portfolio-carousel-img {
+/* Personal Projects carousel image styles for uniform size and left margin */
+.personal-projects-carousel-img {
   width: 100%;
   max-width: 400px;
   height: 300px;
@@ -286,7 +286,7 @@ img.socialIcon {
 }
 
 /* Fix rotation for poc2.jpg in carousel */
-.portfolio-carousel-img.poc2 {
+.personal-projects-carousel-img.poc2 {
   transform: none !important;
   rotate: none !important;
 }

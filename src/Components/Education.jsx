@@ -61,7 +61,7 @@ const Education = () => (
         width: "60%",
         padding: "4rem",
         margin: "3rem auto",
-        textAlign: "center",
+        textAlign: "justify",
         boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
         borderRadius: "1.25rem",
       }}
@@ -73,9 +73,8 @@ const Education = () => (
           padding: "2rem 1.5rem",
           background: "#f8f8f8",
           borderRadius: "1rem",
-          boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-          textAlign: "left",
-          color: "#333",
+          textAlign: "center",
+          color: "#2e2e2eff",
         }}
       >
         My academic journey began with a strong foundation in physics, where I learned to break down
