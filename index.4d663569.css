@@ -277,4 +277,9 @@ img.socialIcon {
   transform: rotate3d(0, 0, 1, 0deg) !important;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
