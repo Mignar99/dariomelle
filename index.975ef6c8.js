@@ -27819,21 +27819,6 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                 lineNumber: 81,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "small",
-                style: {
-                    marginTop: 0,
-                    color: "white"
-                },
-                children: [
-                    "Created by ",
-                    name
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Footer.jsx",
-                lineNumber: 181,
-                columnNumber: 7
-            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     textAlign: "center",
@@ -27850,12 +27835,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: "\xa9 2025 Dario Melle. All rights reserved."
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 185,
+                        lineNumber: 183,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
-                            color: "#fff",
+                            color: "#ffffffa2",
                             fontSize: "1rem",
                             fontFamily: "Circular Std, Inter, sans-serif",
                             margin: 0
@@ -27863,13 +27848,13 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: "PH.D Candidate in Theoretical Physics & Machine Learning and AI Specialist"
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 195,
+                        lineNumber: 193,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 184,
+                lineNumber: 182,
                 columnNumber: 7
             }, undefined)
         ]
