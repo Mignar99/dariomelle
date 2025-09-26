@@ -29000,7 +29000,7 @@ const PersonalProjects = ()=>{
                                         onClick: prevImage,
                                         style: {
                                             background: "#B58A61",
-                                            color: "#fff",
+                                            color: "#111",
                                             border: "none",
                                             borderRadius: "50%",
                                             width: "3.5rem",
@@ -29046,7 +29046,7 @@ const PersonalProjects = ()=>{
                                         onClick: nextImage,
                                         style: {
                                             background: "#B58A61",
-                                            color: "#fff",
+                                            color: "#111",
                                             border: "none",
                                             borderRadius: "50%",
                                             width: "3.5rem",
@@ -29333,10 +29333,14 @@ const Publications = ()=>{
                 },
                 children: publications.map((pub, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         style: {
-                            marginBottom: "1.5rem"
+                            marginBottom: "1.5rem",
+                            color: "#111"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                style: {
+                                    color: "#111"
+                                },
                                 children: pub.title
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
@@ -29346,9 +29350,12 @@ const Publications = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
                                 lineNumber: 98,
-                                columnNumber: 41
+                                columnNumber: 67
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    color: "#111"
+                                },
                                 children: pub.authors
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
@@ -29358,9 +29365,12 @@ const Publications = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
                                 lineNumber: 99,
-                                columnNumber: 39
+                                columnNumber: 65
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    color: "#111"
+                                },
                                 children: [
                                     pub.journal,
                                     " (",
@@ -29382,6 +29392,9 @@ const Publications = ()=>{
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "pub-readmore-btn",
+                                style: {
+                                    color: "#111"
+                                },
                                 children: "Read more"
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
