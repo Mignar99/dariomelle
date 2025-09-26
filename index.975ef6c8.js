@@ -29333,12 +29333,10 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 ];
 const Publications = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding",
         id: "publications",
         style: {
             color: "#fff",
-            background: "#222",
-            borderRadius: "1rem"
+            background: "#222"
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -29457,7 +29455,7 @@ const Publications = ()=>{
     }, void 0, true, {
         fileName: "src/Components/Publications.jsx",
         lineNumber: 90,
-        columnNumber: 5
+        columnNumber: 3
     }, undefined);
 };
 _c = Publications;
