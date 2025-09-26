@@ -28739,7 +28739,7 @@ const Home = ({ name , title  })=>{
         style: {
             display: "flex",
             alignItems: "center",
-            justifyContent: "center",
+            justifyContent: "right",
             minHeight: "80vh",
             background: "#f5f5f5"
         },
@@ -28772,7 +28772,7 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     flex: 1,
-                    textAlign: "right",
+                    textAlign: "left",
                     padding: "3rem 2rem"
                 },
                 children: [
