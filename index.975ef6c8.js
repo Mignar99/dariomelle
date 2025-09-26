@@ -28729,12 +28729,35 @@ const Header = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         style: {
-                            visibility: "hidden"
+                            visibility: "hidden",
+                            marginLeft: "0.75rem"
                         },
                         children: "\xa0"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
                         lineNumber: 45,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        style: {
+                            visibility: "hidden",
+                            marginLeft: "0.75rem"
+                        },
+                        children: "\xa0"
+                    }, void 0, false, {
+                        fileName: "src/Components/Header.jsx",
+                        lineNumber: 46,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        style: {
+                            visibility: "hidden",
+                            marginLeft: "0.75rem"
+                        },
+                        children: "\xa0"
+                    }, void 0, false, {
+                        fileName: "src/Components/Header.jsx",
+                        lineNumber: 47,
                         columnNumber: 9
                     }, undefined)
                 ]
