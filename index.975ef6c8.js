@@ -28682,12 +28682,14 @@ const Header = ()=>{
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            background: "rgba(255,255,255,0.75)",
-            padding: "1rem 0",
+            background: "linear-gradient(90deg, #f8fafc 0%, #e0e7ef 100%)",
+            boxShadow: "0 2px 12px rgba(0,0,0,0.07)",
+            padding: "1rem 0.5vw",
             zIndex: 10,
             backdropFilter: "blur(16px)",
             WebkitBackdropFilter: "blur(16px)",
-            boxSizing: "border-box"
+            boxSizing: "border-box",
+            borderBottom: "1px solid #e5e7eb"
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28701,7 +28703,7 @@ const Header = ()=>{
                 children: "Dario Melle"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 29,
+                lineNumber: 31,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28718,7 +28720,7 @@ const Header = ()=>{
                         children: "Home"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 49,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28726,7 +28728,7 @@ const Header = ()=>{
                         children: "About"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 50,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28734,7 +28736,7 @@ const Header = ()=>{
                         children: "Industry"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 51,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28742,7 +28744,7 @@ const Header = ()=>{
                         children: "Education"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 52,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28750,7 +28752,7 @@ const Header = ()=>{
                         children: "Publications"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 53,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28758,7 +28760,7 @@ const Header = ()=>{
                         children: "Personal Projects"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 54,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28766,13 +28768,13 @@ const Header = ()=>{
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 55,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 40,
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined)
         ]
