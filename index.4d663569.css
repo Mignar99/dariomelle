@@ -20,6 +20,11 @@
   background: #b58a61;
 }
 
+.spacious-section {
+  margin: 0;
+  padding: 0;
+}
+
 .card {
   background: var(--section-bg);
   border: 1px solid var(--border);
