@@ -170,18 +170,19 @@ section.min-height {
 
 section.padding {
   padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
 }
 
 section img.background {
   height: 100%;
+  width: 100%;
   object-fit: cover;
   pointer-events: none;
-  width: 100%;
   z-index: -1;
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translate(-50%);
+  left: 0;
 }
 
 h1 {
