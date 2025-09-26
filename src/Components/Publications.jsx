@@ -88,7 +88,7 @@ const publications = [
 const Publications = () => {
   return (
     <section className="padding" id="publications" style={{ color: "#fff", background: "#222", borderRadius: "1rem" }}>
-      <h2 style={{ color: "#fff" }}>Publications</h2>
+      <h2 style={{ textAlign: "center", color: "#B58A61", fontWeight: 700 }}>Publications</h2>
       <p style={{ fontSize: "1.15rem", margin: "1.5rem 3rem 2rem 3rem", color: "#eee" }}>
         My research lies at the intersection of conformal field theory and quantum chromodynamics (QCD), with a particular focus on next-to-leading order (NLO) corrections to the gravitational form factors of hadrons. I am also deeply interested in physics beyond the Standard Model, especially in exploring the phenomenology of the 331 Model.
       </p>
@@ -101,7 +101,7 @@ const Publications = () => {
               {pub.journal} ({pub.year})
             </span><br />
             {pub.link !== "#" && (
-              <a href={pub.link} target="_blank" rel="noopener noreferrer" className="pub-readmore-btn" style={{ color: "#fff" }}>
+              <a href={pub.link} target="_blank" rel="noopener noreferrer" className="pub-readmore-btn" style={{ color: "#1a1a1aff" }}>
                 Read more
               </a>
             )}

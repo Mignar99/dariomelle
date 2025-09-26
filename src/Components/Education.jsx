@@ -75,6 +75,7 @@ const Education = () => (
           borderRadius: "1rem",
           textAlign: "center",
           color: "#2e2e2eff",
+          fontFamily: "Inter, Circular Std, Arial, sans-serif"
         }}
       >
         My academic journey began with a strong foundation in physics, where I learned to break down
