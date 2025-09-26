@@ -29566,7 +29566,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                         borderRadius: "1rem",
                         textAlign: "center",
                         color: "#2e2e2eff",
-                        fontFamily: "Inter, Circular Std, Arial, sans-serif"
+                        fontFamily: "Circular Std, Inter, sans-serif"
                     },
                     children: [
                         "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
