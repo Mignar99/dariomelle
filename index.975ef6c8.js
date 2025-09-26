@@ -28681,7 +28681,7 @@ const Header = ()=>{
             background: "rgba(255,255,255,0.75)",
             padding: "1rem 2vw",
             top: 0,
-            width: "100vw",
+            width: "100%",
             zIndex: 10,
             backdropFilter: "blur(16px)",
             WebkitBackdropFilter: "blur(16px)",
