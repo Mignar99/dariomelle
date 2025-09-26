@@ -1,4 +1,25 @@
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap";
+.pub-readmore-btn {
+  color: #222;
+  font-size: 1rem;
+  font-family: var(--body-sans);
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: .5rem;
+  padding: .5rem 1.5rem;
+  font-weight: 600;
+  transition: background .2s, color .2s;
+  display: inline-block;
+  box-shadow: 0 1px 4px #33333312;
+}
+
+.pub-readmore-btn:hover, .pub-readmore-btn:focus {
+  color: #fff;
+  background: #b58a61;
+}
+
 .spacious-section {
   max-width: 1100px;
   margin: 0 auto;
