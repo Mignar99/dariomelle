@@ -6,26 +6,33 @@
 }
 
 .card {
-  background: #fff;
-  border: 1px solid #f0e6da;
+  background: var(--section-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
   border-radius: 1.25rem;
   margin-bottom: 2.5rem;
   padding: 2.5rem 2rem;
-  box-shadow: 0 2px 16px #a68a7114;
+  box-shadow: 0 2px 16px #33333314;
 }
 
 .rounded-btn {
+  border: 1px solid var(--border);
+  background: var(--section-bg);
   color: var(--text);
   font-family: var(--body-sans);
   cursor: pointer;
-  background: none;
-  border: 1px solid #a68a71;
   border-radius: 2rem;
   padding: .75rem 2rem;
   font-size: 1.1rem;
   font-weight: 400;
-  transition: border .2s, box-shadow .2s;
-  box-shadow: 0 1px 4px #a68a7112;
+  transition: border .2s, box-shadow .2s, background .2s, color .2s;
+  box-shadow: 0 1px 4px #33333312;
+}
+
+.rounded-btn:hover, .rounded-btn:focus {
+  border-color: var(--accent);
+  background: var(--secondary);
+  color: var(--accent);
 }
 
 .rounded-btn:hover {
@@ -53,10 +60,16 @@ p, li, a, span, td, th {
 }
 
 :root {
-  --background: #000;
-  --header-gradient: linear-gradient(90deg, #222 0%, #111 100%);
-  --accent: #e0e0e0;
+  --background: #0a0a0a;
+  --section-bg: #1c1c1c;
   --text: #e0e0e0;
+  --heading: #e0e0e0;
+  --heading-accent: #b58a61;
+  --border: #333;
+  --accent: #b58a61;
+  --muted: #f5f2ed;
+  --secondary: #333;
+  --header-gradient: linear-gradient(90deg, #1c1c1c 0%, #0a0a0a 100%);
   --heading-sans: "Circular Std", "Inter", sans-serif;
   --body-sans: "Circular Std", "Inter", sans-serif;
 }
@@ -70,7 +83,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-sans);
-  color: var(--accent);
+  color: var(--heading);
   letter-spacing: -.5px;
   text-align: center;
   font-weight: 700;
@@ -86,12 +99,14 @@ p, li, a, span, td, th {
 
 a {
   font-family: var(--body-sans);
-  color: #fff;
+  color: var(--text);
   font-weight: 600;
   text-decoration: none;
+  transition: color .2s;
 }
 
 a:hover {
+  color: var(--accent);
   text-decoration: underline;
 }
 
@@ -102,11 +117,19 @@ header, nav {
 }
 
 h2, h3 {
-  color: var(--accent);
+  color: var(--heading-accent);
 }
 
 section {
   background: var(--background);
+}
+
+.contrast-zone {
+  background: var(--muted);
+  color: var(--section-bg);
+  border-radius: 1.25rem;
+  margin-bottom: 2.5rem;
+  padding: 2.5rem 2rem;
 }
 
 div#main {
