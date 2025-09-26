@@ -28932,7 +28932,7 @@ const Portfolio = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
                     textAlign: "center",
-                    color: "#333",
+                    color: "#B58A61",
                     fontWeight: 700
                 },
                 children: "Portfolio"
@@ -29090,7 +29090,7 @@ const Portfolio = ()=>{
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                 style: {
-                                    color: "#333",
+                                    color: "#B58A61",
                                     marginBottom: "1rem",
                                     paddingRight: "4rem"
                                 },
@@ -29103,7 +29103,7 @@ const Portfolio = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                 style: {
                                     fontSize: "1.1rem",
-                                    color: "#333",
+                                    color: "#B58A61",
                                     lineHeight: 1.7,
                                     paddingLeft: "1.5rem",
                                     paddingRight: "4rem"
