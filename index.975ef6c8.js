@@ -28751,24 +28751,26 @@ const Home = ({ name , title  })=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         style: {
                             color: "#333",
-                            fontWeight: 700
+                            fontWeight: 700,
+                            fontFamily: "Circular Std, Inter, sans-serif"
                         },
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
                         lineNumber: 34,
-                        columnNumber: 9
+                        columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         style: {
                             color: "#333",
-                            fontWeight: 400
+                            fontWeight: 400,
+                            fontFamily: "Circular Std, Inter, sans-serif"
                         },
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
                         lineNumber: 35,
-                        columnNumber: 9
+                        columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
