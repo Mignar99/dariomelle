@@ -28776,13 +28776,24 @@ const Home = ({ name , title  })=>{
                         style: {
                             marginTop: "2rem"
                         },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _downArrowSvgDefault.default),
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#about",
                             style: {
-                                height: "3rem",
-                                width: "3rem"
+                                display: "inline-block"
                             },
-                            alt: imageAltText
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _downArrowSvgDefault.default),
+                                style: {
+                                    height: "3rem",
+                                    width: "3rem",
+                                    filter: "invert(54%) sepia(32%) saturate(1042%) hue-rotate(7deg) brightness(92%) contrast(90%)"
+                                },
+                                alt: imageAltText
+                            }, void 0, false, {
+                                fileName: "src/Components/Home.jsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Home.jsx",
                             lineNumber: 37,
