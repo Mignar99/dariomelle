@@ -29573,6 +29573,9 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                     paddingLeft: "1.5rem"
                                 },
                                 children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        style: {
+                                            color: "#222"
+                                        },
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Education.jsx",
