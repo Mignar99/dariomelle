@@ -28747,8 +28747,8 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     flex: 1,
-                    textAlign: "right",
-                    padding: "4rem"
+                    textAlign: "center",
+                    padding: "3rem 2rem"
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _meJpgDefault.default),
@@ -28772,8 +28772,8 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     flex: 1,
-                    textAlign: "left",
-                    padding: "4rem 4rem"
+                    textAlign: "right",
+                    padding: "3rem 2rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
