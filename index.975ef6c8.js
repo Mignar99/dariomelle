@@ -29116,7 +29116,7 @@ const Portfolio = ()=>{
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                 style: {
-                                    color: "#B58A61",
+                                    color: "#c4c4c4ff",
                                     marginBottom: "1rem",
                                     paddingRight: "4rem"
                                 },
