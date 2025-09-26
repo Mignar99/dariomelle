@@ -263,7 +263,7 @@ img.socialIcon {
   width: 30px;
 }
 
-.portfolio-carousel-img {
+.personal-projects-carousel-img {
   width: 100%;
   max-width: 400px;
   height: 300px;
@@ -274,7 +274,7 @@ img.socialIcon {
   box-shadow: 0 2px 8px #00000014;
 }
 
-.portfolio-carousel-img.poc2 {
+.personal-projects-carousel-img.poc2 {
   transform: rotate3d(0, 0, 1, 0deg) !important;
 }
 

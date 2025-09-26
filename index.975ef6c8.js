@@ -27168,7 +27168,7 @@ const App = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
                 lineNumber: 53,
-                columnNumber: 7
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
                 ...siteProps,
@@ -28666,12 +28666,12 @@ const Header = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#portfolio",
-                children: "Portfolio"
+                href: "#personal-projects",
+                children: "Personal Projects"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
                 lineNumber: 31,
-                columnNumber: 7
+                columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#footer",
@@ -28880,12 +28880,12 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 /**
- * Portfolio component
+ * Personal Projects component
  *
- * Highlights some of  your creations. These can be designs, websites,
+ * Highlights some of your personal projects. These can be designs, websites,
  * open source contributions, articles you've written and more.
  *
- * This is a great area for you to to continually add to and refine
+ * This is a great area for you to continually add to and refine
  * as you continue to learn and create.
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
@@ -28901,19 +28901,19 @@ var _s = $RefreshSig$();
  */ const carouselImages = [
     {
         src: require("../images/poc1.png"),
-        alt: "Portfolio image 1"
+        alt: "Personal Project image 1"
     },
     {
         src: require("../images/poc2.jpg"),
-        alt: "Portfolio image 2"
+        alt: "Personal Project image 2"
     },
     {
         src: require("../images/poc3.jpg"),
-        alt: "Portfolio image 3"
+        alt: "Personal Project image 3"
     },
     {
         src: require("../images/poc4.jpg"),
-        alt: "Portfolio image 4"
+        alt: "Personal Project image 4"
     }
 ];
 /**
@@ -28943,7 +28943,7 @@ var _s = $RefreshSig$();
         url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
     }, 
 ];
-const Portfolio = ()=>{
+const PersonalProjects = ()=>{
     _s();
     const [current, setCurrent] = (0, _reactDefault.default).useState(0);
     const [modalOpen, setModalOpen] = (0, _reactDefault.default).useState(false);
@@ -28953,7 +28953,7 @@ const Portfolio = ()=>{
     const closeModal = ()=>setModalOpen(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
-        id: "portfolio",
+        id: "personal-projects",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
@@ -28961,7 +28961,7 @@ const Portfolio = ()=>{
                     color: "#B58A61",
                     fontWeight: 700
                 },
-                children: "Portfolio"
+                children: "Personal Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
                 lineNumber: 85,
@@ -29024,7 +29024,7 @@ const Portfolio = ()=>{
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         src: carouselImages[current].src,
-                                        className: `portfolio-carousel-img${current === 1 ? " poc2" : ""}`,
+                                        className: `personal-projects-carousel-img${current === 1 ? " poc2" : ""}`,
                                         alt: carouselImages[current].alt,
                                         style: {
                                             maxWidth: "100%",
@@ -29183,11 +29183,11 @@ const Portfolio = ()=>{
         columnNumber: 5
     }, undefined);
 };
-_s(Portfolio, "k+K+12Qr7/XGMvkBaxZI8XTBsKY=");
-_c = Portfolio;
-exports.default = Portfolio;
+_s(PersonalProjects, "k+K+12Qr7/XGMvkBaxZI8XTBsKY=");
+_c = PersonalProjects;
+exports.default = PersonalProjects;
 var _c;
-$RefreshReg$(_c, "Portfolio");
+$RefreshReg$(_c, "PersonalProjects");
 
   $parcel$ReactRefreshHelpers$ed0d.postlude(module);
 } finally {
