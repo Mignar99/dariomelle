@@ -28706,6 +28706,31 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     flex: 1,
+                    textAlign: "center",
+                    padding: "3rem 2rem"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _meJpgDefault.default),
+                    alt: imageAltText,
+                    style: {
+                        maxWidth: "350px",
+                        width: "100%",
+                        borderRadius: "1rem",
+                        boxShadow: "0 2px 8px rgba(0,0,0,0.12)"
+                    }
+                }, void 0, false, {
+                    fileName: "src/Components/Home.jsx",
+                    lineNumber: 31,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/Home.jsx",
+                lineNumber: 30,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    flex: 1,
                     textAlign: "left",
                     padding: "3rem 2rem"
                 },
@@ -28714,14 +28739,14 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 31,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 32,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28737,43 +28762,18 @@ const Home = ({ name , title  })=>{
                             alt: imageAltText
                         }, void 0, false, {
                             fileName: "src/Components/Home.jsx",
-                            lineNumber: 34,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 30,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    flex: 1,
-                    textAlign: "center",
-                    padding: "3rem 2rem"
-                },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _meJpgDefault.default),
-                    alt: imageAltText,
-                    style: {
-                        maxWidth: "350px",
-                        width: "100%",
-                        borderRadius: "1rem",
-                        boxShadow: "0 2px 8px rgba(0,0,0,0.12)"
-                    }
-                }, void 0, false, {
-                    fileName: "src/Components/Home.jsx",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Home.jsx",
-                lineNumber: 37,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined)
         ]
