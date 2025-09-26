@@ -29485,159 +29485,151 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "education",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             style: {
+                backgroundColor: "white",
                 width: "60%",
-                margin: "3rem auto"
+                padding: "4rem",
+                margin: "3rem auto",
+                textAlign: "justify",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                borderRadius: "1.25rem"
             },
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     style: {
                         color: "#333",
                         fontWeight: 700,
-                        marginBottom: "2rem",
-                        textAlign: "center"
+                        marginBottom: "2rem"
                     },
                     children: "Education"
                 }, void 0, false, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 59,
+                    lineNumber: 69,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     style: {
                         marginBottom: "2.5rem",
+                        padding: "2rem 1.5rem",
+                        background: "#f8f8f8",
+                        borderRadius: "1rem",
                         textAlign: "center",
-                        color: "#222",
-                        fontSize: "1.15rem",
-                        lineHeight: 1.7,
-                        fontWeight: 400
+                        color: "#2e2e2eff"
                     },
                     children: [
                         "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 62,
+                            lineNumber: 81,
                             columnNumber: 82
                         }, undefined),
                         "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 64,
+                            lineNumber: 83,
                             columnNumber: 98
                         }, undefined),
                         "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 66,
+                            lineNumber: 85,
                             columnNumber: 47
                         }, undefined),
                         "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 68,
+                            lineNumber: 87,
                             columnNumber: 60
                         }, undefined),
                         "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 60,
+                    lineNumber: 70,
                     columnNumber: 7
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    style: {
-                        backgroundColor: "white",
-                        padding: "4rem",
-                        boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                        borderRadius: "1.25rem"
-                    },
-                    children: educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            style: {
-                                marginBottom: "2.5rem",
-                                padding: "2rem 1.5rem",
-                                background: "#f8f8f8",
-                                borderRadius: "1rem",
-                                boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-                                textAlign: "left",
-                                color: "#333"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    style: {
-                                        marginBottom: "0.5rem",
-                                        color: "#333"
-                                    },
-                                    children: edu.degree
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 93,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                    children: edu.institution
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 94,
-                                    columnNumber: 13
-                                }, undefined),
-                                " — ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    style: {
-                                        color: "#222"
-                                    },
-                                    children: edu.location
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 94,
-                                    columnNumber: 50
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 95,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    style: {
-                                        fontStyle: "italic",
-                                        color: "#555"
-                                    },
-                                    children: edu.period
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 96,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                    style: {
-                                        marginTop: "1rem",
-                                        marginBottom: 0,
-                                        paddingLeft: "1.5rem"
-                                    },
-                                    children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            style: {
-                                                color: "#222"
-                                            },
-                                            children: detail
-                                        }, i, false, {
-                                            fileName: "src/Components/Education.jsx",
-                                            lineNumber: 99,
-                                            columnNumber: 17
-                                        }, undefined))
-                                }, void 0, false, {
-                                    fileName: "src/Components/Education.jsx",
-                                    lineNumber: 97,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, idx, true, {
-                            fileName: "src/Components/Education.jsx",
-                            lineNumber: 81,
-                            columnNumber: 11
-                        }, undefined))
-                }, void 0, false, {
-                    fileName: "src/Components/Education.jsx",
-                    lineNumber: 72,
-                    columnNumber: 7
-                }, undefined)
+                educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        style: {
+                            marginBottom: "2.5rem",
+                            padding: "2rem 1.5rem",
+                            background: "#f8f8f8",
+                            borderRadius: "1rem",
+                            boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+                            textAlign: "left",
+                            color: "#333"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                style: {
+                                    marginBottom: "0.5rem",
+                                    color: "#333"
+                                },
+                                children: edu.degree
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 104,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: edu.institution
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 105,
+                                columnNumber: 11
+                            }, undefined),
+                            " — ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    color: "#222"
+                                },
+                                children: edu.location
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 105,
+                                columnNumber: 48
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 106,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    fontStyle: "italic",
+                                    color: "#555"
+                                },
+                                children: edu.period
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 107,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                style: {
+                                    marginTop: "1rem",
+                                    marginBottom: 0,
+                                    paddingLeft: "1.5rem"
+                                },
+                                children: edu.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        style: {
+                                            color: "#222"
+                                        },
+                                        children: detail
+                                    }, i, false, {
+                                        fileName: "src/Components/Education.jsx",
+                                        lineNumber: 110,
+                                        columnNumber: 15
+                                    }, undefined))
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 108,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, idx, true, {
+                        fileName: "src/Components/Education.jsx",
+                        lineNumber: 92,
+                        columnNumber: 9
+                    }, undefined))
             ]
         }, void 0, true, {
             fileName: "src/Components/Education.jsx",
