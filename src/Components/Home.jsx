@@ -55,8 +55,9 @@ const Home = ({ name, title }) => {
             />
           </a>
           <a
-            href="/DarioMelleResume.pdf"
-            download
+            href="https://mignar99.github.io/dariomelle/DarioMelleResume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               display: "inline-block",
               padding: "0.75rem 2rem",
