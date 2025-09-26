@@ -55,17 +55,26 @@ const educationData = [
 
 const Education = () => (
   <section className="padding" id="education">
-    <h2 style={{ color: "#333", fontWeight: 700 }}>Education</h2>
-    <div style={{ margin: "2rem auto", maxWidth: "900px" }}>
+    <div
+      style={{
+        backgroundColor: "white",
+        width: "60%",
+        padding: "4rem",
+        margin: "3rem auto",
+        textAlign: "center",
+        boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+        borderRadius: "1.25rem",
+      }}
+    >
+      <h2 style={{ color: "#333", fontWeight: 700, marginBottom: "2rem" }}>Education</h2>
       <div
         style={{
           marginBottom: "2.5rem",
           padding: "2rem 1.5rem",
-          background: "#fffbe8",
-          borderRadius: "1.25rem",
-          boxShadow: "0 2px 8px rgba(51,51,51,0.08)",
+          background: "#f8f8f8",
+          borderRadius: "1rem",
+          boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
           textAlign: "left",
-          fontSize: "1.1rem",
           color: "#333",
         }}
       >
@@ -85,20 +94,21 @@ const Education = () => (
           key={idx}
           style={{
             marginBottom: "2.5rem",
-            padding: "1.5rem",
+            padding: "2rem 1.5rem",
             background: "#f8f8f8",
             borderRadius: "1rem",
             boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+            textAlign: "left",
             color: "#333",
           }}
         >
           <h3 style={{ marginBottom: "0.5rem", color: "#333" }}>{edu.degree}</h3>
-          <strong>{edu.institution}</strong> — <span>{edu.location}</span>
+          <strong>{edu.institution}</strong> — <span style={{ color: "#222" }}>{edu.location}</span>
           <br />
           <span style={{ fontStyle: "italic", color: "#555" }}>{edu.period}</span>
-          <ul style={{ marginTop: "1rem", marginBottom: 0 }}>
+          <ul style={{ marginTop: "1rem", marginBottom: 0, paddingLeft: "1.5rem" }}>
             {edu.details.map((detail, i) => (
-              <li key={i}>{detail}</li>
+              <li key={i} style={{ color: "#222" }}>{detail}</li>
             ))}
           </ul>
         </div>

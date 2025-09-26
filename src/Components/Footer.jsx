@@ -49,8 +49,10 @@ const Footer = (props) => {
         alignItems: "center",
         gap: "2.5rem",
         padding: "5rem 0 3rem",
-        backgroundColor: "#212529", // Deep dark background
-        width: "100vw"
+        background: "rgba(34,34,34,0.75)",
+        width: "100vw",
+        backdropFilter: "blur(16px)",
+        WebkitBackdropFilter: "blur(16px)",
       }}
     >
       <div
@@ -62,17 +64,17 @@ const Footer = (props) => {
       >
         {email && (
           <a href={`mailto:${email}`}>
-            <img src={envelopeIcon} alt="email" className="socialIcon" />
+            <img src={envelopeIcon} alt="email" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
         {devDotTo && (
           <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
+            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
         {gitHub && (
           <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
-            <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
+            <img src={gitHubIcon} alt="GitHub" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
         {instagram && (
@@ -81,7 +83,7 @@ const Footer = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={instagramIcon} alt="Instagram" className="socialIcon" />
+            <img src={instagramIcon} alt="Instagram" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
         {linkedIn && (
@@ -90,17 +92,17 @@ const Footer = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
+            <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
         {medium && (
           <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
-            <img src={mediumIcon} alt="Medium" className="socialIcon" />
+            <img src={mediumIcon} alt="Medium" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
         {twitter && (
           <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" className="socialIcon" />
+            <img src={twitterIcon} alt="Twitter" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
         {youTube && (
@@ -109,7 +111,7 @@ const Footer = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
+            <img src={youTubeIcon} alt="YouTube" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
           </a>
         )}
       </div>
