@@ -28748,7 +28748,7 @@ const Home = ({ name , title  })=>{
                 style: {
                     flex: 1,
                     textAlign: "right",
-                    padding: "5rem 5rem"
+                    padding: "4rem"
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _meJpgDefault.default),
@@ -28773,7 +28773,7 @@ const Home = ({ name , title  })=>{
                 style: {
                     flex: 1,
                     textAlign: "left",
-                    padding: "3rem 2rem"
+                    padding: "4rem 4rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
