@@ -28668,8 +28668,7 @@ const Header = ()=>{
                     display: "flex",
                     gap: "1.25rem",
                     justifyContent: "flex-end",
-                    flex: 1,
-                    alignItems: "left"
+                    flex: 1
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28726,6 +28725,16 @@ const Header = ()=>{
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
                         lineNumber: 44,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        style: {
+                            visibility: "hidden"
+                        },
+                        children: "\xa0"
+                    }, void 0, false, {
+                        fileName: "src/Components/Header.jsx",
+                        lineNumber: 45,
                         columnNumber: 9
                     }, undefined)
                 ]
