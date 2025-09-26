@@ -29120,8 +29120,16 @@ const Portfolio = ()=>{
                                     marginBottom: "1rem",
                                     paddingRight: "4rem"
                                 },
-                                children: "H2Algae – Monitoring System for Hydrogen Production from Microalgae}} <br />{Team Project"
-                            }, void 0, false, {
+                                children: [
+                                    "H2Algae – Monitoring System for Hydrogen Production from Microalgae",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 199,
+                                        columnNumber: 84
+                                    }, undefined),
+                                    "Team Project"
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
                                 lineNumber: 198,
                                 columnNumber: 11
@@ -29570,6 +29578,9 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                             }, undefined),
                             " — ",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    color: "#222"
+                                },
                                 children: edu.location
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
