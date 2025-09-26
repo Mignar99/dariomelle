@@ -154,13 +154,13 @@ section {
 }
 
 div#main {
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
   display: flex;
 }
 
 section {
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 
