@@ -27120,7 +27120,7 @@ var _stylesCss = require("./styles.css");
     title: "PH.D Candidate in Theoretical Physics & Machine Learning and AI Specialist",
     email: "dariomelle18@gmail.com",
     gitHub: "Mignar99",
-    instagram: "dario.melle",
+    instagram: "",
     linkedIn: "dario-melle",
     medium: "",
     twitter: "",
@@ -29511,9 +29511,9 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                         padding: "2rem 1.5rem",
                         background: "#f8f8f8",
                         borderRadius: "1rem",
-                        boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
-                        textAlign: "left",
-                        color: "#333"
+                        boxShadow: "0 2px 8px rgba(0,0,0,0)",
+                        textAlign: "center",
+                        color: "#555555ff"
                     },
                     children: [
                         "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
