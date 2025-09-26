@@ -27834,8 +27834,9 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                     color: "white"
                 },
                 children: [
-                    "Created by ",
-                    name
+                    "\xa9 2025 ",
+                    name,
+                    ". All rights reserved."
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
@@ -29493,8 +29494,7 @@ const educationData = [
         location: "Lecce, Italy",
         period: "Jan 2025 ‑ Jan 2026 (Ongoing)",
         details: [
-            "Focused on machine learning, deep learning, data analysis, and big data.",
-            "Final grade: 70/70 with honors."
+            "Focused on machine learning, deep learning, data analysis, and big data."
         ]
     },
     {
@@ -29503,6 +29503,7 @@ const educationData = [
         location: "Lecce, Italy",
         period: "Oct 2018 ‑ May 2023",
         details: [
+            "Final grade: 70/70 with honors.",
             "Honors program for top students, offering interdisciplinary exams, language training, and a merit‑based scholarship including accommodation."
         ]
     },
