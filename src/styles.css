@@ -86,7 +86,7 @@ p, li, a, span, td, th {
 
 /* Academic site color palette and font pairing */
 :root {
-  --background: #0A0A0A;
+  --background: #ffffff;
   --section-bg: #1C1C1C;
   --text: #E0E0E0;
   --heading: #E0E0E0;
@@ -105,6 +105,7 @@ body {
   color: var(--text);
   font-family: var(--body-sans);
   text-align: center;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -171,7 +172,7 @@ div#main {
 
 section {
   position: relative;
-  width: 100vw;
+  /* width: 100vw; removed to prevent horizontal scroll */
 }
 
 section.min-height {

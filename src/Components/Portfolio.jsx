@@ -189,21 +189,21 @@ const PersonalProjects = () => {
         <div
           style={{
             flex: 1,
-            marginLeft: "2rem",
+            marginLeft: 0,
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
           }}
         >
-          <h3 style={{ color: "#c4c4c49f", marginBottom: "1rem", paddingRight: "4rem"}}>
+          <h3 style={{ color: "#1313139f", marginBottom: "1rem", paddingRight: "4rem"}}>
             {"H2Algae – Monitoring System for Hydrogen Production from Microalgae"}<br />{"Team Project"}
           </h3>
           <ul style={{ fontSize: "1.1rem", color: "#B58A61", lineHeight: 1.7, paddingLeft: "1.5rem", paddingRight: "4rem", textAlign: "left"}}>
-            <li>
+            <li style={{ color: "#222" }}>
               Designed and optimized grow and sensor chambers, integrating hardware with
               Python‑based data acquisition.
             </li>
-            <li>
+            <li style={{ color: "#222" }}>
               Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call
               for Startups 2023 and presented at Startup Day 2023.
             </li>
