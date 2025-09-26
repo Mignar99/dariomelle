@@ -28637,13 +28637,15 @@ const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
             position: "fixed",
+            left: 0,
+            right: 0,
+            top: 0,
+            boxSizing: "border-box",
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
             background: "rgba(255,255,255,0.75)",
             padding: "1rem 2vw",
-            top: 0,
-            width: "100%",
             zIndex: 10,
             backdropFilter: "blur(16px)",
             WebkitBackdropFilter: "blur(16px)"
@@ -28660,14 +28662,17 @@ const Header = ()=>{
                 children: "Dario Melle"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 26,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                 style: {
                     display: "flex",
-                    gap: "2rem",
-                    marginLeft: "auto"
+                    gap: "1.5rem",
+                    marginLeft: "auto",
+                    overflowX: "auto",
+                    whiteSpace: "nowrap",
+                    WebkitOverflowScrolling: "touch"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28675,7 +28680,7 @@ const Header = ()=>{
                         children: "Home"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 38,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28683,7 +28688,7 @@ const Header = ()=>{
                         children: "About"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 39,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28691,7 +28696,7 @@ const Header = ()=>{
                         children: "Industry"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 40,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28699,7 +28704,7 @@ const Header = ()=>{
                         children: "Education"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 41,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28707,7 +28712,7 @@ const Header = ()=>{
                         children: "Publications"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 42,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28715,7 +28720,7 @@ const Header = ()=>{
                         children: "Personal Projects"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 43,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28723,13 +28728,13 @@ const Header = ()=>{
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "src/Components/Header.jsx",
-                        lineNumber: 44,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 37,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined)
         ]
