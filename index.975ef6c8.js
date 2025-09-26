@@ -28667,8 +28667,7 @@ const Header = ()=>{
                 style: {
                     display: "flex",
                     gap: "2rem",
-                    justifyContent: "flex-end",
-                    flex: 1
+                    marginLeft: "auto"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28884,7 +28883,7 @@ const Home = ({ name , title  })=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "/workspaces/dariomelle/DarioMelleResume.pdf",
+                                href: "DarioMelleResume.pdf",
                                 download: true,
                                 style: {
                                     display: "inline-block",
