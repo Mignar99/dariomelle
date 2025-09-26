@@ -28765,7 +28765,7 @@ const Home = ({ name , title  })=>{
             alignItems: "center",
             justifyContent: "center",
             minHeight: "80vh",
-            background: "#f5f5f5"
+            background: `url('../images/bg1.jpg') center center/cover no-repeat`
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28785,12 +28785,12 @@ const Home = ({ name , title  })=>{
                     }
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 31,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 30,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28809,7 +28809,7 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 34,
+                        lineNumber: 44,
                         columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -28821,7 +28821,7 @@ const Home = ({ name , title  })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 35,
+                        lineNumber: 45,
                         columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28843,23 +28843,23 @@ const Home = ({ name , title  })=>{
                                 alt: imageAltText
                             }, void 0, false, {
                                 fileName: "src/Components/Home.jsx",
-                                lineNumber: 38,
+                                lineNumber: 48,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/Components/Home.jsx",
-                            lineNumber: 37,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 36,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 33,
+                lineNumber: 43,
                 columnNumber: 7
             }, undefined)
         ]
