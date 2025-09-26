@@ -29116,11 +29116,11 @@ const Portfolio = ()=>{
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                 style: {
-                                    color: "#c4c4c4ff",
+                                    color: "#c4c4c49f",
                                     marginBottom: "1rem",
                                     paddingRight: "4rem"
                                 },
-                                children: "H2Algae – Monitoring System for Hydrogen Production from Microalgae ‑ Team Project"
+                                children: "H2Algae – Monitoring System for Hydrogen Production from Microalgae}} <br />{Team Project"
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
                                 lineNumber: 198,
