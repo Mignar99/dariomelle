@@ -176,7 +176,7 @@ section img.background {
   height: 100%;
   object-fit: cover;
   pointer-events: none;
-  width: 100vmax;
+  width: 100%;
   z-index: -1;
   position: absolute;
   top: 0;
