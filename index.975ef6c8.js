@@ -29353,8 +29353,16 @@ const Publications = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "publications",
+        style: {
+            color: "#fff",
+            background: "#222",
+            borderRadius: "1rem"
+        },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                style: {
+                    color: "#fff"
+                },
                 children: "Publications"
             }, void 0, false, {
                 fileName: "src/Components/Publications.jsx",
@@ -29365,7 +29373,7 @@ const Publications = ()=>{
                 style: {
                     fontSize: "1.15rem",
                     margin: "1.5rem 3rem 2rem 3rem",
-                    color: "#888"
+                    color: "#eee"
                 },
                 children: "My research lies at the intersection of conformal field theory and quantum chromodynamics (QCD), with a particular focus on next-to-leading order (NLO) corrections to the gravitational form factors of hadrons. I am also deeply interested in physics beyond the Standard Model, especially in exploring the phenomenology of the 331 Model."
             }, void 0, false, {
@@ -29377,14 +29385,19 @@ const Publications = ()=>{
                 style: {
                     textAlign: "left",
                     fontSize: "1.1rem",
-                    margin: "2rem 3rem"
+                    margin: "2rem 3rem",
+                    color: "#fff"
                 },
                 children: publications.map((pub, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         style: {
-                            marginBottom: "1.5rem"
+                            marginBottom: "1.5rem",
+                            color: "#fff"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                style: {
+                                    color: "#fff"
+                                },
                                 children: pub.title
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
@@ -29394,9 +29407,12 @@ const Publications = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
                                 lineNumber: 98,
-                                columnNumber: 41
+                                columnNumber: 67
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    color: "#fff"
+                                },
                                 children: pub.authors
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
@@ -29406,9 +29422,12 @@ const Publications = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
                                 lineNumber: 99,
-                                columnNumber: 39
+                                columnNumber: 65
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                style: {
+                                    color: "#fff"
+                                },
                                 children: [
                                     pub.journal,
                                     " (",
@@ -29430,6 +29449,9 @@ const Publications = ()=>{
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "pub-readmore-btn",
+                                style: {
+                                    color: "#fff"
+                                },
                                 children: "Read more"
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
