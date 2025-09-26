@@ -100,6 +100,7 @@ body {
   color: var(--text);
   font-family: var(--body-sans);
   text-align: center;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -160,7 +161,6 @@ div#main {
 }
 
 section {
-  width: 100vw;
   position: relative;
 }
 
