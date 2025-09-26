@@ -27628,16 +27628,8 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             fontFamily: "Circular Std, Inter, sans-serif",
                             marginBottom: "2.5rem"
                         },
-                        children: [
-                            "Interested in collaborating on research or have questions about my work in statistical physics and AI?",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                fileName: "src/Components/Footer.jsx",
-                                lineNumber: 79,
-                                columnNumber: 11
-                            }, undefined),
-                            "Feel free to reach out through any of the channels below."
-                        ]
-                    }, void 0, true, {
+                        children: "Feel free to reach out through any of the channels below."
+                    }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
                         lineNumber: 70,
                         columnNumber: 9
@@ -27666,12 +27658,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 92,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 91,
+                        lineNumber: 89,
                         columnNumber: 11
                     }, undefined),
                     devDotTo && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27687,12 +27679,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 102,
+                            lineNumber: 100,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 101,
+                        lineNumber: 99,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27708,12 +27700,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 112,
+                            lineNumber: 110,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 111,
+                        lineNumber: 109,
                         columnNumber: 11
                     }, undefined),
                     instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27729,12 +27721,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 126,
+                            lineNumber: 124,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 121,
+                        lineNumber: 119,
                         columnNumber: 11
                     }, undefined),
                     linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27750,12 +27742,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 140,
+                            lineNumber: 138,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 135,
+                        lineNumber: 133,
                         columnNumber: 11
                     }, undefined),
                     medium && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27771,12 +27763,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 150,
+                            lineNumber: 148,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 149,
+                        lineNumber: 147,
                         columnNumber: 11
                     }, undefined),
                     twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27792,12 +27784,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 160,
+                            lineNumber: 158,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 159,
+                        lineNumber: 157,
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27813,18 +27805,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 174,
+                            lineNumber: 172,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 169,
+                        lineNumber: 167,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 83,
+                lineNumber: 81,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27839,7 +27831,45 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 183,
+                lineNumber: 181,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    textAlign: "center",
+                    marginTop: "1.5rem"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        style: {
+                            color: "#fff",
+                            fontSize: "1rem",
+                            fontFamily: "Circular Std, Inter, sans-serif",
+                            margin: 0
+                        },
+                        children: "\xa9 2025 Dario Melle. All rights reserved."
+                    }, void 0, false, {
+                        fileName: "src/Components/Footer.jsx",
+                        lineNumber: 185,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        style: {
+                            color: "#fff",
+                            fontSize: "1rem",
+                            fontFamily: "Circular Std, Inter, sans-serif",
+                            margin: 0
+                        },
+                        children: "PH.D Candidate in Theoretical Physics & Machine Learning and AI Specialist"
+                    }, void 0, false, {
+                        fileName: "src/Components/Footer.jsx",
+                        lineNumber: 195,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Footer.jsx",
+                lineNumber: 184,
                 columnNumber: 7
             }, undefined)
         ]
