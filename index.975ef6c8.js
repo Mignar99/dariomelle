@@ -29394,20 +29394,19 @@ const Publications = ()=>{
                             color: "#fff"
                         },
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                 style: {
-                                    color: "#fff"
+                                    color: "#B58A61",
+                                    marginBottom: "1rem",
+                                    paddingRight: "4rem",
+                                    fontWeight: 700,
+                                    fontSize: "1.25rem"
                                 },
                                 children: pub.title
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
                                 lineNumber: 98,
                                 columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                fileName: "src/Components/Publications.jsx",
-                                lineNumber: 98,
-                                columnNumber: 67
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                 style: {
@@ -29416,12 +29415,12 @@ const Publications = ()=>{
                                 children: pub.authors
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 99,
+                                lineNumber: 101,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 99,
+                                lineNumber: 101,
                                 columnNumber: 65
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29436,12 +29435,12 @@ const Publications = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 100,
+                                lineNumber: 102,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 102,
+                                lineNumber: 104,
                                 columnNumber: 20
                             }, undefined),
                             pub.link !== "#" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -29455,7 +29454,7 @@ const Publications = ()=>{
                                 children: "Read more"
                             }, void 0, false, {
                                 fileName: "src/Components/Publications.jsx",
-                                lineNumber: 104,
+                                lineNumber: 106,
                                 columnNumber: 15
                             }, undefined)
                         ]
