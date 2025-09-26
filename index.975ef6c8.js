@@ -29132,7 +29132,7 @@ const PersonalProjects = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             flex: 1,
-                            marginLeft: "2rem",
+                            marginLeft: 0,
                             display: "flex",
                             flexDirection: "column",
                             justifyContent: "center"
