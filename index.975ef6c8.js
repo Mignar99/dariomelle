@@ -29140,7 +29140,8 @@ const Portfolio = ()=>{
                                     color: "#B58A61",
                                     lineHeight: 1.7,
                                     paddingLeft: "1.5rem",
-                                    paddingRight: "4rem"
+                                    paddingRight: "4rem",
+                                    textAlign: "left"
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
