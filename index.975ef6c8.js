@@ -28906,8 +28906,9 @@ const Home = ({ name , title  })=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "/DarioMelleResume.pdf",
-                                download: true,
+                                href: "https://mignar99.github.io/dariomelle/DarioMelleResume.pdf",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
                                 style: {
                                     display: "inline-block",
                                     padding: "0.75rem 2rem",
