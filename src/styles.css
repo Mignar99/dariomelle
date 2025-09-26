@@ -23,8 +23,8 @@
 /* Minimalist, spacious layout */
 .spacious-section {
   padding: 5rem 0 6rem 0;
-  margin: 0 auto;
-  max-width: 1100px;
+  margin: 0;
+  /* max-width removed for full-bleed layout */
 }
 
 .card {
@@ -256,7 +256,7 @@ a:hover {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
-  margin: 20px auto;
+  margin: 20px 0;
 }
 
 .container .box {
@@ -290,4 +290,10 @@ img.socialIcon {
 .personal-projects-carousel-img.poc2 {
   transform: none !important;
   rotate: none !important;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
 }

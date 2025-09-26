@@ -73,9 +73,13 @@ const Education = () => (
           padding: "2rem 1.5rem",
           background: "#f8f8f8",
           borderRadius: "1rem",
-          textAlign: "center",
+          textAlign: "justify",
           color: "#2e2e2eff",
-          fontFamily: "Inter, Circular Std, Arial, sans-serif"
+          fontFamily: "Circular Std, Inter, sans-serif",
+          fontSize: "1.1rem",
+          fontWeight: 300,
+          lineHeight: 1.7,
+          paddingLeft: "1.5rem"
         }}
       >
         My academic journey began with a strong foundation in physics, where I learned to break down
