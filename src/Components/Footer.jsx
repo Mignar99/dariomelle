@@ -55,6 +55,31 @@ const Footer = (props) => {
         WebkitBackdropFilter: "blur(16px)",
       }}
     >
+      <div style={{ textAlign: "center", maxWidth: 600 }}>
+        <h2
+          style={{
+            fontSize: "2.2rem",
+            fontWeight: 700,
+            color: "#fff",
+            marginBottom: "1rem",
+            fontFamily: "Circular Std, Inter, sans-serif",
+          }}
+        >
+          Get In Touch
+        </h2>
+        <p
+          style={{
+            fontSize: "1.1rem",
+            color: "#fff",
+            fontFamily: "Circular Std, Inter, sans-serif",
+            marginBottom: "2.5rem",
+          }}
+        >
+          Interested in collaborating on research or have questions about my work in statistical physics and AI?
+          <br />
+          Feel free to reach out through any of the channels below.
+        </p>
+      </div>
       <div
         style={{
           display: "flex",
@@ -64,17 +89,32 @@ const Footer = (props) => {
       >
         {email && (
           <a href={`mailto:${email}`}>
-            <img src={envelopeIcon} alt="email" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={envelopeIcon}
+              alt="email"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
         {devDotTo && (
           <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={devDotToIcon}
+              alt="Dev.to"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
         {gitHub && (
           <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
-            <img src={gitHubIcon} alt="GitHub" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={gitHubIcon}
+              alt="GitHub"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
         {instagram && (
@@ -83,7 +123,12 @@ const Footer = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={instagramIcon} alt="Instagram" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={instagramIcon}
+              alt="Instagram"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
         {linkedIn && (
@@ -92,17 +137,32 @@ const Footer = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={linkedInIcon}
+              alt="LinkedIn"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
         {medium && (
           <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
-            <img src={mediumIcon} alt="Medium" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={mediumIcon}
+              alt="Medium"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
         {twitter && (
           <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={twitterIcon}
+              alt="Twitter"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
         {youTube && (
@@ -111,7 +171,12 @@ const Footer = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={youTubeIcon} alt="YouTube" className="socialIcon" style={{ filter: "brightness(0.5)" }} />
+            <img
+              src={youTubeIcon}
+              alt="YouTube"
+              className="socialIcon"
+              style={{ filter: "brightness(0.5)" }}
+            />
           </a>
         )}
       </div>
