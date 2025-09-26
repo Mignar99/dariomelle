@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap";
 .spacious-section {
   max-width: 1100px;
   margin: 0 auto;
@@ -53,44 +53,52 @@ p, li, a, span, td, th {
 }
 
 :root {
-  --background: #f6f1eb;
-  --header-gradient: linear-gradient(90deg, #5c4432 0%, #7c5a3a 100%);
-  --accent: #a68a71;
-  --text: #222;
-  --heading-serif: "Cormorant Garamond", serif;
-  --body-sans: "Montserrat", sans-serif;
+  --background: #000;
+  --header-gradient: linear-gradient(90deg, #222 0%, #111 100%);
+  --accent: #e0e0e0;
+  --text: #e0e0e0;
+  --heading-sans: "Circular Std", "Inter", sans-serif;
+  --body-sans: "Circular Std", "Inter", sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--text);
   font-family: var(--body-sans);
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-serif);
+  font-family: var(--heading-sans);
   color: var(--accent);
-  letter-spacing: .5px;
+  letter-spacing: -.5px;
+  text-align: center;
+  font-weight: 700;
 }
 
 p, li, a, span, td, th {
   font-family: var(--body-sans);
   color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 a {
-  color: var(--accent);
+  font-family: var(--body-sans);
+  color: #fff;
+  font-weight: 600;
   text-decoration: none;
 }
 
 a:hover {
-  color: #7c5a3a;
+  text-decoration: underline;
 }
 
 header, nav {
   background: var(--header-gradient);
   color: #fff;
-  box-shadow: 0 2px 8px #5c443214;
+  box-shadow: 0 2px 8px #22222214;
 }
 
 h2, h3 {
