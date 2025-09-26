@@ -29645,13 +29645,14 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     style: {
                         color: "#333",
-                        fontWeight: 700
+                        fontWeight: 700,
+                        marginBottom: "2rem"
                     },
                     children: "Industry Experience"
                 }, void 0, false, {
                     fileName: "src/Components/Industry.jsx",
                     lineNumber: 41,
-                    columnNumber: 7
+                    columnNumber: 3
                 }, undefined),
                 industryExperience.map((exp, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
@@ -29710,7 +29711,8 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 },
                                 children: exp.details.map((detail, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         style: {
-                                            marginBottom: "0.5rem"
+                                            marginBottom: "0.5rem",
+                                            color: "#222"
                                         },
                                         children: detail
                                     }, i, false, {
