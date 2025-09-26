@@ -27221,9 +27221,9 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _bg1Jpg = require("../images/bg1.jpg");
-var _bg1JpgDefault = parcelHelpers.interopDefault(_bg1Jpg);
-const imageAltText = "About section background";
+ */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
+var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
+const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */ const description = "I’m a Ph.D. student in Theoretical Physics at the University of Salento, passionate about artificial intelligence and machine learning, and eager to turn that passion into my career.";
@@ -27243,12 +27243,12 @@ const imageAltText = "About section background";
  */ const detailOrQuote = "I thrive on tackling complex challenges with innovative approaches. By combining my background in theoretical physics with hands-on experience in AI, machine learning, and data systems, I aim to create solutions that are both powerful and accessible.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding about-section",
+        className: "padding",
         id: "about",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _bg1JpgDefault.default),
+                src: (0, _motionBackgroundJpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
@@ -27355,7 +27355,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/bg1.jpg":"8Nhox"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/motion-background.jpg":"kzNvo"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27505,8 +27505,8 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"8Nhox":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "bg1.62ae5dbf.jpg" + "?" + Date.now();
+},{"react-refresh/runtime":"786KC"}],"kzNvo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
@@ -27603,45 +27603,6 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
-                    textAlign: "center",
-                    maxWidth: 600
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        style: {
-                            fontSize: "2.2rem",
-                            fontWeight: 700,
-                            color: "#fff",
-                            marginBottom: "1rem",
-                            fontFamily: "Circular Std, Inter, sans-serif"
-                        },
-                        children: "Get In Touch"
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 59,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        style: {
-                            fontSize: "1.1rem",
-                            color: "#fff",
-                            fontFamily: "Circular Std, Inter, sans-serif",
-                            marginBottom: "2.5rem"
-                        },
-                        children: "Feel free to reach out through any of the channels below."
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 70,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Footer.jsx",
-                lineNumber: 58,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
                     display: "flex",
                     justifyContent: "center",
                     gap: "2.5rem"
@@ -27658,12 +27619,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 90,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 89,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, undefined),
                     devDotTo && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27679,12 +27640,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 100,
+                            lineNumber: 72,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 99,
+                        lineNumber: 71,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27700,12 +27661,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 110,
+                            lineNumber: 77,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 109,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, undefined),
                     instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27721,12 +27682,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 124,
+                            lineNumber: 86,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 119,
+                        lineNumber: 81,
                         columnNumber: 11
                     }, undefined),
                     linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27742,12 +27703,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 138,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 133,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, undefined),
                     medium && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27763,12 +27724,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 148,
+                            lineNumber: 100,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 147,
+                        lineNumber: 99,
                         columnNumber: 11
                     }, undefined),
                     twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27784,12 +27745,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 158,
+                            lineNumber: 105,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 157,
+                        lineNumber: 104,
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27805,56 +27766,33 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 172,
+                            lineNumber: 114,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 167,
+                        lineNumber: 109,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 81,
+                lineNumber: 58,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "small",
                 style: {
-                    textAlign: "center",
-                    marginTop: "1.5rem"
+                    marginTop: 0,
+                    color: "white"
                 },
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        style: {
-                            color: "#fff",
-                            fontSize: "1rem",
-                            fontFamily: "Circular Std, Inter, sans-serif",
-                            margin: 0
-                        },
-                        children: "\xa9 2025 Dario Melle. All rights reserved."
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 183,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        style: {
-                            color: "#ffffffa2",
-                            fontSize: "1rem",
-                            fontFamily: "Circular Std, Inter, sans-serif",
-                            margin: 0
-                        },
-                        children: "PH.D Candidate in Theoretical Physics & Machine Learning and AI Specialist"
-                    }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
-                        lineNumber: 193,
-                        columnNumber: 9
-                    }, undefined)
+                    "Created by ",
+                    name
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 182,
+                lineNumber: 118,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28675,106 +28613,72 @@ const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         style: {
             position: "fixed",
-            left: 0,
-            right: 0,
-            top: 0,
-            width: "100vw",
             display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            background: "linear-gradient(90deg, #f8fafc 0%, #e0e7ef 100%)",
-            boxShadow: "0 2px 12px rgba(0,0,0,0.07)",
-            padding: "1rem 0.5vw",
+            justifyContent: "center",
+            gap: "2rem",
+            background: "rgba(255,255,255,0.75)",
+            padding: "1rem",
+            top: 0,
+            width: "100%",
             zIndex: 10,
             backdropFilter: "blur(16px)",
-            WebkitBackdropFilter: "blur(16px)",
-            boxSizing: "border-box",
-            borderBottom: "1px solid #e5e7eb"
+            WebkitBackdropFilter: "blur(16px)"
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#home",
-                style: {
-                    fontWeight: 700,
-                    fontSize: "1.25rem",
-                    fontFamily: "Circular Std, Inter, sans-serif",
-                    color: "#333"
-                },
-                children: "Dario Melle"
+                children: "Home"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 26,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#about",
+                children: "About"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#industry",
+                children: "Industry"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 28,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#education",
+                children: "Education"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 29,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#publications",
+                children: "Publications"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 30,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#personal-projects",
+                children: "Personal Projects"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
                 lineNumber: 31,
-                columnNumber: 7
+                columnNumber: 3
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                style: {
-                    display: "flex",
-                    gap: "1.2rem",
-                    flexWrap: "wrap",
-                    overflowX: "auto",
-                    maxWidth: "80vw"
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#home",
-                        children: "Home"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 51,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#about",
-                        children: "About"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 52,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#industry",
-                        children: "Industry"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 53,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#education",
-                        children: "Education"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 54,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#publications",
-                        children: "Publications"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 55,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#personal-projects",
-                        children: "Personal Projects"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 56,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#footer",
-                        children: "Contact"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.jsx",
-                        lineNumber: 57,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#footer",
+                children: "Contact"
+            }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 42,
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined)
         ]
@@ -28882,7 +28786,7 @@ const Home = ({ name , title  })=>{
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
                         lineNumber: 34,
-                        columnNumber: 9
+                        columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         style: {
@@ -28893,66 +28797,39 @@ const Home = ({ name , title  })=>{
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 39,
-                        columnNumber: 9
+                        lineNumber: 35,
+                        columnNumber: 3
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
-                            marginTop: "2rem",
-                            display: "flex",
-                            gap: "2rem",
-                            alignItems: "center"
+                            marginTop: "2rem"
                         },
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#about",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#about",
+                            style: {
+                                display: "inline-block"
+                            },
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _downArrowSvgDefault.default),
                                 style: {
-                                    display: "inline-block"
+                                    height: "3rem",
+                                    width: "3rem",
+                                    filter: "invert(54%) sepia(32%) saturate(1042%) hue-rotate(7deg) brightness(92%) contrast(90%)"
                                 },
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _downArrowSvgDefault.default),
-                                    style: {
-                                        height: "3rem",
-                                        width: "3rem",
-                                        filter: "invert(54%) sepia(32%) saturate(1042%) hue-rotate(7deg) brightness(92%) contrast(90%)"
-                                    },
-                                    alt: imageAltText
-                                }, void 0, false, {
-                                    fileName: "src/Components/Home.jsx",
-                                    lineNumber: 46,
-                                    columnNumber: 13
-                                }, undefined)
+                                alt: imageAltText
                             }, void 0, false, {
                                 fileName: "src/Components/Home.jsx",
-                                lineNumber: 45,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "/src/images/DarioMelleResume.pdf",
-                                download: true,
-                                style: {
-                                    display: "inline-block",
-                                    padding: "0.75rem 2rem",
-                                    background: "#B58A61",
-                                    color: "#fff",
-                                    fontWeight: 600,
-                                    fontSize: "1.1rem",
-                                    borderRadius: "0.5rem",
-                                    textDecoration: "none",
-                                    fontFamily: "Circular Std, Inter, sans-serif",
-                                    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-                                    transition: "background 0.2s"
-                                },
-                                children: "My Resume"
-                            }, void 0, false, {
-                                fileName: "src/Components/Home.jsx",
-                                lineNumber: 57,
-                                columnNumber: 11
+                                lineNumber: 38,
+                                columnNumber: 13
                             }, undefined)
-                        ]
-                    }, void 0, true, {
+                        }, void 0, false, {
+                            fileName: "src/Components/Home.jsx",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 44,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -29569,7 +29446,8 @@ const educationData = [
         location: "Lecce, Italy",
         period: "Jan 2025 ‑ Jan 2026 (Ongoing)",
         details: [
-            "Focused on machine learning, deep learning, data analysis, and big data."
+            "Focused on machine learning, deep learning, data analysis, and big data.",
+            "Final grade: 70/70 with honors."
         ]
     },
     {
@@ -29578,8 +29456,7 @@ const educationData = [
         location: "Lecce, Italy",
         period: "Oct 2018 ‑ May 2023",
         details: [
-            "Honors program for top students, offering interdisciplinary exams, language training, and a merit‑based scholarship including accommodation.",
-            "Final grade: 70/70 with honors.", 
+            "Honors program for top students, offering interdisciplinary exams, language training, and a merit‑based scholarship including accommodation."
         ]
     },
     {
@@ -29589,7 +29466,7 @@ const educationData = [
         period: "Apr 2021 ‑ Sep 2022",
         details: [
             "Final grade: 110/110 with honors.",
-            "Recipient of a competitive merit‑based scholarship covering tuition, accommodation, and a monthly stipend, successfully renewed for the entire M.S. program.", 
+            "Recipient of a competitive merit‑based scholarship covering tuition, accommodation, and a monthly stipend, successfully renewed for the entire M.S. program."
         ]
     },
     {
@@ -29599,9 +29476,9 @@ const educationData = [
         period: "Oct 2017 ‑ Feb 2021",
         details: [
             "Final grade: 110/110 with honors.",
-            "Awarded a merit‑based scholarship (granted to the top 1% of students) providing full tuition coverage, accommodation, and a monthly stipend for the entire B.S. program.", 
+            "Awarded a merit‑based scholarship (granted to the top 1% of students) providing full tuition coverage, accommodation, and a monthly stipend for the entire B.S. program."
         ]
-    }, 
+    }
 ];
 const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -29626,7 +29503,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     children: "Education"
                 }, void 0, false, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 67,
+                    lineNumber: 69,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29642,32 +29519,32 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                         "My academic journey began with a strong foundation in physics, where I learned to break down complex problems into manageable pieces and build solutions step by step.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 79,
+                            lineNumber: 81,
                             columnNumber: 82
                         }, undefined),
                         "I earned both my BSc and MSc in Physics with honors, supported by an ISUFI scholarship that also gave me the opportunity to pursue additional interdisciplinary and language courses.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 81,
+                            lineNumber: 83,
                             columnNumber: 98
                         }, undefined),
                         "I went on to complete a second-level master’s degree at ISUFI, also with honors, before pursuing a PhD in Theoretical Physics.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 83,
-                            columnNumber: 49
+                            lineNumber: 85,
+                            columnNumber: 47
                         }, undefined),
                         "During my doctoral studies, I published 11 peer-reviewed papers, presented at conferences, and collaborated with leading experts in the field.",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 85,
-                            columnNumber: 54
+                            lineNumber: 87,
+                            columnNumber: 60
                         }, undefined),
                         "Alongside my PhD, I began a second-level master’s in Applied Artificial Intelligence, which I am now finalizing with an internship at GraphAware."
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 68,
+                    lineNumber: 70,
                     columnNumber: 7
                 }, undefined),
                 educationData.map((edu, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29689,14 +29566,14 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.degree
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 102,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: edu.institution
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 103,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, undefined),
                             " — ",
@@ -29707,12 +29584,12 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.location
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 103,
+                                lineNumber: 105,
                                 columnNumber: 48
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 104,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29723,7 +29600,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: edu.period
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 105,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29739,29 +29616,29 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Education.jsx",
-                                        lineNumber: 108,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 106,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 90,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, undefined))
             ]
         }, void 0, true, {
             fileName: "src/Components/Education.jsx",
-            lineNumber: 56,
+            lineNumber: 58,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 55,
+        lineNumber: 57,
         columnNumber: 3
     }, undefined);
 _c = Education;
