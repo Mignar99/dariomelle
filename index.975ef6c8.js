@@ -27595,8 +27595,10 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
             alignItems: "center",
             gap: "2.5rem",
             padding: "5rem 0 3rem",
-            backgroundColor: "#212529",
-            width: "100vw"
+            background: "rgba(34,34,34,0.75)",
+            width: "100vw",
+            backdropFilter: "blur(16px)",
+            WebkitBackdropFilter: "blur(16px)"
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27611,15 +27613,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _envelopeSvgDefault.default),
                             alt: "email",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 65,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 64,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, undefined),
                     devDotTo && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27629,15 +27634,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _devdottoSvgDefault.default),
                             alt: "Dev.to",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 70,
+                            lineNumber: 72,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 69,
+                        lineNumber: 71,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27647,15 +27655,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _githubSvgDefault.default),
                             alt: "GitHub",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 75,
+                            lineNumber: 77,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 74,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, undefined),
                     instagram && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27665,15 +27676,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _instagramSvgDefault.default),
                             alt: "Instagram",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 84,
+                            lineNumber: 86,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 79,
+                        lineNumber: 81,
                         columnNumber: 11
                     }, undefined),
                     linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27683,15 +27697,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _linkedinSvgDefault.default),
                             alt: "LinkedIn",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 93,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 88,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, undefined),
                     medium && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27701,15 +27718,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _mediumSvgDefault.default),
                             alt: "Medium",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 98,
+                            lineNumber: 100,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 97,
+                        lineNumber: 99,
                         columnNumber: 11
                     }, undefined),
                     twitter && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27719,15 +27739,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _twitterSvgDefault.default),
                             alt: "Twitter",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 103,
+                            lineNumber: 105,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 102,
+                        lineNumber: 104,
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27737,21 +27760,24 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _youtubeSvgDefault.default),
                             alt: "YouTube",
-                            className: "socialIcon"
+                            className: "socialIcon",
+                            style: {
+                                filter: "brightness(0.5)"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 112,
+                            lineNumber: 114,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 107,
+                        lineNumber: 109,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 56,
+                lineNumber: 58,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27766,7 +27792,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 116,
+                lineNumber: 118,
                 columnNumber: 7
             }, undefined)
         ]
