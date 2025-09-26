@@ -27243,7 +27243,7 @@ const imageAltText = "About section background";
  */ const detailOrQuote = "I thrive on tackling complex challenges with innovative approaches. By combining my background in theoretical physics with hands-on experience in AI, machine learning, and data systems, I aim to create solutions that are both powerful and accessible.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "padding",
+        className: "padding about-section",
         id: "about",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {

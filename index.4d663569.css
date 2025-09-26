@@ -96,10 +96,14 @@ p, li, a, span, td, th {
 }
 
 body {
-  background: var(--background);
   color: var(--text);
   font-family: var(--body-sans);
   text-align: center;
+}
+
+.about-section {
+  background: url("bg1.62ae5dbf.jpg") center / cover no-repeat;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
