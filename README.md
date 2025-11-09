@@ -1,6 +1,6 @@
 # Dario Melle — Personal Website Source
 
-This repository contains the source code for the personal website of Dario Melle. The live site is available at:
+This repository contains the source code for my personal website. The live site is available at:
 
 https://mignar99.github.io/dariomelle/
 
