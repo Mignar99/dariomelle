@@ -29463,27 +29463,21 @@ const PersonalProjects = ()=>{
                                     paddingRight: "4rem"
                                 },
                                 children: [
-                                    "H2Algae – Monitoring System for Hydrogen Production from Microalgae  ",
+                                    "Deep Learning for Geospatial Temperature Season Classification and Forecasting  ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: "https://github.com/Mignar99/data_sensor_collector",
+                                        href: "https://github.com/Mignar99/WeatherVisionNN",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                             children: "[git]"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
                                             lineNumber: 329,
-                                            columnNumber: 146
+                                            columnNumber: 151
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
                                         lineNumber: 329,
-                                        columnNumber: 86
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 329,
-                                        columnNumber: 172
-                                    }, undefined),
-                                    "Team Project"
+                                        columnNumber: 97
+                                    }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
@@ -29504,7 +29498,7 @@ const PersonalProjects = ()=>{
                                         style: {
                                             color: "#222"
                                         },
-                                        children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
+                                        children: "Built a CNN classifier for temporal attribution, converting weather maps into a labeled month-prediction dataset reaching an accuracy of 99.32%."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
                                         lineNumber: 332,
@@ -29514,10 +29508,20 @@ const PersonalProjects = ()=>{
                                         style: {
                                             color: "#222"
                                         },
-                                        children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
+                                        children: "Developed U-Net–based forecasting models using NetCDF temperature data improving by 22% the 9 hours predictions compared to the baseline."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 336,
+                                        lineNumber: 335,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        style: {
+                                            color: "#222"
+                                        },
+                                        children: "Testing Vision Transformers to solve the same weather-map prediction problem improving by 27% the 21 hours prediction with respect to the baseline."
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 338,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
