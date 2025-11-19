@@ -29229,7 +29229,26 @@ const PersonalProjects = ()=>{
                                         lineNumber: 199,
                                         columnNumber: 84
                                     }, undefined),
-                                    "Team Project"
+                                    "Team Project",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 199,
+                                        columnNumber: 106
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                        href: "https://github.com/Mignar99/data_sensor_collector",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                            children: "GIT"
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 199,
+                                            columnNumber: 172
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 199,
+                                        columnNumber: 112
+                                    }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
