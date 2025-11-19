@@ -7,9 +7,8 @@ const industryExperience = [
     location: "Lecce, Italy",
     period: "Sep 2025 – Dec 2025 (Ongoing)",
     details: [
-      "Fine‑tuning LLMs using cloud computing resources to convert graph database queries into html human‑readable reports.",
-      "Applied PyTorch and transformer‑based architectures to improve query interpretation accuracy and usability.",
-      "Collaborating with a cross‑functional team to integrate AI solutions into existing data management pipelines."
+      "Fine-tuning GPT-oss-20b to convert graph database queries into html human-readable reports, using also GRPO to improve reasoning quality.",
+      "Building a reinforcement-learning pipeline that fine-tunes a small LLM to generate personalized content using engagement metrics (likes, impressions, feedback) as rewards to adapt and optimize content quality and post relevance automating the content-creation workflow."
     ],
   },
   {

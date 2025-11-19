@@ -8,8 +8,9 @@ const educationData = [
     period: "Feb 2023 ‑ Feb 2026 (Ongoing)",
     details: [
   "11 peer‑reviewed publications in leading journals; full list available on InspireHEP",
-  "Presented research at international conferences: 2 talks and 1 poster.",
-  "Mentored a fellow PhD student, introducing them to the group’s research and methods."
+  "Presented research at international conferences: 3 talks and 1 poster.",
+  "Mentored a fellow PhD student, introducing them to the group’s research and methods.",
+  "Attended 11 international workshops and schools on advanced topics in quantum field theory, quantum gravity, and computational physics."
     ],
   },
   {

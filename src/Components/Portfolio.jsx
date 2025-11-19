@@ -22,7 +22,7 @@ import React from "react";
 
 const carouselImages = [
   {
-    src: require("../images/poc1.png"),
+    src: require("../images/poc1.jpg"),
     alt: "Personal Project image 1",
   },
   {
@@ -35,6 +35,24 @@ const carouselImages = [
   },
   {
     src: require("../images/poc4.jpg"),
+    alt: "Personal Project image 4",
+  }
+];
+const carouselImages2 = [
+  {
+    src: require("../images/w1.jpg"),
+    alt: "Personal Project image 1",
+  },
+  {
+    src: require("../images/w2.jpg"),
+    alt: "Personal Project image 2",
+  },
+  {
+    src: require("../images/w3.jpg"),
+    alt: "Personal Project image 3",
+  },
+  {
+    src: require("../images/w4.jpg"),
     alt: "Personal Project image 4",
   }
 ];
@@ -73,10 +91,13 @@ const projectList = [
 ];
 
 const PersonalProjects = () => {
-  const [current, setCurrent] = React.useState(0);
+  const [current1, setCurrent1] = React.useState(0);
+  const [current2, setCurrent2] = React.useState(0);
   const [modalOpen, setModalOpen] = React.useState(false);
-  const nextImage = () => setCurrent((current + 1) % carouselImages.length);
-  const prevImage = () => setCurrent((current - 1 + carouselImages.length) % carouselImages.length);
+  const nextImage1 = () => setCurrent1((current1 + 1) % carouselImages.length);
+  const prevImage1 = () => setCurrent1((current1 - 1 + carouselImages.length) % carouselImages.length);
+  const nextImage2 = () => setCurrent2((current2 + 1) % carouselImages2.length);
+  const prevImage2 = () => setCurrent2((current2 - 1 + carouselImages2.length) % carouselImages2.length);
   const openModal = () => setModalOpen(true);
   const closeModal = () => setModalOpen(false);
 
@@ -107,7 +128,7 @@ const PersonalProjects = () => {
             }}
           >
             <button
-              onClick={prevImage}
+              onClick={prevImage1}
               style={{
                 background: "#B58A61",
                 color: "#fff",
@@ -130,9 +151,9 @@ const PersonalProjects = () => {
               &#8592;
             </button>
             <img
-              src={carouselImages[current].src}
-              className={`personal-projects-carousel-img${current === 1 ? " poc2" : ""}`}
-              alt={carouselImages[current].alt}
+              src={carouselImages[current1].src}
+              className={`personal-projects-carousel-img${current1 === 1 ? " poc2" : ""}`}
+              alt={carouselImages[current1].alt}
               style={{
                 maxWidth: "100%",
                 maxHeight: "400px",
@@ -146,7 +167,7 @@ const PersonalProjects = () => {
               }}
             />
             <button
-              onClick={nextImage}
+              onClick={nextImage1}
               style={{
                 background: "#B58A61",
                 color: "#fff",
@@ -177,9 +198,9 @@ const PersonalProjects = () => {
                   width: "16px",
                   height: "16px",
                   borderRadius: "50%",
-                  background: idx === current ? "#B58A61" : "#E9ECEF",
+                  background: idx === current1 ? "#B58A61" : "#E9ECEF",
                   margin: "0 8px",
-                  border: idx === current ? "2px solid #B58A61" : "2px solid #E9ECEF",
+                  border: idx === current1 ? "2px solid #B58A61" : "2px solid #E9ECEF",
                   transition: "background 0.2s, border 0.2s",
                 }}
               ></span>
@@ -196,9 +217,9 @@ const PersonalProjects = () => {
           }}
         >
           <h3 style={{ color: "#1313139f", marginBottom: "1rem", paddingRight: "4rem"}}>
-            {"H2Algae – Monitoring System for Hydrogen Production from Microalgae"}<br />{"Team Project"}
+            {"H2Algae – Monitoring System for Hydrogen Production from Microalgae  "}<a href="https://github.com/Mignar99/data_sensor_collector"><strong>[git]</strong></a><br />{"Team Project"}
           </h3>
-          <ul style={{ fontSize: "1.1rem", color: "#B58A61", lineHeight: 1.7, paddingLeft: "1.5rem", paddingRight: "4rem", textAlign: "left"}}>
+          <ul style={{ fontSize: "1.1rem", color: "#B58A61", lineHeight: 1.7, paddingLeft: "1.5rem", paddingRight: "4rem", textAlign: "justify"}}>
             <li style={{ color: "#222" }}>
               Designed and optimized grow and sensor chambers, integrating hardware with
               Python‑based data acquisition.
@@ -210,7 +231,143 @@ const PersonalProjects = () => {
           </ul>
         </div>
       </div>
+      
+      <hr style={{ width: "100%", margin: "3rem 0", border: "1px solid #E9ECEF" }} />
+
+      <div style={{ display: "flex", flexDirection: "row-reverse", paddingTop: "3rem" }}>
+        <div
+          style={{
+            minWidth: "600px",
+            minHeight: "450px",
+            position: "relative",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            marginRight: "4rem",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "center",
+              width: "100%",
+              height: "100%",
+              position: "relative",
+            }}
+          >
+            <button
+              onClick={prevImage2}
+              style={{
+                background: "#B58A61",
+                color: "#fff",
+                border: "none",
+                borderRadius: "50%",
+                width: "3.5rem",
+                height: "3.5rem",
+                fontSize: "2rem",
+                cursor: "pointer",
+                zIndex: 2,
+                marginRight: "2rem",
+                marginLeft: "2.5rem",
+                alignSelf: "center",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              aria-label="Previous image"
+            >
+              &#8592;
+            </button>
+            <img
+              src={carouselImages2[current2].src}
+              className={`personal-projects-carousel-img2${current2 === 1 ? " w2" : ""}`}
+              alt={carouselImages2[current2].alt}
+              style={{
+                maxWidth: "100%",
+                maxHeight: "400px",
+                width: "auto",
+                height: "auto",
+                objectFit: "contain",
+                borderRadius: "1rem",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+                background: "#f8f9fa",
+                margin: "0 1rem",
+              }}
+            />
+            <button
+              onClick={nextImage2}
+              style={{
+                background: "#B58A61",
+                color: "#fff",
+                border: "none",
+                borderRadius: "50%",
+                width: "3.5rem",
+                height: "3.5rem",
+                fontSize: "2rem",
+                cursor: "pointer",
+                zIndex: 2,
+                marginLeft: "2rem",
+                alignSelf: "center",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              aria-label="Next image"
+            >
+              &#8594;
+            </button>
+          </div>
+          <div style={{ textAlign: "center", marginTop: "1.5rem" }}>
+            {carouselImages2.map((img, idx) => (
+              <span
+                key={idx}
+                style={{
+                  display: "inline-block",
+                  width: "16px",
+                  height: "16px",
+                  borderRadius: "50%",
+                  background: idx === current2 ? "#B58A61" : "#E9ECEF",
+                  margin: "0 8px",
+                  border: idx === current2 ? "2px solid #B58A61" : "2px solid #E9ECEF",
+                  transition: "background 0.2s, border 0.2s",
+                }}
+              ></span>
+            ))}
+          </div>
+        </div>
+        <div
+          style={{
+            flex: 1,
+            marginLeft: 0,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
+        >
+          <h3 style={{ color: "#1313139f", marginBottom: "1rem", paddingLeft: "4rem"}}>
+            {"Deep Learning for Geospatial Temperature Season Classification and Forecasting  "}<a href="https://github.com/Mignar99/WeatherVisionNN"><strong>[git]</strong></a>
+          </h3>
+          <ul style={{ fontSize: "1.1rem", color: "#B58A61", lineHeight: 1.7, paddingRight: "1.5rem", paddingLeft: "4rem", textAlign: "justify"}}>
+            <li style={{ color: "#222" }}>
+              Built a CNN classifier for temporal attribution, converting weather maps into a labeled month-prediction dataset reaching an accuracy of 99.32%.
+            </li>
+            <li style={{ color: "#222" }}>
+              Developed U-Net–based forecasting models using NetCDF temperature data improving by 22% the 9 hours predictions compared to the baseline.
+            </li>
+            <li style={{ color: "#222" }}>
+              Testing Vision Transformers to solve the same weather-map prediction problem improving by 27% the 21 hours prediction with respect to the baseline.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+     
+          
     </section>
+
   );
 };
 
