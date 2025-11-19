@@ -29224,31 +29224,26 @@ const PersonalProjects = ()=>{
                                 },
                                 children: [
                                     "H2Algae – Monitoring System for Hydrogen Production from Microalgae",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 199,
-                                        columnNumber: 84
-                                    }, undefined),
-                                    "Team Project",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 199,
-                                        columnNumber: 106
-                                    }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: "https://github.com/Mignar99/data_sensor_collector",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                            children: "GIT"
+                                            children: "[git]"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
                                             lineNumber: 199,
-                                            columnNumber: 172
+                                            columnNumber: 144
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
                                         lineNumber: 199,
-                                        columnNumber: 112
-                                    }, undefined)
+                                        columnNumber: 84
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/Components/Portfolio.jsx",
+                                        lineNumber: 199,
+                                        columnNumber: 170
+                                    }, undefined),
+                                    "Team Project"
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
