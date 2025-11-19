@@ -29491,7 +29491,7 @@ const PersonalProjects = ()=>{
                                     lineHeight: 1.7,
                                     paddingRight: "1.5rem",
                                     paddingLeft: "4rem",
-                                    textAlign: "left"
+                                    textAlign: "right"
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
