@@ -29223,7 +29223,7 @@ const PersonalProjects = ()=>{
                                     paddingRight: "4rem"
                                 },
                                 children: [
-                                    "H2Algae – Monitoring System for Hydrogen Production from Microalgae",
+                                    "H2Algae – Monitoring System for Hydrogen Production from Microalgae  ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: "https://github.com/Mignar99/data_sensor_collector",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
@@ -29231,17 +29231,17 @@ const PersonalProjects = ()=>{
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
                                             lineNumber: 199,
-                                            columnNumber: 144
+                                            columnNumber: 146
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
                                         lineNumber: 199,
-                                        columnNumber: 84
+                                        columnNumber: 86
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
                                         lineNumber: 199,
-                                        columnNumber: 170
+                                        columnNumber: 172
                                     }, undefined),
                                     "Team Project"
                                 ]
