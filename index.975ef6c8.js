@@ -29384,9 +29384,9 @@ const PersonalProjects = ()=>{
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: carouselImages[current].src,
-                                        className: `personal-projects-carousel-img${current === 1 ? " poc2" : ""}`,
-                                        alt: carouselImages[current].alt,
+                                        src: carouselImages2[current].src,
+                                        className: `personal-projects-carousel-img2${current === 1 ? " w2" : ""}`,
+                                        alt: carouselImages2[current].alt,
                                         style: {
                                             maxWidth: "100%",
                                             maxHeight: "400px",
