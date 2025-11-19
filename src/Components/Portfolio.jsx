@@ -36,7 +36,7 @@ const carouselImages = [
   {
     src: require("../images/poc4.jpg"),
     alt: "Personal Project image 4",
-  }
+  },
 ];
 const carouselImages2 = [
   {
@@ -54,7 +54,7 @@ const carouselImages2 = [
   {
     src: require("../images/w4.jpg"),
     alt: "Personal Project image 4",
-  }
+  },
 ];
 
 /**
@@ -63,47 +63,16 @@ const carouselImages2 = [
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
-const projectList = [
-  {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
-];
 
 const PersonalProjects = () => {
   const [current1, setCurrent1] = React.useState(0);
   const [current2, setCurrent2] = React.useState(0);
-  const [modalOpen, setModalOpen] = React.useState(false);
   const nextImage1 = () => setCurrent1((current1 + 1) % carouselImages.length);
   const prevImage1 = () => setCurrent1((current1 - 1 + carouselImages.length) % carouselImages.length);
   const nextImage2 = () => setCurrent2((current2 + 1) % carouselImages2.length);
   const prevImage2 = () => setCurrent2((current2 - 1 + carouselImages2.length) % carouselImages2.length);
-  const openModal = () => setModalOpen(true);
-  const closeModal = () => setModalOpen(false);
-
   return (
-    <section className="padding" id="personal-projects">
-  <h2 style={{ textAlign: "center", color: "#B58A61", fontWeight: 700 }}>Personal Projects</h2>
+    <section className="padding" id="personal-projects"><h2 style={{ textAlign: "center", color: "#B58A61", fontWeight: 700 }}>Personal Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div
           style={{
@@ -363,11 +332,7 @@ const PersonalProjects = () => {
           </ul>
         </div>
       </div>
-
-     
-          
     </section>
-
   );
 };
 
