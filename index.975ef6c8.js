@@ -29068,10 +29068,10 @@ const PersonalProjects = ()=>{
     const [current1, setCurrent1] = (0, _reactDefault.default).useState(0);
     const [current2, setCurrent2] = (0, _reactDefault.default).useState(0);
     const [modalOpen, setModalOpen] = (0, _reactDefault.default).useState(false);
-    const nextImage1 = ()=>setCurrent((current1 + 1) % carouselImages.length);
-    const prevImage1 = ()=>setCurrent((current1 - 1 + carouselImages.length) % carouselImages.length);
-    const nextImage2 = ()=>setCurrent((current2 + 1) % carouselImages2.length);
-    const prevImage2 = ()=>setCurrent((current2 - 1 + carouselImages2.length) % carouselImages2.length);
+    const nextImage1 = ()=>setCurrent1((current1 + 1) % carouselImages.length);
+    const prevImage1 = ()=>setCurrent1((current1 - 1 + carouselImages.length) % carouselImages.length);
+    const nextImage2 = ()=>setCurrent2((current2 + 1) % carouselImages2.length);
+    const prevImage2 = ()=>setCurrent2((current2 - 1 + carouselImages2.length) % carouselImages2.length);
     const openModal = ()=>setModalOpen(true);
     const closeModal = ()=>setModalOpen(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
