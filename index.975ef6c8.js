@@ -29319,8 +29319,6 @@ const PersonalProjects = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             minWidth: "600px",
-                            marginLeft: "2rem",
-                            marginRight: "2rem",
                             minHeight: "450px",
                             position: "relative",
                             display: "flex",
@@ -29337,9 +29335,7 @@ const PersonalProjects = ()=>{
                                     justifyContent: "center",
                                     width: "100%",
                                     height: "100%",
-                                    position: "relative",
-                                    marginLeft: "2rem",
-                                    marginRight: "2rem"
+                                    position: "relative"
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -29365,7 +29361,7 @@ const PersonalProjects = ()=>{
                                         children: "←"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 243,
+                                        lineNumber: 239,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29385,7 +29381,7 @@ const PersonalProjects = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 266,
+                                        lineNumber: 262,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -29410,13 +29406,13 @@ const PersonalProjects = ()=>{
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 282,
+                                        lineNumber: 278,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 230,
+                                lineNumber: 228,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29437,12 +29433,12 @@ const PersonalProjects = ()=>{
                                         }
                                     }, idx, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 307,
+                                        lineNumber: 303,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 305,
+                                lineNumber: 301,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -29464,7 +29460,7 @@ const PersonalProjects = ()=>{
                                 style: {
                                     color: "#1313139f",
                                     marginBottom: "1rem",
-                                    paddingRight: "4rem"
+                                    paddingLeft: "4rem"
                                 },
                                 children: [
                                     "Deep Learning for Geospatial Temperature Season Classification and Forecasting  ",
@@ -29474,18 +29470,18 @@ const PersonalProjects = ()=>{
                                             children: "[git]"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 333,
+                                            lineNumber: 329,
                                             columnNumber: 151
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 333,
+                                        lineNumber: 329,
                                         columnNumber: 97
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 332,
+                                lineNumber: 328,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29493,8 +29489,8 @@ const PersonalProjects = ()=>{
                                     fontSize: "1.1rem",
                                     color: "#B58A61",
                                     lineHeight: 1.7,
-                                    paddingLeft: "1.5rem",
-                                    paddingRight: "4rem",
+                                    paddingRight: "1.5rem",
+                                    paddingLeft: "4rem",
                                     textAlign: "left"
                                 },
                                 children: [
@@ -29505,7 +29501,7 @@ const PersonalProjects = ()=>{
                                         children: "Built a CNN classifier for temporal attribution, converting weather maps into a labeled month-prediction dataset reaching an accuracy of 99.32%."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 336,
+                                        lineNumber: 332,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -29515,7 +29511,7 @@ const PersonalProjects = ()=>{
                                         children: "Developed U-Net–based forecasting models using NetCDF temperature data improving by 22% the 9 hours predictions compared to the baseline."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 339,
+                                        lineNumber: 335,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -29525,19 +29521,19 @@ const PersonalProjects = ()=>{
                                         children: "Testing Vision Transformers to solve the same weather-map prediction problem improving by 27% the 21 hours prediction with respect to the baseline."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 342,
+                                        lineNumber: 338,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 335,
+                                lineNumber: 331,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 323,
+                        lineNumber: 319,
                         columnNumber: 9
                     }, undefined)
                 ]
