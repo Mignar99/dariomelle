@@ -29065,10 +29065,13 @@ const carouselImages2 = [
 ];
 const PersonalProjects = ()=>{
     _s();
-    const [current, setCurrent] = (0, _reactDefault.default).useState(0);
+    const [current1, setCurrent1] = (0, _reactDefault.default).useState(0);
+    const [current2, setCurrent2] = (0, _reactDefault.default).useState(0);
     const [modalOpen, setModalOpen] = (0, _reactDefault.default).useState(false);
-    const nextImage = ()=>setCurrent((current + 1) % carouselImages.length);
-    const prevImage = ()=>setCurrent((current - 1 + carouselImages.length) % carouselImages.length);
+    const nextImage1 = ()=>setCurrent((current1 + 1) % carouselImages.length);
+    const prevImage1 = ()=>setCurrent((current1 - 1 + carouselImages.length) % carouselImages.length);
+    const nextImage2 = ()=>setCurrent((current2 + 1) % carouselImages2.length);
+    const prevImage2 = ()=>setCurrent((current2 - 1 + carouselImages2.length) % carouselImages2.length);
     const openModal = ()=>setModalOpen(true);
     const closeModal = ()=>setModalOpen(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -29084,7 +29087,7 @@ const PersonalProjects = ()=>{
                 children: "Personal Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 103,
+                lineNumber: 106,
                 columnNumber: 3
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29117,7 +29120,7 @@ const PersonalProjects = ()=>{
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: prevImage,
+                                        onClick: prevImage1,
                                         style: {
                                             background: "#B58A61",
                                             color: "#fff",
@@ -29139,13 +29142,13 @@ const PersonalProjects = ()=>{
                                         children: "←"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 127,
+                                        lineNumber: 130,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: carouselImages[current].src,
+                                        src: carouselImages1[current1].src,
                                         className: `personal-projects-carousel-img${current === 1 ? " poc2" : ""}`,
-                                        alt: carouselImages[current].alt,
+                                        alt: carouselImages1[current1].alt,
                                         style: {
                                             maxWidth: "100%",
                                             maxHeight: "400px",
@@ -29159,11 +29162,11 @@ const PersonalProjects = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 150,
+                                        lineNumber: 153,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: nextImage,
+                                        onClick: nextImage1,
                                         style: {
                                             background: "#B58A61",
                                             color: "#fff",
@@ -29184,13 +29187,13 @@ const PersonalProjects = ()=>{
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 166,
+                                        lineNumber: 169,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 116,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29204,25 +29207,25 @@ const PersonalProjects = ()=>{
                                             width: "16px",
                                             height: "16px",
                                             borderRadius: "50%",
-                                            background: idx === current ? "#B58A61" : "#E9ECEF",
+                                            background: idx === current1 ? "#B58A61" : "#E9ECEF",
                                             margin: "0 8px",
-                                            border: idx === current ? "2px solid #B58A61" : "2px solid #E9ECEF",
+                                            border: idx === current1 ? "2px solid #B58A61" : "2px solid #E9ECEF",
                                             transition: "background 0.2s, border 0.2s"
                                         }
                                     }, idx, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 191,
+                                        lineNumber: 194,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 189,
+                                lineNumber: 192,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 105,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29248,24 +29251,24 @@ const PersonalProjects = ()=>{
                                             children: "[git]"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 217,
+                                            lineNumber: 220,
                                             columnNumber: 146
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 217,
+                                        lineNumber: 220,
                                         columnNumber: 86
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 217,
+                                        lineNumber: 220,
                                         columnNumber: 172
                                     }, undefined),
                                     "Team Project"
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 216,
+                                lineNumber: 219,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29285,7 +29288,7 @@ const PersonalProjects = ()=>{
                                         children: "Designed and optimized grow and sensor chambers, integrating hardware with Python‑based data acquisition."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 220,
+                                        lineNumber: 223,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -29295,25 +29298,25 @@ const PersonalProjects = ()=>{
                                         children: "Won the Makerspace Call, participated in entrepreneurial programs PDAI 2023 and Call for Startups 2023 and presented at Startup Day 2023."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 224,
+                                        lineNumber: 227,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 219,
+                                lineNumber: 222,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 207,
+                        lineNumber: 210,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 104,
+                lineNumber: 107,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
@@ -29324,7 +29327,7 @@ const PersonalProjects = ()=>{
                 }
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 232,
+                lineNumber: 235,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29358,7 +29361,7 @@ const PersonalProjects = ()=>{
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: prevImage,
+                                        onClick: prevImage2,
                                         style: {
                                             background: "#B58A61",
                                             color: "#fff",
@@ -29380,13 +29383,13 @@ const PersonalProjects = ()=>{
                                         children: "←"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 258,
+                                        lineNumber: 261,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: carouselImages2[current].src,
-                                        className: `personal-projects-carousel-img2${current === 1 ? " w2" : ""}`,
-                                        alt: carouselImages2[current].alt,
+                                        src: carouselImages2[current2].src,
+                                        className: `personal-projects-carousel-img2${current2 === 1 ? " w2" : ""}`,
+                                        alt: carouselImages2[current2].alt,
                                         style: {
                                             maxWidth: "100%",
                                             maxHeight: "400px",
@@ -29400,11 +29403,11 @@ const PersonalProjects = ()=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 281,
+                                        lineNumber: 284,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        onClick: nextImage,
+                                        onClick: nextImage2,
                                         style: {
                                             background: "#B58A61",
                                             color: "#fff",
@@ -29425,13 +29428,13 @@ const PersonalProjects = ()=>{
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 300,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 247,
+                                lineNumber: 250,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29445,25 +29448,25 @@ const PersonalProjects = ()=>{
                                             width: "16px",
                                             height: "16px",
                                             borderRadius: "50%",
-                                            background: idx === current ? "#B58A61" : "#E9ECEF",
+                                            background: idx === current2 ? "#B58A61" : "#E9ECEF",
                                             margin: "0 8px",
-                                            border: idx === current ? "2px solid #B58A61" : "2px solid #E9ECEF",
+                                            border: idx === current2 ? "2px solid #B58A61" : "2px solid #E9ECEF",
                                             transition: "background 0.2s, border 0.2s"
                                         }
                                     }, idx, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 322,
+                                        lineNumber: 325,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 320,
+                                lineNumber: 323,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 235,
+                        lineNumber: 238,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29489,18 +29492,18 @@ const PersonalProjects = ()=>{
                                             children: "[git]"
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 348,
+                                            lineNumber: 351,
                                             columnNumber: 151
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 348,
+                                        lineNumber: 351,
                                         columnNumber: 97
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 347,
+                                lineNumber: 350,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29520,7 +29523,7 @@ const PersonalProjects = ()=>{
                                         children: "Built a CNN classifier for temporal attribution, converting weather maps into a labeled month-prediction dataset reaching an accuracy of 99.32%."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 351,
+                                        lineNumber: 354,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -29530,7 +29533,7 @@ const PersonalProjects = ()=>{
                                         children: "Developed U-Net–based forecasting models using NetCDF temperature data improving by 22% the 9 hours predictions compared to the baseline."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 354,
+                                        lineNumber: 357,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -29540,35 +29543,35 @@ const PersonalProjects = ()=>{
                                         children: "Testing Vision Transformers to solve the same weather-map prediction problem improving by 27% the 21 hours prediction with respect to the baseline."
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 357,
+                                        lineNumber: 360,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 350,
+                                lineNumber: 353,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 338,
+                        lineNumber: 341,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 234,
+                lineNumber: 237,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 102,
+        lineNumber: 105,
         columnNumber: 5
     }, undefined);
 };
-_s(PersonalProjects, "k+K+12Qr7/XGMvkBaxZI8XTBsKY=");
+_s(PersonalProjects, "aZjZmqOMhSOLkvptY50hLXtBrks=");
 _c = PersonalProjects;
 exports.default = PersonalProjects;
 var _c;
