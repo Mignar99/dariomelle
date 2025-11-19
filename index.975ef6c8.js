@@ -29805,9 +29805,8 @@ const industryExperience = [
         location: "Lecce, Italy",
         period: "Sep 2025 – Dec 2025 (Ongoing)",
         details: [
-            "Fine‑tuning LLMs using cloud computing resources to convert graph database queries into html human‑readable reports.",
-            "Applied PyTorch and transformer‑based architectures to improve query interpretation accuracy and usability.",
-            "Collaborating with a cross‑functional team to integrate AI solutions into existing data management pipelines."
+            "Fine-tuning GPT-oss-20b to convert graph database queries into html human-readable reports, using also GRPO to improve reasoning quality.",
+            "Building a reinforcement-learning pipeline that fine-tunes a small LLM to generate personalized content using engagement metrics (likes, impressions, feedback) as rewards to adapt and optimize content quality and post relevance automating the content-creation workflow."
         ]
     },
     {
@@ -29845,7 +29844,7 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     children: "Industry Experience"
                 }, void 0, false, {
                     fileName: "src/Components/Industry.jsx",
-                    lineNumber: 41,
+                    lineNumber: 40,
                     columnNumber: 3
                 }, undefined),
                 industryExperience.map((exp, idx)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29871,19 +29870,19 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 55,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                                 children: exp.location
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 58,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 59,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -29894,7 +29893,7 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                 children: exp.period
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 60,
+                                lineNumber: 59,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -29911,29 +29910,29 @@ const Industry = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                                         children: detail
                                     }, i, false, {
                                         fileName: "src/Components/Industry.jsx",
-                                        lineNumber: 63,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, undefined))
                             }, void 0, false, {
                                 fileName: "src/Components/Industry.jsx",
-                                lineNumber: 61,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, idx, true, {
                         fileName: "src/Components/Industry.jsx",
-                        lineNumber: 43,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined))
             ]
         }, void 0, true, {
             fileName: "src/Components/Industry.jsx",
-            lineNumber: 30,
+            lineNumber: 29,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/Components/Industry.jsx",
-        lineNumber: 29,
+        lineNumber: 28,
         columnNumber: 3
     }, undefined);
 _c = Industry;
