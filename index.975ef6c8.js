@@ -29002,11 +29002,11 @@ var _s = $RefreshSig$();
  * freely use on your site.
  */ const carouselImages = [
     {
-        src: require("../images/poc1.png"),
+        src: require("../images/poc1.jpeg"),
         alt: "Personal Project image 1"
     },
     {
-        src: require("../images/poc2.jpg"),
+        src: require("../images/poc2.png"),
         alt: "Personal Project image 2"
     },
     {
@@ -29302,17 +29302,17 @@ $RefreshReg$(_c, "PersonalProjects");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/poc1.png":"b5iI5","../images/poc2.jpg":"hA33D","../images/poc3.jpg":"bpCLC","../images/poc4.jpg":"2H9j2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5iI5":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc1.f4d02b0f.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"hA33D":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc2.120d527a.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"bpCLC":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/poc3.jpg":"bpCLC","../images/poc4.jpg":"2H9j2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/poc2.png":"e06IX","../images/poc1.jpeg":"hTxXX"}],"bpCLC":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc3.4fa6442c.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"2H9j2":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc4.f6b54947.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"e06IX":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc2.26dd4287.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"hTxXX":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "poc1.43262242.jpeg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"55TOv":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$1cea = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
